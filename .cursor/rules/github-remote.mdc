@@ -1,0 +1,14 @@
+# Git / GitHub
+
+When committing or pushing this project, always use:
+
+- **Remote:** `https://github.com/laegoIas/Viewership_model.git`
+- **Branch:** `main`
+- **Push command:** `py scripts/push.py` (after committing)
+
+If `origin` points elsewhere, reset it before pushing:
+
+```bash
+git remote set-url origin https://github.com/laegoIas/Viewership_model.git
+git push -u origin main
+```

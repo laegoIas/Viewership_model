@@ -51,23 +51,25 @@ scripts/ask.py                       # plain-English estimates
 scripts/train.py                     # calibrate sport scales from spreadsheet
 ```
 
-## Push to GitHub (one-time setup on this machine)
+## Sync to GitHub
 
-The project is already a local git repo. To put it on GitHub:
+**Canonical repo:** https://github.com/laegoIas/Viewership_model
+
+After committing changes, push with:
 
 ```bash
-gh auth login
-gh repo create Viewership_model --public --source=. --remote=origin --push
+py scripts/push.py
 ```
 
-Or create an empty repo at [github.com/new](https://github.com/new), then:
+That script verifies `origin` is `https://github.com/laegoIas/Viewership_model.git` before pushing `main`.
+
+Manual push (same destination):
 
 ```bash
-git remote add origin https://github.com/laegoIas/Viewership_model.git
 git push -u origin main
 ```
 
-On your laptop:
+On another machine:
 
 ```bash
 git clone https://github.com/laegoIas/Viewership_model.git
