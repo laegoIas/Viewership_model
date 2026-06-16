@@ -17,7 +17,7 @@ Your Excel file is **training data** to calibrate the scales — not a lookup ta
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Viewership_model.git
+git clone https://github.com/laegolas/Viewership_model.git
 cd Viewership_model
 pip install -r requirements.txt
 py scripts/import_arizona.py
@@ -63,14 +63,14 @@ gh repo create Viewership_model --public --source=. --remote=origin --push
 Or create an empty repo at [github.com/new](https://github.com/new), then:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/Viewership_model.git
+git remote add origin https://github.com/laegolas/Viewership_model.git
 git push -u origin main
 ```
 
 On your laptop:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Viewership_model.git
+git clone https://github.com/laegolas/Viewership_model.git
 cd Viewership_model
 pip install -r requirements.txt
 py scripts/train.py
