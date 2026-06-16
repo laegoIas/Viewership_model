@@ -1,0 +1,42 @@
+network,reach_score,sport
+Astros.com,20.0,baseball
+ESPN,95.0,baseball
+ESPN+,20.0,baseball
+ESPN2,50.1,baseball
+ESPNU,70.5,baseball
+FloCollege,20.0,baseball
+ESPN+,95.0,beach volleyball
+ESPN,76.0,football
+ESPN+,23.7,football
+ESPN2,61.4,football
+FOX,95.0,football
+FS1,46.7,football
+TNT,40.0,football
+ACC Network,72.0,gymnastics
+ESPN+,54.4,gymnastics
+ESPN2,95.0,gymnastics
+CBS,95.0,mens_basketball
+CBSSN,36.8,mens_basketball
+ESPN,54.9,mens_basketball
+ESPN+,20.0,mens_basketball
+ESPN2,53.3,mens_basketball
+ESPNU,34.8,mens_basketball
+Peacock,22.5,mens_basketball
+TBS,62.4,mens_basketball
+TruTV,51.8,mens_basketball
+ACC Network,95.0,soccer
+ESPN+,24.5,soccer
+ESPNU,20.0,soccer
+ESPN,95.0,softball
+ESPN+,20.0,softball
+ESPN2,83.5,softball
+FS1,54.6,softball
+Mountain West Network,20.0,softball
+ESPN+,95.0,tennis
+PlaySight,39.0,tennis
+ESPN+,95.0,volleyball
+Hornet Sports Network,63.7,volleyball
+ESPN+,32.7,womens_basketball
+FS1,95.0,womens_basketball
+NEC Front Row,20.0,womens_basketball
+TruTV,45.7,womens_basketball

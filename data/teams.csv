@@ -1,0 +1,227 @@
+team,conference,popularity_score,market_size_millions,sport
+Arizona,Big 12,85.0,1.0,baseball
+Arizona State,Big 12,35.0,1.0,baseball
+BYU,Big 12,35.0,1.0,baseball
+Baylor,Big 12,35.0,1.0,baseball
+Cal Poly,Big 12,35.0,1.0,baseball
+Cincinnati,Big 12,35.0,1.0,baseball
+Clemson,Big 12,35.0,1.0,baseball
+Coastal Carolina,Big 12,53.3,1.0,baseball
+Grand Canyon,Non-Conference,35.0,1.0,baseball
+Houston,Big 12,35.0,1.0,baseball
+Kansas,Big 12,35.0,1.0,baseball
+Louisville,Big 12,43.5,1.0,baseball
+Mississippi State,Big 12,35.0,1.0,baseball
+New Mexico,Non-Conference,35.0,1.0,baseball
+New Mexico State,Non-Conference,35.0,1.0,baseball
+North Carolina,Big 12,35.0,1.0,baseball
+Oklahoma State,Big 12,35.0,1.0,baseball
+Ole Miss,Big 12,35.0,1.0,baseball
+Pepperdine,Non-Conference,35.0,1.0,baseball
+Rice,Non-Conference,35.0,1.0,baseball
+San Diego,Non-Conference,35.0,1.0,baseball
+Seattle U,Non-Conference,35.0,1.0,baseball
+TCU,Big 12,35.0,1.0,baseball
+Tennessee,Big 12,35.0,1.0,baseball
+Texas A&M,Big 12,35.0,1.0,baseball
+Texas Tech,Big 12,35.0,1.0,baseball
+UT Arlington,Non-Conference,35.0,1.0,baseball
+Utah,Big 12,35.0,1.0,baseball
+Utah Valley,Big 12,35.0,1.0,baseball
+West Virginia,Big 12,35.0,1.0,baseball
+Arizona,Big 12,85.0,1.0,beach volleyball
+Arizona State,Big 12,35.0,1.0,beach volleyball
+Utah,Big 12,35.0,1.0,beach volleyball
+Arizona,Big 12,85.0,1.0,football
+Arizona State,Big 12,35.0,1.0,football
+BYU,Big 12,35.0,1.0,football
+Baylor,Big 12,35.0,1.0,football
+Cincinatti,Big 12,35.0,1.0,football
+Colorado,Big 12,35.0,1.0,football
+Hawaii,Non-Conference,35.0,1.0,football
+Houston,Big 12,35.0,1.0,football
+Iowa State,Big 12,35.0,1.0,football
+Kansas,Big 12,35.0,1.0,football
+Kansas State,Big 12,35.0,1.0,football
+Oklahoma State,Big 12,35.0,1.0,football
+SMU,ACC,35.0,1.0,football
+Weber State,Non-Conference,35.0,1.0,football
+Arizona,Big 12,85.0,1.0,gymnastics
+Air Force,Non-Conference,35.0,1.0,gymnastics
+Arizona State,Big 12,35.0,1.0,gymnastics
+BYU,Big 12,35.0,1.0,gymnastics
+"Clemson, Michigan, NC State",Big 12,35.0,1.0,gymnastics
+Denver,Big 12,35.0,1.0,gymnastics
+Iowa State,Big 12,35.0,1.0,gymnastics
+Utah State,Non-Conference,35.0,1.0,gymnastics
+Arizona,Big 12,85.0,1.0,mens_basketball
+Akron,MAC,35.0,1.0,mens_basketball
+Arizona Red and Blue Showcase,Big 12,35.0,1.0,mens_basketball
+Arizona State,Big 12,35.0,1.0,mens_basketball
+BYU,Big 12,35.0,1.0,mens_basketball
+Baylor,Big 12,35.0,1.0,mens_basketball
+Canisius University,Non-Conference,35.0,1.0,mens_basketball
+Central Michigan,Non-Conference,35.0,1.0,mens_basketball
+Cincinnati,Big 12,35.0,1.0,mens_basketball
+Colorado,Big 12,35.0,1.0,mens_basketball
+Davidson,Non-Conference,35.0,1.0,mens_basketball
+Duke,ACC,37.0,1.0,mens_basketball
+Eastern New Mexico,Divsion II,35.0,1.0,mens_basketball
+Houston,Big 12,35.0,1.0,mens_basketball
+Iowa State,Big 12,35.0,1.0,mens_basketball
+Kansas,Big 12,35.0,1.0,mens_basketball
+Kansas State,Big 12,35.0,1.0,mens_basketball
+Oklahoma,Non-Conference,35.0,1.0,mens_basketball
+Oklahoma State,Big 12,35.0,1.0,mens_basketball
+Old Dominion,Non-Conference,35.0,1.0,mens_basketball
+Oregon,Big Ten,35.0,1.0,mens_basketball
+Point Loma,Divsion II,35.0,1.0,mens_basketball
+Samford,Non-Conference,35.0,1.0,mens_basketball
+Southern Utah,Non-Conference,35.0,1.0,mens_basketball
+TCU,Big 12,35.0,1.0,mens_basketball
+Texas Tech,Big 12,35.0,1.0,mens_basketball
+UCF,Big 12,35.0,1.0,mens_basketball
+UCLA,Non-Conference,35.0,1.0,mens_basketball
+Utah,Big 12,35.0,1.0,mens_basketball
+West Virginia,Big 12,35.0,1.0,mens_basketball
+Wisconsin,Non-Conference,35.0,1.0,mens_basketball
+Arizona,Big 12,85.0,1.0,soccer
+Arizona State,Big 12,35.0,1.0,soccer
+BYU,Big 12,35.0,1.0,soccer
+Baylor,Big 12,35.0,1.0,soccer
+Cincinatti,Big 12,35.0,1.0,soccer
+Grand Canyon,Non-Conference,35.0,1.0,soccer
+Houston,Big 12,35.0,1.0,soccer
+Kansas,Big 12,35.0,1.0,soccer
+Kansas State,Big 12,35.0,1.0,soccer
+New Mexico State,Non-Conference,35.0,1.0,soccer
+North Carolina,Non-Conference,47.6,1.0,soccer
+Northern Arizona,Non-Conference,35.0,1.0,soccer
+Pacific,Non-Conference,35.0,1.0,soccer
+Pepperdine,Non-Conference,35.0,1.0,soccer
+TCU,Big 12,35.0,1.0,soccer
+UC Irvine,Non-Conference,35.0,1.0,soccer
+UCF,Big 12,35.0,1.0,soccer
+Utah,Big 12,35.0,1.0,soccer
+West Virginia,Big 12,35.0,1.0,soccer
+Arizona,Big 12,85.0,1.0,softball
+Alabama,Big 12,35.0,1.0,softball
+Arizona State,Big 12,35.0,1.0,softball
+BYU,Big 12,35.0,1.0,softball
+Cal State Fullerton,Big 12,35.0,1.0,softball
+Colorado State,Big 12,35.0,1.0,softball
+Grand Canyon,Big 12,36.0,1.0,softball
+Houston,Big 12,35.0,1.0,softball
+Iowa State,Big 12,35.0,1.0,softball
+Kansas,Big 12,35.0,1.0,softball
+LMU,Non-Conference,35.0,1.0,softball
+Michigan State,Big 12,35.0,1.0,softball
+New Mexico State,Non-Conference,35.0,1.0,softball
+Notre Dame,Big 12,35.0,1.0,softball
+Ohio,Big 12,35.0,1.0,softball
+Oklahoma State,Big 12,35.0,1.0,softball
+Ole Miss,Big 12,41.0,1.0,softball
+San Diego State,Non-Conference,35.0,1.0,softball
+Santa Clara,Big 12,35.0,1.0,softball
+South Alabama,Big 12,35.0,1.0,softball
+Stanford,Big 12,35.0,1.0,softball
+Texas,Big 12,35.0,1.0,softball
+Texas Tech,Big 12,35.0,1.0,softball
+UC Davis,Big 12,35.0,1.0,softball
+UCF,Big 12,35.0,1.0,softball
+UCLA,Big 12,35.0,1.0,softball
+Utah,Big 12,35.0,1.0,softball
+Utah State,Non-Conference,35.0,1.0,softball
+Washington,Big 12,35.0,1.0,softball
+Weber State,Big 12,35.0,1.0,softball
+Western Michigan,Big 12,35.0,1.0,softball
+Arizona,Big 12,85.0,1.0,tennis
+Arizona State,Big 12,35.0,1.0,tennis
+BYU,Big 12,35.0,1.0,tennis
+Baylor,Big 12,35.0,1.0,tennis
+Buffalo,Non-Conference,35.0,1.0,tennis
+Cal Poly,Non-Conference,35.0,1.0,tennis
+Cincinnati,Big 12,35.0,1.0,tennis
+Colorado State,Non-Conference,35.0,1.0,tennis
+Georgia State,Non-Conference,35.0,1.0,tennis
+Georgia Tech,Big 12,35.0,1.0,tennis
+Grand Canyon,Non-Conference,35.0,1.0,tennis
+LMU,Non-Conference,35.0,1.0,tennis
+New Mexico State,Non-Conference,35.0,1.0,tennis
+Northern Arizona,Non-Conference,35.0,1.0,tennis
+Oklahoma State,Big 12,35.0,1.0,tennis
+Pepperdine,Big 12,35.0,1.0,tennis
+San Diego,Non-Conference,35.0,1.0,tennis
+St. Johns,Non-Conference,35.0,1.0,tennis
+TCU,Big 12,35.0,1.0,tennis
+Texas Tech,Big 12,35.0,1.0,tennis
+Tulsa,Non-Conference,35.0,1.0,tennis
+UC San Diego,Non-Conference,35.0,1.0,tennis
+UC Santa Barbara,Non-Conference,35.0,1.0,tennis
+UCF,Big 12,35.0,1.0,tennis
+USC,Big 12,35.0,1.0,tennis
+Utah,Big 12,35.0,1.0,tennis
+Utah State,Non-Conference,35.0,1.0,tennis
+Washington,Big 12,35.0,1.0,tennis
+West Virginia,Big 12,35.0,1.0,tennis
+Arizona,Big 12,85.0,1.0,volleyball
+Abilene Christian,WAC,35.0,1.0,volleyball
+Alabama,SEC,35.0,1.0,volleyball
+Alabama State,Big 12,35.0,1.0,volleyball
+Arizona State,Big 12,35.0,1.0,volleyball
+BYU,Big 12,35.0,1.0,volleyball
+Baylor,Big 12,35.0,1.0,volleyball
+Boise State,Big 12,35.0,1.0,volleyball
+Bowling Green,MAC,35.0,1.0,volleyball
+Cincinatti,Big 12,35.0,1.0,volleyball
+Colorado,Big 12,35.0,1.0,volleyball
+Houston,Big 12,35.0,1.0,volleyball
+Iowa State,Big 12,35.0,1.0,volleyball
+Kansas,Big 12,35.0,1.0,volleyball
+Kansas State,Big 12,35.0,1.0,volleyball
+New Mexico State,Big 12,35.0,1.0,volleyball
+North Dakota State,Summit League,35.0,1.0,volleyball
+Northern Colorado,Big Sky,35.0,1.0,volleyball
+Pacific,WCC,35.0,1.0,volleyball
+Prairie View A&M,Big 12,35.0,1.0,volleyball
+Southern Utah,Big 12,35.0,1.0,volleyball
+TCU,Big 12,35.0,1.0,volleyball
+Tennessee State,Big 12,35.0,1.0,volleyball
+Texas Southern,Big 12,35.0,1.0,volleyball
+Texas Tech,Big 12,35.0,1.0,volleyball
+UCF,Big 12,35.0,1.0,volleyball
+Utah,Big 12,35.0,1.0,volleyball
+VCU,A10,35.0,1.0,volleyball
+West Virginia,Big 12,35.0,1.0,volleyball
+Wyoming,Big 12,35.0,1.0,volleyball
+Arizona,Big 12,85.0,1.0,womens_basketball
+Arizona State,Big 12,35.0,1.0,womens_basketball
+BYU,Big 12,35.0,1.0,womens_basketball
+Baylor,Big 12,35.0,1.0,womens_basketball
+CSU Bakersfield,Non-Conference,35.0,1.0,womens_basketball
+Cal State LA,Big 12,35.0,1.0,womens_basketball
+Chicago State,Non-Conference,35.0,1.0,womens_basketball
+Cincinnati,Big 12,35.0,1.0,womens_basketball
+Colorado,Big 12,35.0,1.0,womens_basketball
+Grambling State,Non-Conference,35.0,1.0,womens_basketball
+Grand Canyon,Non-Conference,35.0,1.0,womens_basketball
+Houston,Big 12,35.0,1.0,womens_basketball
+Iowa State,Big 12,35.0,1.0,womens_basketball
+Kansas,Big 12,35.0,1.0,womens_basketball
+Kansas State,Big 12,35.0,1.0,womens_basketball
+Northern Arizona,Big Sky,35.0,1.0,womens_basketball
+Oklahoma State,Big 12,35.0,1.0,womens_basketball
+Seattle University,Non-Conference,35.0,1.0,womens_basketball
+TCU,Big 12,35.0,1.0,womens_basketball
+Tarleton State,Non-Conference,35.0,1.0,womens_basketball
+Texas Tech,Big 12,35.0,1.0,womens_basketball
+UC San Diego,Non-Conference,35.0,1.0,womens_basketball
+UCF,Big 12,35.0,1.0,womens_basketball
+UNLV,Non-Conference,35.0,1.0,womens_basketball
+UT Arlington,Non-Conference,35.0,1.0,womens_basketball
+University of California,ACC,35.0,1.0,womens_basketball
+Utah,Big 12,35.8,1.0,womens_basketball
+Vanderbilt,SEC,35.0,1.0,womens_basketball
+Weber State,Non-Conference,35.0,1.0,womens_basketball
+West Texas A&M,Big 12,35.0,1.0,womens_basketball
+West Virginia,Big 12,35.0,1.0,womens_basketball

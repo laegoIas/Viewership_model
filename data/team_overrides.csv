@@ -1,0 +1,18 @@
+team,conference,popularity_score,market_size_millions,sport
+NJIT,America East,28,0.5,mens_basketball
+Villanova,Big East,72,1.2,mens_basketball
+Clemson,ACC,68,0.8,baseball
+Coastal Carolina,Sun Belt,55,0.4,baseball
+Alabama,SEC,95,1.1,softball
+Arizona,Big 12,88,1.0,softball
+Duke,ACC,95,1.5,mens_basketball
+Duke,ACC,52,1.5,football
+Duke,ACC,88,1.5,womens_basketball
+Duke,ACC,70,1.5,baseball
+Alabama,SEC,98,1.1,football
+Ohio State,Big Ten,94,2.1,football
+Ohio State,Big Ten,82,2.1,mens_basketball
+UConn,Big East,90,1.2,womens_basketball
+UConn,Big East,75,1.2,mens_basketball
+Notre Dame,Independent,88,0.7,football
+Notre Dame,ACC,80,0.7,mens_basketball

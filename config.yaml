@@ -1,0 +1,44 @@
+# College athletics viewership model configuration
+
+sport: all  # all | football | basketball | softball
+
+paths:
+  arizona_workbook: data/Arizona Jersey Patch Valuation .xlsx
+  games: data/games.csv
+  teams: data/teams.csv
+  networks: data/networks.csv
+  team_overrides: data/team_overrides.csv
+  network_overrides: data/network_overrides.csv
+  model_dir: artifacts
+  model_file: viewership_model.joblib
+  scoring_model: scoring_model.joblib
+
+target:
+  column: viewership_millions
+
+scoring:
+  team_power: 1.0
+
+model:
+  test_size: 0.2
+  random_state: 42
+
+features:
+  categorical:
+    - sport
+    - home_team
+    - away_team
+    - network
+    - conference
+    - location_type
+  numeric:
+    - home_popularity
+    - away_popularity
+    - combined_popularity
+    - network_reach
+    - is_rivalry
+    - is_ranked_matchup
+    - is_prime_time
+    - week_of_season
+    - home_market_size
+    - neutral_site
