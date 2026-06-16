@@ -1,0 +1,48 @@
+sport,entity_type,entity,network,avg_viewers,metric,season,source,notes
+football,network,ABC,,5448235,network_avg_per_game,2024,College Football Network,Top broadcast avg
+football,network,CBS,,3343105,network_avg_per_game,2024,College Football Network,
+football,network,FOX,,3118196,network_avg_per_game,2024,College Football Network,
+football,network,NBC,,3118000,network_avg_per_game,2024,College Football Network,
+football,network,ESPN,,1689510,network_avg_per_game,2024,College Football Network,
+football,network,Big Ten Network,,697000,network_avg_per_game,2024,College Football Network,
+football,network,ESPN2,,418014,network_avg_per_game,2024,College Football Network,
+football,network,FS1,,417682,network_avg_per_game,2024,College Football Network,Also ~465K in 2025 SBJ
+football,network,ESPNU,,56633,network_avg_per_game,2024,College Football Network,
+football,network,SEC Network,,,network_avg_per_game,2024,Sports Media Watch,Not Nielsen-measured
+football,network,ACC Network,,,network_avg_per_game,2024,Sports Media Watch,Not Nielsen-measured
+football,team,Alabama,,8500000,team_avg_per_game,2025,Sports Business Journal,#1 team 2025
+football,team,Texas,,7500000,team_avg_per_game,2025,Sports Business Journal,
+football,team,Georgia,,7500000,team_avg_per_game,2025,Sports Business Journal,
+football,team,Ohio State,,6600000,team_avg_per_game,2025,Sports Business Journal,
+football,team,Oklahoma,,6500000,team_avg_per_game,2025,Sports Business Journal,
+football,team,Florida State,,4100000,team_avg_per_game,2025,Sports Business Journal,
+football,team,Duke,,2500000,team_avg_per_game,2024,Estimated,Not top-20; moderate ACC draw
+mens_basketball,network,CBS,,1320000,network_avg_per_game,2023-24,Sports Business Journal,
+mens_basketball,network,FOX,,1220000,network_avg_per_game,2025-26,Sports Video Group,
+mens_basketball,network,ESPN,,1100000,network_avg_per_game,2025-26,Sports Video Group,
+mens_basketball,network,ABC,,1700000,network_avg_per_game,2025-26,Sports Video Group,Small slate
+mens_basketball,network,FS1,,234000,network_avg_per_game,2025-26,Sports Video Group,
+mens_basketball,network,Big Ten Network,,222000,network_avg_per_game,2023-24,Sports Business Journal,
+mens_basketball,network,ESPNU,,85000,network_avg_per_game,2024,Estimated,Tertiary cable tier
+mens_basketball,game,NJIT vs Villanova,FS1,105000,reported_game,,User verified,
+mens_basketball,game,Marquette vs Villanova,FS1,380000,reported_game,2023-24,Sports Business Journal,Big East quarterfinal
+mens_basketball,team,Duke,,95,team_popularity_proxy,2024-25,ESPN Press Room,Top-tier brand; marquee 2M+ games
+mens_basketball,team,UConn,,88,team_popularity_proxy,2025-26,On3,~2.8M season avg viewers
+mens_basketball,team,Villanova,,72,team_popularity_proxy,,,Strong FS1/Big East draw
+mens_basketball,team,NJIT,,28,team_popularity_proxy,,,Low-major
+womens_basketball,network,FOX,,981000,network_avg_per_game,2023-24,Sports Business Journal,
+womens_basketball,network,ESPN,,476000,network_avg_per_game,2023-24,ESPN 2024 in Review,
+womens_basketball,network,FS1,,134000,network_avg_per_game,2023-24,Sports Business Journal,
+womens_basketball,network,Big Ten Network,,101000,network_avg_per_game,2023-24,Sports Business Journal,
+softball,network,ESPN,,292000,network_avg_per_game,2026,ESPN Press Room,Regular season platform avg
+softball,network,ESPN,,570000,reported_game,2024,ESPN Press Room,Alabama vs Auburn
+softball,game,Arizona vs Alabama,ESPN+,13159,reported_game,2025,Arizona spreadsheet,Regular season streaming
+softball,network,WCWS,,1300000,network_avg_per_game,2025,ESPN Press Room,Postseason avg
+softball,team,Alabama,,92,team_popularity_proxy,,,Elite program
+softball,team,Arizona,,88,team_popularity_proxy,,,Historic WCWS brand
+softball,team,Oklahoma,,95,team_popularity_proxy,,,Top WCWS draw
+baseball,network,MCWS,,1560000,network_avg_per_game,2024,Sports Media Watch,Tournament avg
+baseball,network,MCWS Final,,2820000,network_avg_per_game,2024,Sports Media Watch,
+baseball,network,ESPN+,,5000,reported_game,,Arizona spreadsheet,Estimated streaming tier
+baseball,team,Clemson,,68,team_popularity_proxy,,,Strong ACC
+baseball,team,Coastal Carolina,,55,team_popularity_proxy,,,Mid-major champion history

@@ -1,18 +1,31 @@
-team,conference,popularity_score,market_size_millions,sport
-NJIT,America East,28,0.5,mens_basketball
-Villanova,Big East,72,1.2,mens_basketball
-Clemson,ACC,68,0.8,baseball
-Coastal Carolina,Sun Belt,55,0.4,baseball
-Alabama,SEC,95,1.1,softball
-Arizona,Big 12,88,1.0,softball
-Duke,ACC,95,1.5,mens_basketball
-Duke,ACC,52,1.5,football
-Duke,ACC,88,1.5,womens_basketball
-Duke,ACC,70,1.5,baseball
-Alabama,SEC,98,1.1,football
-Ohio State,Big Ten,94,2.1,football
-Ohio State,Big Ten,82,2.1,mens_basketball
-UConn,Big East,90,1.2,womens_basketball
-UConn,Big East,75,1.2,mens_basketball
-Notre Dame,Independent,88,0.7,football
-Notre Dame,ACC,80,0.7,mens_basketball
+team,conference,popularity_score,market_size_millions,sport,source_note
+NJIT,America East,28,0.5,mens_basketball,Low-major; FS1 ~105K game
+Villanova,Big East,72,1.2,mens_basketball,Strong FS1/Big East draw
+Clemson,ACC,68,0.8,baseball,Strong ACC program
+Coastal Carolina,Sun Belt,55,0.4,baseball,Mid-major champion history
+Alabama,SEC,95,1.1,softball,Elite WCWS brand
+Arizona,Big 12,88,1.0,softball,Historic WCWS program
+Duke,ACC,95,1.5,mens_basketball,Top MBB brand; 2M+ marquee games
+Duke,ACC,52,1.5,football,Not top-20 CFB draw
+Duke,ACC,88,1.5,womens_basketball,Strong ACC WBB
+Duke,ACC,70,1.5,baseball,Solid ACC baseball
+Alabama,SEC,98,1.1,football,#1 most-watched 2025 (~8.5M avg)
+Georgia,SEC,88,1.1,football,#3 most-watched 2025 (~7.5M avg)
+Texas,SEC,88,1.1,football,#2 tier 2025 (~7.5M avg)
+Ohio State,Big Ten,86,2.1,football,Top tier (~6.6M avg)
+Oklahoma,SEC,85,1.3,football,Top tier (~6.5M avg)
+Michigan,Big Ten,82,2.0,football,Nielsen top-10 2024 (~5.2M)
+Tennessee,SEC,80,1.1,football,Nielsen top-10 (~5.4M)
+Florida State,ACC,62,1.0,football,Top non-SEC/B1G (~4.1M)
+Notre Dame,Independent,78,0.7,football,Independent TV draw
+USC,Big Ten,75,13.0,football,Major market brand
+UConn,Big East,90,1.2,womens_basketball,Top WBB draw
+UConn,Big East,82,1.2,mens_basketball,Top MBB program (~2.8M season avg)
+Kentucky,SEC,85,0.7,mens_basketball,Marquee MBB brand
+North Carolina,ACC,88,1.9,mens_basketball,Top MBB brand
+Kansas,Big 12,84,2.1,mens_basketball,Blue blood
+Duke,ACC,90,2.1,womens_basketball,Top WBB program
+Oklahoma,SEC,95,1.3,softball,Top WCWS draw
+Texas,SEC,92,1.3,softball,Reigning champion; strong ratings
+LSU,SEC,84,0.9,softball,Strong SEC draw
+Florida,SEC,80,1.6,softball,Strong program
