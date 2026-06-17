@@ -1,8 +1,18 @@
 # Viewership research
 
-Published benchmarks used to calibrate **team popularity** (0–100) and **network reach** (0–100) scales in this model.
+Published benchmarks and game-level ratings for **football, men's basketball, women's basketball, softball, and baseball**.
 
-## Sources
+## Game-level data
+
+`games.csv` holds reported Nielsen/ESPN viewership by game. Sources include Football Scoop, ESPN Press Room, Sports Media Watch, and verified user data. Training merges these with the Arizona spreadsheet automatically.
+
+Preview the merge:
+
+```bash
+py scripts/import_research.py
+```
+
+## Network and team benchmarks
 
 | Source | URL | Best for |
 |--------|-----|----------|

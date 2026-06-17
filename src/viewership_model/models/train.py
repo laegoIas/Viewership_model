@@ -41,9 +41,18 @@ def _evaluate(model: ScoringModel, df: pd.DataFrame, teams: pd.DataFrame, networ
     return np.array(preds)
 
 
+def _filter_games_by_sport(games: pd.DataFrame, config: dict) -> pd.DataFrame:
+    sports = config.get("sports")
+    if sports and "sport" in games.columns:
+        return games[games["sport"].isin(sports)].copy()
+    sport_filter = config.get("sport", "all")
+    if sport_filter != "all" and "sport" in games.columns:
+        return games[games["sport"] == sport_filter].copy()
+    return games
+
+
 def train(config_path: Path | str = "config.yaml") -> TrainResult:
     config = load_config(config_path)
-    sport_filter = config["sport"]
     paths = config["paths"]
 
     games, _merge_stats = load_all_games(
@@ -53,8 +62,9 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     )
     if games.empty:
         raise FileNotFoundError(f"No games data found at {paths['games']}")
-    if sport_filter != "all" and "sport" in games.columns:
-        games = games[games["sport"] == sport_filter]
+    games = _filter_games_by_sport(games, config)
+    if games.empty:
+        raise ValueError("No games remain after sport filter. Check config sports list.")
     teams = load_teams(paths["teams"], paths.get("team_overrides"))
     networks = load_networks(paths["networks"], paths.get("network_overrides"))
 
@@ -83,7 +93,7 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     joblib.dump(model, model_path)
 
     metadata = {
-        "sport": sport_filter,
+        "sports": config.get("sports") or config.get("sport", "all"),
         "metrics": {"mae": mae, "rmse": rmse, "r2": r2},
         "formula": "viewers = sport_scale * (network_reach/100) * (combined_pop/100)^team_power",
     }

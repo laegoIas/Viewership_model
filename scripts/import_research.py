@@ -15,12 +15,16 @@ from viewership_model.data.research_import import load_all_games
 def main() -> None:
     config = load_config(ROOT / "config.yaml")
     paths = config["paths"]
+    sports = config.get("sports")
 
     merged, stats = load_all_games(
         ROOT / paths["games"],
         ROOT / paths.get("research_games", "data/research/games.csv"),
         ROOT / paths.get("research_benchmarks", "data/research/viewership_benchmarks.csv"),
     )
+
+    if sports:
+        merged = merged[merged["sport"].isin(sports)]
 
     print("Research data merge preview")
     print(f"  Arizona games:     {stats['primary_rows']}")

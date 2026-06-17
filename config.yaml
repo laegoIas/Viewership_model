@@ -1,6 +1,14 @@
 # College athletics viewership model configuration
 
-sport: all  # all | football | basketball | softball
+# Sports included in training and predictions
+sports:
+  - football
+  - mens_basketball
+  - womens_basketball
+  - softball
+  - baseball
+
+sport: all  # legacy single-sport filter; ignored when sports list is set
 
 paths:
   arizona_workbook: data/Arizona Jersey Patch Valuation .xlsx
