@@ -4,7 +4,9 @@ Published benchmarks and game-level ratings for **football, men's basketball, wo
 
 ## Game-level data
 
-`games.csv` holds reported Nielsen/ESPN viewership by game. Sources include Football Scoop, ESPN Press Room, Sports Media Watch, and verified user data. Training merges these with the Arizona spreadsheet automatically.
+`games.csv` holds reported Nielsen/ESPN viewership for **regular-season** games. Bowls, CFP, conference title games, NCAA tournament/regionals, and WCWS/MCWS are excluded from training.
+
+Training uses `training.game_types: [regular_season]` in `config.yaml`. Postseason rows can stay in the CSV for reference but are filtered out automatically.
 
 Preview the merge:
 

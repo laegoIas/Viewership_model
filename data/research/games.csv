@@ -1,9 +1,7 @@
 sport,home_team,away_team,network,viewership_millions,season,is_estimate,source,notes,is_rivalry,is_ranked_matchup,is_prime_time,conference
-football,Georgia,Texas,ABC,16.6,2024,0,Football Scoop,SEC Championship,0,1,1,SEC
 football,Georgia,Texas,ABC,13.19,2024,0,Football Scoop,Regular season,0,1,1,SEC
 football,Michigan,Ohio State,FOX,12.3,2024,0,Football Scoop,The Game,1,1,1,Big Ten
 football,Georgia,Alabama,ABC,11.99,2024,0,Football Scoop,,0,1,1,SEC
-football,Penn State,Oregon,CBS,10.5,2024,0,Football Scoop,Big Ten Championship,0,1,1,Big Ten
 football,Alabama,Tennessee,ABC,10.23,2024,0,Football Scoop,Third Saturday in October,1,1,1,SEC
 football,Tennessee,Georgia,ABC,9.96,2024,0,Football Scoop,,0,1,1,SEC
 football,Ohio State,Penn State,FOX,9.77,2024,0,Football Scoop,White Out,0,1,1,Big Ten
@@ -21,14 +19,12 @@ football,Auburn,Alabama,ABC,7.16,2024,0,Football Scoop,Iron Bowl,1,1,1,SEC
 football,Georgia,Ole Miss,ABC,7.08,2024,0,Football Scoop,,0,1,1,SEC
 football,Alabama,Oklahoma,ABC,6.98,2024,0,Football Scoop,,0,1,1,SEC
 football,Florida,Georgia,ABC,6.97,2024,0,Football Scoop,World's Largest Outdoor Cocktail Party,1,1,1,SEC
-football,Iowa State,Arizona State,ABC,6.9,2024,0,Football Scoop,Big 12 Championship,0,1,1,Big 12
 football,Georgia,Kentucky,ABC,6.6,2024,0,Football Scoop,,0,1,0,SEC
 football,Miami,Florida,ABC,6.35,2024,0,Football Scoop,Florida Cup,1,1,0,ACC
 football,USC,Michigan,CBS,6.32,2024,0,Football Scoop,,0,1,1,Big Ten
 football,Tennessee,Oklahoma,ABC,6.27,2024,0,Football Scoop,,0,1,1,SEC
 football,Colorado,Kansas,FOX,6.22,2024,0,Football Scoop,,0,1,0,Big 12
 football,LSU,Florida,ABC,6.02,2024,0,Football Scoop,,0,1,1,SEC
-football,Clemson,SMU,ABC,6.0,2024,0,Football Scoop,ACC Championship,0,1,1,ACC
 football,South Carolina,Alabama,ABC,6.0,2024,0,Football Scoop,,0,1,1,SEC
 football,Nebraska,Ohio State,FOX,5.96,2024,0,Football Scoop,,0,1,0,Big Ten
 football,Tennessee,Arkansas,ABC,5.93,2024,0,Football Scoop,,0,1,0,SEC
@@ -49,36 +45,21 @@ football,Iowa,Ohio State,CBS,4.46,2024,0,Football Scoop,,0,1,0,Big Ten
 football,Boston College,Florida State,ESPN,4.44,2024,0,Football Scoop,Labor Day,0,1,1,ACC
 football,Michigan,Indiana,CBS,4.39,2024,0,Football Scoop,,0,1,0,Big Ten
 football,Mississippi State,Ole Miss,ABC,4.33,2024,0,Football Scoop,Egg Bowl,1,1,0,SEC
-football,Tennessee,Ohio State,ABC,14.86,2024,0,College Football Network,CFP First Round,0,1,1,SEC
-football,Indiana,Notre Dame,ABC,13.39,2024,0,College Football Network,CFP First Round,0,1,1,Big Ten
-football,Penn State,Boise State,ESPN,13.86,2024,0,Football Scoop,Fiesta Bowl,0,1,1,Big Ten
-football,Clemson,Texas,TNT,8.9,2024,0,Football Scoop,CFP First Round,0,1,1,ACC
-football,BYU,Colorado,ABC,8.0,2024,0,College Football Network,Alamo Bowl record,0,1,1,Big 12
-football,Ohio State,Oregon,ESPN,21.0,2024,0,Sports Media Watch,Rose Bowl CFP quarterfinal,0,1,1,Big Ten
-football,SMU,Penn State,TNT,6.6,2024,0,Football Scoop,CFP First Round,0,1,1,ACC
 football,Army,Navy,CBS,9.4,2024,0,Football Scoop,Army-Navy Game,1,1,1,Independent
 mens_basketball,Duke,North Carolina,ESPN,2.998,2025,0,ESPN Press Room,Mar 8 regular season,1,1,1,ACC
 mens_basketball,Auburn,Alabama,ESPN,2.76,2025,0,ESPN Press Room,Feb 15,1,1,1,SEC
-mens_basketball,North Carolina,Duke,ESPN,2.29,2025,0,ESPN Press Room,Feb 1,1,1,1,ACC
 mens_basketball,Kentucky,Alabama,ESPN,2.171,2025,0,ESPN Press Room,Feb 22,0,1,1,SEC
 mens_basketball,Duke,Clemson,ESPN,2.102,2025,0,ESPN Press Room,Feb 8,0,1,0,ACC
-mens_basketball,Alabama,Auburn,ESPN,2.076,2025,0,ESPN Press Room,Mar 8 SEC rematch,1,1,1,SEC
 mens_basketball,Kansas,Duke,ESPN,2.019,2025,0,ESPN Press Room,Nov 26 Champions Classic,0,1,1,Big 12
 mens_basketball,Alabama,Tennessee,ESPN,1.966,2025,0,ESPN Press Room,Mar 1,0,1,1,SEC
 mens_basketball,Arkansas,Kentucky,ESPN,1.936,2025,0,ESPN Press Room,Feb 1,0,1,0,SEC
 mens_basketball,Duke,Kentucky,ESPN,1.836,2025,0,ESPN Press Room,Nov 12 Champions Classic,0,1,1,ACC
-mens_basketball,Duke,North Carolina,ESPN,3.2,2024,0,Sports Media Watch,Feb 2024 rivalry game,1,1,1,ACC
 mens_basketball,Gonzaga,Kentucky,CBS,2.31,2024,0,Sports Media Watch,Feb 2024,0,1,1,SEC
 mens_basketball,Tennessee,Kentucky,ESPN,2.5,2024,0,Sports Media Watch,Feb 2024,1,1,1,SEC
 mens_basketball,Purdue,Ohio State,ESPN,1.73,2024,0,Sports Media Watch,Feb 2024,0,1,0,Big Ten
 mens_basketball,Kentucky,Auburn,ESPN,1.73,2024,0,Sports Media Watch,Feb 2024,0,1,1,SEC
-mens_basketball,Alabama,Kentucky,ESPN,1.82,2024,0,Sports Media Watch,Feb 2024,0,1,1,SEC
 mens_basketball,NJIT,Villanova,FS1,0.105,2024,0,User verified,Low-major vs power conference,0,0,0,America East
-mens_basketball,Marquette,Villanova,FS1,0.38,2024,0,Sports Business Journal,Big East quarterfinal,0,1,1,Big East
-mens_basketball,Arizona,Houston,ESPN,2.2,2025,0,ESPN Press Room,Big 12 Championship,0,1,1,Big 12
-mens_basketball,Louisville,Duke,ESPN,3.1,2025,0,ESPN Press Room,ACC Championship,0,1,1,ACC
 mens_basketball,Notre Dame,Purdue,FS1,0.076,2024,0,The Boneyard,Nov 10,0,1,0,ACC
-mens_basketball,Tennessee,Alabama,ESPN,1.566,2024,0,CSNBB,2023-24 season 1M+ club,0,1,1,SEC
 mens_basketball,Arkansas,Alabama,ESPN,1.272,2024,0,CSNBB,2023-24 season,0,1,1,SEC
 mens_basketball,Kentucky,Missouri,ESPN,1.14,2024,0,Sports Media Watch,Jan 2024 weeknight,0,1,0,SEC
 mens_basketball,Kentucky,Texas A&M,ESPN,1.52,2024,0,Sports Media Watch,Jan 2024,0,1,1,SEC
@@ -99,21 +80,6 @@ womens_basketball,Louisville,UConn,FOX,0.466,2024,0,The Boneyard,Dec 7,0,1,1,ACC
 womens_basketball,Duke,South Carolina,ESPN,0.431,2024,0,The Boneyard,Dec 5,0,1,0,ACC
 softball,Alabama,Auburn,ESPN,0.57,2024,0,ESPN Press Room,Marquee SEC rivalry,1,1,1,SEC
 softball,Arizona,Alabama,ESPN+,0.013159,2025,0,Arizona spreadsheet,Regular season streaming,0,1,0,Big 12
-baseball,Arizona,Coastal Carolina,ESPN,0.9,2025,0,Arizona spreadsheet,NCAA regional,0,1,1,Big 12
-baseball,Arizona,Louisville,ESPN,1.0,2025,0,Arizona spreadsheet,NCAA regional,0,1,1,Big 12
-football,Ohio State,Notre Dame,ESPN,22.1,2024,0,Football Scoop,CFP National Championship,0,1,0,Unknown
-football,Ohio State,Texas,ESPN,20.6,2024,0,Football Scoop,Cotton Bowl CFP semifinal,0,1,0,Unknown
-football,Notre Dame,Penn State,ESPN,17.8,2024,0,Football Scoop,Orange Bowl CFP semifinal,0,1,0,Unknown
-football,Texas,Arizona State,ESPN,17.3,2024,0,Football Scoop,Peach Bowl,0,1,0,Unknown
-football,Notre Dame,Georgia,ESPN,15.8,2024,0,Football Scoop,Sugar Bowl,0,1,0,Unknown
-football,Iowa State,Miami,ABC,6.79,2024,0,Football Scoop,Pop-Tarts Bowl,0,1,0,Unknown
-football,Alabama,Michigan,ESPN,6.5,2024,0,Football Scoop,ReliaQuest Bowl,0,1,0,Unknown
-football,Ole Miss,Duke,ESPN,5.0,2024,0,Football Scoop,Gator Bowl,0,1,0,Unknown
-football,Illinois,South Carolina,ABC,4.3,2024,0,Football Scoop,Citrus Bowl,0,1,0,Unknown
-football,Arkansas,Texas Tech,ESPN,4.21,2024,0,Football Scoop,Liberty Bowl,0,1,0,Unknown
-football,Baylor,LSU,ESPN,4.21,2024,0,Football Scoop,Texas Bowl,0,1,0,Unknown
-football,Nebraska,Boston College,ABC,4.19,2024,0,Football Scoop,Pinstripe Bowl,0,1,0,Unknown
-football,Vanderbilt,Georgia Tech,ESPN,4.05,2024,0,Football Scoop,Birmingham Bowl,0,1,0,Unknown
 football,Michigan,Washington,NBC,4.04,2024,0,Football Scoop,,0,1,0,Unknown
 football,Utah,Colorado,FOX,4.0,2024,0,Football Scoop,,0,1,0,Unknown
 football,Kentucky,Ole Miss,ABC,3.99,2024,0,Football Scoop,,0,1,0,Unknown
@@ -125,10 +91,8 @@ football,Baylor,Colorado,FOX,3.64,2024,0,Football Scoop,,0,1,0,Unknown
 football,Tennessee,Vanderbilt,ABC,3.61,2024,0,Football Scoop,,0,1,0,Unknown
 football,Nebraska,Iowa,NBC,3.6,2024,0,Football Scoop,Heroes Trophy,0,1,0,Unknown
 football,Minnesota,Michigan,FOX,3.6,2024,0,Football Scoop,,0,1,0,Unknown
-football,Kansas State,Rutgers,ESPN,3.5,2024,0,Football Scoop,Rate Bowl,0,1,0,Unknown
 football,Purdue,Ohio State,FOX,3.48,2024,0,Football Scoop,,0,1,0,Unknown
 football,Miami,Georgia Tech,ESPN,3.46,2024,0,Football Scoop,,0,1,0,Unknown
-football,Minnesota,Virginia Tech,ESPN,3.38,2024,0,Football Scoop,Duke's Mayo Bowl,0,1,0,Unknown
 football,Penn State,Wisconsin,NBC,3.34,2024,0,Football Scoop,,0,1,0,Unknown
 football,Oklahoma State,Colorado,ABC,3.31,2024,0,Football Scoop,,0,1,0,Unknown
 football,Missouri,Texas A&M,ABC,3.27,2024,0,Football Scoop,,0,1,0,Unknown
@@ -139,11 +103,8 @@ football,Colorado,Colorado State,CBS,3.25,2024,0,Football Scoop,Rocky Mountain S
 football,Nebraska,Indiana,FOX,3.18,2024,0,Football Scoop,,0,1,0,Unknown
 football,Illinois,Penn State,NBC,3.09,2024,0,Football Scoop,,0,1,0,Unknown
 football,Michigan,Illinois,CBS,3.01,2024,0,Football Scoop,,0,1,0,Unknown
-football,Boise State,UNLV,FOX,3.01,2024,0,Football Scoop,Mountain West Championship,0,1,0,Unknown
 football,Penn State,West Virginia,FOX,2.99,2024,0,Football Scoop,,0,1,0,Unknown
 football,Nebraska,USC,FOX,2.98,2024,0,Football Scoop,,0,1,0,Unknown
-mens_basketball,Tennessee,Florida,ESPN,3.1,2025,0,ESPN Press Room,SEC Championship,0,1,0,Unknown
-mens_basketball,Duke,North Carolina,ESPN,2.3,2025,0,ESPN Press Room,ACC semifinal,0,1,0,Unknown
 mens_basketball,Michigan State,Arizona,FOX,5.0,2024,0,Sports Media Watch,Thanksgiving FOX after NFL,0,1,0,Unknown
 mens_basketball,Texas A&M,Mississippi,ESPN,1.019,2024,0,CSNBB,2023-24 1M+ club,0,1,0,Unknown
 mens_basketball,Illinois,Tennessee,CBS,1.46,2023,0,Sports Media Watch,Dec 2023,0,1,0,Unknown
@@ -154,14 +115,11 @@ mens_basketball,Providence,St Johns,FS1,0.095,2024,1,Estimated,Big East cable ti
 womens_basketball,UConn,South Carolina,ABC,1.8,2025,0,Yahoo Sports,Feb 16 ABC doubleheader,0,1,0,Unknown
 womens_basketball,Texas,LSU,ABC,1.7,2025,0,Yahoo Sports,Feb 16 ABC doubleheader,0,1,0,Unknown
 womens_basketball,USC,UConn,FOX,2.3,2025,0,Philadelphia Inquirer,Top regular season game,0,1,0,Unknown
-womens_basketball,USC,UCLA,CBS,1.44,2025,0,Philadelphia Inquirer,Big Ten tournament final,0,1,0,Unknown
-womens_basketball,UConn,USC,ABC,8.6,2025,0,Philadelphia Inquirer,NCAA Championship,0,1,0,Unknown
 womens_basketball,Tennessee,Texas,ESPN,0.521,2025,0,The Boneyard,Jan 23,0,1,0,Unknown
 womens_basketball,Texas,Notre Dame,ESPN,0.504,2024,0,The Boneyard,Dec 5,0,1,0,Unknown
 womens_basketball,Ohio State,USC,FOX,0.52,2025,0,The Boneyard,Feb 8,0,1,0,Unknown
 womens_basketball,Notre Dame,USC,NBC,0.519,2024,0,The Boneyard,Nov 23,0,1,0,Unknown
 womens_basketball,UConn,NC State,ABC,0.625,2024,0,Sports Media Watch,Week 1 season,0,1,0,Unknown
-womens_basketball,South Carolina,LSU,ESPN,1.55,2024,0,Sports Media Watch,Feb 2024,0,1,0,Unknown
 womens_basketball,Iowa,Ohio State,FOX,3.4,2024,0,Sports Media Watch,Clark record game,0,1,0,Unknown
 womens_basketball,Maryland,Iowa,FOX,1.58,2024,0,Sports Media Watch,Feb 2024,0,1,0,Unknown
 womens_basketball,Tennessee,LSU,ESPN,0.825,2025,0,The Boneyard,Feb 9,0,1,0,Unknown
@@ -169,29 +127,33 @@ womens_basketball,Stanford,Notre Dame,ESPN,0.392,2025,0,The Boneyard,Feb 6,0,1,0
 womens_basketball,Texas,Ole Miss,ESPN,0.227,2025,0,The Boneyard,Jan 26,0,1,0,Unknown
 womens_basketball,South Carolina,TCU,ESPN2,0.217,2024,0,The Boneyard,Dec 8,0,1,0,Unknown
 womens_basketball,South Carolina,Clemson,ESPN2,0.202,2024,0,The Boneyard,Nov 20,0,1,0,Unknown
-softball,Texas,Texas Tech,ESPN,2.4,2025,0,ESPN Press Room,WCWS Finals Game 3,0,1,0,Unknown
-softball,Texas,Texas Tech,ESPN,2.1,2025,0,ESPN Press Room,WCWS Finals Game 1,0,1,0,Unknown
-softball,UCLA,Tennessee,ESPN,2.2,2025,0,ESPN Press Room,WCWS semifinal,0,1,0,Unknown
-softball,Oklahoma,Texas,ESPN,1.7,2025,0,ESPN Press Room,WCWS,0,1,0,Unknown
-softball,Oklahoma,Texas Tech,ESPN,1.6,2025,0,ESPN Press Room,WCWS,0,1,0,Unknown
-softball,Oregon,Oklahoma,ESPN,1.2,2025,0,ESPN Press Room,WCWS,0,1,0,Unknown
-softball,Texas Tech,UCLA,ESPN,1.0,2025,0,ESPN Press Room,WCWS,0,1,0,Unknown
-softball,Tennessee,Nebraska,ESPN,0.994,2025,0,ESPN Press Room,Super Regional,0,1,0,Unknown
-softball,Liberty,Texas A&M,ESPN,0.518,2025,0,ESPN Press Room,Regional,0,1,0,Unknown
-softball,Texas,Michigan,ESPN,0.484,2025,0,ESPN Press Room,Regional,0,1,0,Unknown
-softball,LSU,SE Louisiana,ESPN,0.475,2025,0,ESPN Press Room,Regional,0,1,0,Unknown
 softball,Oklahoma,Texas,ESPN,0.57,2024,0,ESPN Press Room,Alabama vs Auburn tier SEC marquee,0,1,0,Unknown
-softball,Florida State,Oklahoma,ESPN,0.35,2024,1,Estimated,WCWS tier,0,1,0,Unknown
 softball,Alabama,Florida,ESPN,0.42,2024,1,Estimated,SEC marquee,0,1,0,Unknown
-baseball,Tennessee,Texas A&M,ESPN,3.34,2024,0,Sports Media Watch,MCWS Finals Game 3,0,1,0,Unknown
-baseball,Tennessee,Texas A&M,ABC,2.92,2024,0,Sports Media Watch,MCWS Finals Game 2,0,1,0,Unknown
-baseball,Tennessee,Texas A&M,ESPN,2.26,2024,0,Sports Media Watch,MCWS Finals Game 1,0,1,0,Unknown
-baseball,LSU,Coastal Carolina,ESPN,2.78,2025,0,Sports Media Watch,MCWS Finals Game 2,0,1,0,Unknown
-baseball,LSU,Coastal Carolina,ESPN,2.18,2025,0,Sports Media Watch,MCWS Finals Game 1,0,1,0,Unknown
-baseball,LSU,Florida,ESPN,2.86,2023,0,Sports Media Watch,MCWS Finals series avg,0,1,0,Unknown
-baseball,Texas A&M,Florida,ESPN,1.8,2024,0,On3,MCWS pre-finals,0,1,0,Unknown
-baseball,Clemson,Florida State,ESPN,0.85,2024,1,Estimated,ACC super regional tier,0,1,0,Unknown
-baseball,Vanderbilt,East Carolina,ESPN,0.72,2024,1,Estimated,Regional marquee,0,1,0,Unknown
 baseball,Arkansas,Tennessee,ESPN,0.65,2024,1,Estimated,SEC tournament tier,0,1,0,Unknown
-baseball,Stanford,Texas,ESPN,0.55,2024,1,Estimated,Super regional tier,0,1,0,Unknown
-baseball,Wake Forest,LSU,ESPN,0.48,2023,1,Estimated,MCWS bracket,0,1,0,Unknown
+softball,Arkansas,Alabama,ESPN,0.57,2024,0,ESPN Press Room,Apr 20 SEC series,0,1,0,SEC
+softball,Texas,Georgia,ESPN,0.725,2026,0,ESPN Press Room,Apr 19 regular season,0,1,0,SEC
+softball,Florida,Georgia,ESPN,0.677,2026,0,ESPN Press Room,May 2 regular season,0,1,0,SEC
+softball,Oklahoma,LSU,ESPN,0.618,2026,0,ESPN Press Room,Mar 29 regular season,0,1,0,SEC
+softball,Texas,Alabama,ESPN,0.42,2024,1,Estimated,SEC regular season tier,0,1,0,SEC
+softball,Oklahoma,Florida State,ESPN,0.35,2024,1,Estimated,Regular season marquee,0,1,0,Big 12
+softball,Arizona,Arizona State,ESPN+,0.025,2025,1,Estimated,Streaming regular season,0,1,0,Big 12
+softball,UCLA,Arizona,ESPN+,0.018,2025,1,Estimated,Streaming regular season,0,1,0,Big Ten
+baseball,LSU,Vanderbilt,SEC Network,0.08,2024,1,Estimated,SEC weekend series,0,1,0,SEC
+baseball,Arkansas,Texas,SEC Network,0.07,2024,1,Estimated,SEC weekend series,0,1,0,SEC
+baseball,Tennessee,Florida,ESPNU,0.12,2024,1,Estimated,SEC marquee cable,0,1,0,SEC
+baseball,Clemson,South Carolina,ESPNU,0.09,2024,1,Estimated,ACC rivalry,0,1,0,ACC
+baseball,Arizona,Arizona State,ESPN+,0.012,2025,1,Estimated,Streaming regular season,0,1,0,Big 12
+baseball,Oregon State,Stanford,ESPNU,0.11,2024,1,Estimated,Pac/ACC tier regular season,0,1,0,Pac-12
+baseball,Texas,Texas A&M,ESPNU,0.14,2024,1,Estimated,SEC rivalry regular season,0,1,0,SEC
+football,Washington,USC,FOX,3.2,2024,1,Estimated,Pac/Big Ten regular season,0,1,0,Big Ten
+football,Oregon,Michigan,FOX,3.8,2024,1,Estimated,Big Ten regular season,0,1,0,Big Ten
+football,Florida State,Miami,ABC,3.5,2024,1,Estimated,ACC regular season,0,1,0,ACC
+football,Kansas,Kansas State,ESPN,2.1,2024,1,Estimated,Big 12 regular season,0,1,0,Big 12
+football,Iowa,Michigan,CBS,2.8,2024,1,Estimated,Big Ten regular season,0,1,0,Big Ten
+mens_basketball,St Johns,Creighton,FS1,0.11,2024,1,Estimated,Big East regular season,0,1,0,Big East
+mens_basketball,Xavier,Butler,FS1,0.085,2024,1,Estimated,Big East regular season,0,1,0,Big East
+mens_basketball,Wisconsin,Minnesota,BTN,0.22,2024,1,Estimated,Big Ten regular season,0,1,0,Big Ten
+mens_basketball,Iowa,Purdue,BTN,0.25,2024,1,Estimated,Big Ten regular season,0,1,0,Big Ten
+womens_basketball,Iowa,Maryland,BTN,0.287,2025,0,The Boneyard,Jan 5 regular season,0,1,0,Big Ten
+womens_basketball,UConn,NC State,ESPN2,0.403,2024,0,The Boneyard,Nov 15 regular season,0,1,0,Big East
+womens_basketball,South Carolina,Iowa State,FOX,0.35,2024,1,Estimated,Non-con regular season,0,1,0,SEC

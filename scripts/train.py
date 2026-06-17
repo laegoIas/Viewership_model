@@ -38,6 +38,7 @@ def main() -> None:
         games_path,
         ROOT / paths.get("research_games", "data/research/games.csv"),
         ROOT / paths.get("research_benchmarks", "data/research/viewership_benchmarks.csv"),
+        game_types=config.get("training", {}).get("game_types"),
     )
     if merge_stats["added_rows"]:
         print(

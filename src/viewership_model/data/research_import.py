@@ -15,6 +15,26 @@ RESEARCH_GAME_COLUMNS = {
 
 BENCHMARK_GAME_METRICS = {"reported_game", "game_viewers"}
 
+POSTSEASON_PATTERN = re.compile(
+    r"cfp|playoff|bowl game|national championship|first round|semifinal|quarterfinal|"
+    r"orange bowl|cotton bowl|rose bowl|peach bowl|sugar bowl|fiesta bowl|"
+    r"liberty bowl|citrus bowl|gator bowl|pinstripe bowl|alamo bowl|reliaquest bowl|"
+    r"pop-tarts bowl|mayo bowl|rate bowl|cactus bowl|birmingham bowl|texas bowl|"
+    r"wcws|mcws|ncaa regional|\bregional\b|super regional|"
+    r"sec championship|big ten championship|acc championship|big 12 championship|"
+    r"mountain west championship|conference championship|"
+    r"ncaa championship|tournament final|big east quarterfinal|"
+    r"champ week|mcws finals|wcws finals",
+    re.IGNORECASE,
+)
+
+REGULAR_SEASON_NAME_EXCEPTIONS = re.compile(
+    r"iron bowl|egg bowl|army-navy|red river",
+    re.IGNORECASE,
+)
+
+DEFAULT_GAME_TYPES = ("regular_season",)
+
 
 def _parse_matchup_entity(entity: str) -> tuple[str, str] | None:
     """Parse 'Team A vs Team B' or 'Team A-Team B' into two team names."""
@@ -36,7 +56,58 @@ def _dedupe_key(sport: str, home_team: str, away_team: str, network: str) -> tup
     return sport.strip().lower(), teams, network.strip().lower()
 
 
-def load_research_games(path: Path | str) -> pd.DataFrame:
+def classify_game_type(
+    sport: str,
+    notes: str = "",
+    week: int | float | None = None,
+    network: str = "",
+    viewership_millions: float | None = None,
+) -> str:
+    """Label a game regular_season or postseason from notes and heuristics."""
+    text = str(notes or "")
+    if REGULAR_SEASON_NAME_EXCEPTIONS.search(text):
+        return "regular_season"
+    if POSTSEASON_PATTERN.search(text):
+        return "postseason"
+    if sport == "baseball" and week is not None and float(week) >= 40:
+        if str(network).strip() in {"ESPN", "ABC", "ESPNU", "ESPN2"}:
+            if viewership_millions is not None and float(viewership_millions) >= 0.3:
+                return "postseason"
+    return "regular_season"
+
+
+def filter_game_types(df: pd.DataFrame, game_types: list[str] | tuple[str, ...] | None) -> pd.DataFrame:
+    if df.empty or not game_types:
+        return df
+    if "game_type" not in df.columns:
+        return df
+    return df[df["game_type"].isin(game_types)].copy()
+
+
+def filter_primary_games(df: pd.DataFrame, game_types: list[str] | tuple[str, ...] | None) -> pd.DataFrame:
+    """Drop postseason rows from Arizona/imported spreadsheet games."""
+    if df.empty or not game_types or "regular_season" not in game_types:
+        return df
+
+    out = df.copy()
+    if "game_type" not in out.columns:
+        out["game_type"] = [
+            classify_game_type(
+                sport=str(row.sport),
+                notes=str(getattr(row, "source_sheet", "")),
+                week=getattr(row, "week", None),
+                network=str(row.network),
+                viewership_millions=float(row.viewership_millions),
+            )
+            for row in out.itertuples()
+        ]
+    return filter_game_types(out, game_types)
+
+
+def load_research_games(
+    path: Path | str,
+    game_types: list[str] | tuple[str, ...] | None = DEFAULT_GAME_TYPES,
+) -> pd.DataFrame:
     """Load supplemental game-level viewership from data/research/games.csv."""
     path = Path(path)
     if not path.exists():
@@ -46,10 +117,13 @@ def load_research_games(path: Path | str) -> pd.DataFrame:
     missing = RESEARCH_GAME_COLUMNS - set(df.columns)
     if missing:
         raise ValueError(f"Research games file missing columns: {sorted(missing)}")
-    return normalize_research_games(df)
+    return filter_game_types(normalize_research_games(df), game_types)
 
 
-def games_from_benchmarks(path: Path | str) -> pd.DataFrame:
+def games_from_benchmarks(
+    path: Path | str,
+    game_types: list[str] | tuple[str, ...] | None = DEFAULT_GAME_TYPES,
+) -> pd.DataFrame:
     """Convert reported_game rows in viewership_benchmarks.csv to game records."""
     path = Path(path)
     if not path.exists():
@@ -90,7 +164,7 @@ def games_from_benchmarks(path: Path | str) -> pd.DataFrame:
 
     if not rows:
         return pd.DataFrame()
-    return normalize_research_games(pd.DataFrame(rows))
+    return filter_game_types(normalize_research_games(pd.DataFrame(rows)), game_types)
 
 
 def normalize_research_games(df: pd.DataFrame) -> pd.DataFrame:
@@ -137,6 +211,19 @@ def normalize_research_games(df: pd.DataFrame) -> pd.DataFrame:
 
     out["source_sheet"] = "research:" + out["source"].astype(str)
     out["opponent"] = out["away_team"]
+    if "game_type" not in out.columns:
+        out["game_type"] = [
+            classify_game_type(
+                sport=str(row.sport),
+                notes=str(row.notes),
+                week=row.week if hasattr(row, "week") else None,
+                network=str(row.network),
+                viewership_millions=float(row.viewership_millions),
+            )
+            for row in out.itertuples()
+        ]
+    else:
+        out["game_type"] = out["game_type"].fillna("regular_season")
 
     out = out.reset_index(drop=True)
     out["game_id"] = [
@@ -175,16 +262,18 @@ def load_all_games(
     games_path: Path | str,
     research_games_path: Path | str | None = None,
     benchmarks_path: Path | str | None = None,
+    game_types: list[str] | tuple[str, ...] | None = DEFAULT_GAME_TYPES,
 ) -> tuple[pd.DataFrame, dict[str, int]]:
     """Load Arizona games plus supplemental research and benchmark game rows."""
     games_path = Path(games_path)
     primary = pd.read_csv(games_path) if games_path.exists() else pd.DataFrame()
+    primary = filter_primary_games(primary, game_types)
 
     supplemental_parts: list[pd.DataFrame] = []
     if research_games_path and Path(research_games_path).exists():
-        supplemental_parts.append(load_research_games(research_games_path))
+        supplemental_parts.append(load_research_games(research_games_path, game_types))
     if benchmarks_path and Path(benchmarks_path).exists():
-        supplemental_parts.append(games_from_benchmarks(benchmarks_path))
+        supplemental_parts.append(games_from_benchmarks(benchmarks_path, game_types))
 
     supplemental = pd.DataFrame()
     if supplemental_parts:

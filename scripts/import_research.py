@@ -21,12 +21,13 @@ def main() -> None:
         ROOT / paths["games"],
         ROOT / paths.get("research_games", "data/research/games.csv"),
         ROOT / paths.get("research_benchmarks", "data/research/viewership_benchmarks.csv"),
+        game_types=config.get("training", {}).get("game_types"),
     )
 
     if sports:
         merged = merged[merged["sport"].isin(sports)]
 
-    print("Research data merge preview")
+    print("Research data merge preview (regular season only)")
     print(f"  Arizona games:     {stats['primary_rows']}")
     print(f"  Research games:    {stats['supplemental_rows']}")
     print(f"  Added for training:{stats['added_rows']}")

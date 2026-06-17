@@ -59,6 +59,7 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
         paths["games"],
         paths.get("research_games"),
         paths.get("research_benchmarks"),
+        game_types=config.get("training", {}).get("game_types"),
     )
     if games.empty:
         raise FileNotFoundError(f"No games data found at {paths['games']}")
