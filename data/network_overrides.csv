@@ -6,24 +6,24 @@ NBC,70,football,CFB avg ~3.1M
 ESPN,52,football,CFB avg ~1.7M
 Big Ten Network,38,football,CFB avg ~697K
 ESPN2,32,football,CFB avg ~418K
-FS1,32,football,CFB avg ~418-465K
+FS1,48,football,CFB avg ~418-465K
 ESPNU,18,football,CFB avg ~57K
 SEC Network,35,football,Estimated; not Nielsen-measured
 ACC Network,30,football,Estimated; not Nielsen-measured
-ESPN+,15,football,Streaming; limited public averages
+ESPN+,10,football,Streaming; limited public averages
 Peacock,25,football,Streaming tier estimate
 ABC,100,mens_basketball,MBB ABC avg ~1.7M (2025-26)
 CBS,88,mens_basketball,MBB CBS avg ~1.3-1.4M
 FOX,78,mens_basketball,MBB FOX avg ~1.2M (2025-26)
 ESPN,75,mens_basketball,MBB ESPN avg ~1.0-1.1M
 ESPN2,45,mens_basketball,Secondary cable tier
-FS1,28,mens_basketball,MBB FS1 avg ~234K; NJIT-Villanova ~105K
-Big Ten Network,27,mens_basketball,MBB BTN avg ~222K
-ESPNU,20,mens_basketball,Tertiary cable ~85-150K
-CBSSN,22,mens_basketball,Cable tier estimate
-TruTV,18,mens_basketball,Cable tier estimate
-Peacock,15,mens_basketball,Streaming tier
-ESPN+,12,mens_basketball,Streaming tier
+FS1,55,mens_basketball,Cable tier; ~234K avg; NJIT-Villanova ~105K
+Big Ten Network,40,mens_basketball,MBB BTN avg ~222K
+ESPNU,22,mens_basketball,Tertiary cable ~85-150K
+CBSSN,28,mens_basketball,Cable tier estimate
+TruTV,24,mens_basketball,Cable tier estimate
+Peacock,14,mens_basketball,Streaming tier
+ESPN+,10,mens_basketball,Streaming tier; typical low-major ~1.5K
 FOX,100,womens_basketball,WBB FOX avg ~981K (2023-24)
 ESPN,48,womens_basketball,WBB ESPN avg ~476K
 ABC,55,womens_basketball,WBB ABC subset of ESPN platforms
@@ -39,13 +39,13 @@ ABC,90,softball,Marquee WCWS/regular linear
 ESPNU,25,softball,Cable tier
 SEC Network,40,softball,Estimated strong softball conference
 ACC Network,35,softball,Estimated
-ESPN+,18,softball,Arizona vs Alabama ~13K; streaming tier
+ESPN+,10,softball,Arizona vs Alabama ~13K; streaming tier
 FloCollege,12,softball,Streaming niche
 ESPN,85,baseball,Linear tier
 ESPNU,40,baseball,Cable tier
 SEC Network,45,baseball,Estimated; not Nielsen-measured
 ESPN2,50,baseball,Secondary linear
-ESPN+,12,baseball,Streaming ~5K estimates in Arizona data
+ESPN+,10,baseball,Streaming ~5K estimates in Arizona data
 FloCollege,10,baseball,Streaming niche
 Astros.com,10,baseball,Streaming niche
 FOX,70,volleyball,Linear tier estimate

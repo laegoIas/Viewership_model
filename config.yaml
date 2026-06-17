@@ -12,6 +12,22 @@ sport: all  # legacy single-sport filter; ignored when sports list is set
 
 paths:
   arizona_workbook: data/Arizona Jersey Patch Valuation .xlsx
+  njit_workbook: data/NJIT Jersey Patch Valuation 2024-25.xlsx
+  valuation_workbooks:
+    - file: data/Arizona Jersey Patch Valuation .xlsx
+      home_team: Arizona
+      sheets: ["Valuation (24-25 Data)"]
+      prefix: AZ
+      conference: Big 12
+      city: Tucson
+      state: AZ
+    - file: data/NJIT Jersey Patch Valuation 2024-25.xlsx
+      home_team: NJIT
+      sheets: ["NJIT Jersey Patch Valuation"]
+      prefix: NJ
+      conference: America East
+      city: Newark
+      state: NJ
   games: data/games.csv
   teams: data/teams.csv
   networks: data/networks.csv
@@ -28,6 +44,8 @@ target:
 
 scoring:
   team_power: 1.0
+  # Exponent on network reach; >1 amplifies cable (FS1) vs streaming (ESPN+) more strongly.
+  network_power: 2.25
 
 model:
   test_size: 0.2

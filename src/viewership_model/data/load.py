@@ -40,6 +40,11 @@ def load_networks(path: Path | str, overrides_path: Path | str | None = None) ->
     networks = pd.read_csv(path)
     if overrides_path and Path(overrides_path).exists():
         overrides = pd.read_csv(overrides_path)
-        networks = pd.concat([networks, overrides], ignore_index=True)
-        networks = networks.drop_duplicates(subset=["network", "sport"], keep="last")
+        existing = set(zip(networks["network"], networks["sport"]))
+        extra = overrides[
+            ~overrides.apply(lambda row: (row["network"], row["sport"]) in existing, axis=1)
+        ]
+        if not extra.empty:
+            networks = pd.concat([networks, extra], ignore_index=True)
+        networks = networks.drop_duplicates(subset=["network", "sport"], keep="first")
     return networks

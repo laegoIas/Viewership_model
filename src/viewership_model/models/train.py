@@ -98,7 +98,7 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     metadata = {
         "sports": config.get("sports") or config.get("sport", "all"),
         "metrics": {"mae": mae, "rmse": rmse, "r2": r2},
-        "formula": "viewers = sport_scale * (network_reach/100) * (combined_pop/100)^team_power",
+        "formula": "viewers = sport_scale * (network_reach/100)^network_power * (combined_pop/100)^team_power",
     }
     joblib.dump(metadata, model_dir / paths["model_file"])
 

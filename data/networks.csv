@@ -1,42 +1,262 @@
 network,reach_score,sport
-Astros.com,20.0,baseball
-ESPN,95.0,baseball
-ESPN+,20.0,baseball
-ESPN2,50.1,baseball
-ESPNU,70.5,baseball
-FloCollege,20.0,baseball
-ESPN+,95.0,beach volleyball
-ESPN,76.0,football
-ESPN+,23.7,football
-ESPN2,61.4,football
-FOX,95.0,football
-FS1,46.7,football
-TNT,40.0,football
-ACC Network,72.0,gymnastics
-ESPN+,54.4,gymnastics
-ESPN2,95.0,gymnastics
-CBS,95.0,mens_basketball
-CBSSN,36.8,mens_basketball
-ESPN,54.9,mens_basketball
-ESPN+,20.0,mens_basketball
-ESPN2,53.3,mens_basketball
-ESPNU,34.8,mens_basketball
-Peacock,22.5,mens_basketball
-TBS,62.4,mens_basketball
-TruTV,51.8,mens_basketball
-ACC Network,95.0,soccer
-ESPN+,24.5,soccer
-ESPNU,20.0,soccer
-ESPN,95.0,softball
-ESPN+,20.0,softball
-ESPN2,83.5,softball
-FS1,54.6,softball
-Mountain West Network,20.0,softball
-ESPN+,95.0,tennis
-PlaySight,39.0,tennis
-ESPN+,95.0,volleyball
-Hornet Sports Network,63.7,volleyball
-ESPN+,32.7,womens_basketball
-FS1,95.0,womens_basketball
-NEC Front Row,20.0,womens_basketball
-TruTV,45.7,womens_basketball
+ACC Network,49.0,football
+ACCN+,9.9,football
+AT&T SportsNet Rocky Mountain,8.0,football
+Altitude Sports,8.1,football
+America East TV,9.9,football
+Arizona's Family Sports,8.1,football
+Astros.com,10.2,football
+BEK Sports,8.0,football
+BTN,40.3,football
+CBS,63.2,football
+CBSSN,40.7,football
+ESPN,58.1,football
+ESPN+,10.9,football
+ESPN2,53.2,football
+ESPNU,38.9,football
+FOX,63.2,football
+FS1,57.0,football
+FS2,43.3,football
+FloCollege,9.8,football
+Gray Sports Network,8.7,football
+Hornet Sports Network,8.8,football
+Jasper Sports Network,9.9,football
+LacrosseTV,9.9,football
+MASN,12.0,football
+MSG,8.7,football
+Marquee Sports Network,10.4,football
+Matrix Midwest,8.1,football
+Midco Sports Network,8.0,football
+Monumental Sports Network,8.7,football
+Mountain West Network,9.1,football
+NBC Sports Philly,8.7,football
+NEC Front Row,8.9,football
+NESN,10.4,football
+Nevada Sports Net,8.0,football
+Peachtree Sports Network,9.4,football
+Peacock,11.4,football
+ROOT Sports Network,9.4,football
+Rock Entertainment Sports Network,9.4,football
+SEC Network,46.3,football
+SEC+,9.9,football
+SNY,8.7,football
+Scripps Sports,8.7,football
+Service Electric Network,8.0,football
+Spectrum OC16,8.0,football
+Spectrum SportsNet LA,9.4,football
+SportsNet Pittsburgh,8.1,football
+TBS,59.3,football
+TNT,56.7,football
+TruTV,55.7,football
+WWAX(The Wax),8.7,football
+YES Network,13.8,football
+YouTube,9.9,football
+ACC Network,49.0,mens_basketball
+ACCN+,9.9,mens_basketball
+AT&T SportsNet Rocky Mountain,8.0,mens_basketball
+Altitude Sports,8.1,mens_basketball
+America East TV,9.9,mens_basketball
+Arizona's Family Sports,8.1,mens_basketball
+Astros.com,10.2,mens_basketball
+BEK Sports,8.0,mens_basketball
+BTN,40.3,mens_basketball
+CBS,63.2,mens_basketball
+CBSSN,40.7,mens_basketball
+ESPN,58.1,mens_basketball
+ESPN+,10.9,mens_basketball
+ESPN2,53.2,mens_basketball
+ESPNU,38.9,mens_basketball
+FOX,63.2,mens_basketball
+FS1,57.0,mens_basketball
+FS2,43.3,mens_basketball
+FloCollege,9.8,mens_basketball
+Gray Sports Network,8.7,mens_basketball
+Hornet Sports Network,8.8,mens_basketball
+Jasper Sports Network,9.9,mens_basketball
+LacrosseTV,9.9,mens_basketball
+MASN,12.0,mens_basketball
+MSG,8.7,mens_basketball
+Marquee Sports Network,10.4,mens_basketball
+Matrix Midwest,8.1,mens_basketball
+Midco Sports Network,8.0,mens_basketball
+Monumental Sports Network,8.7,mens_basketball
+Mountain West Network,9.1,mens_basketball
+NBC Sports Philly,8.7,mens_basketball
+NEC Front Row,8.9,mens_basketball
+NESN,10.4,mens_basketball
+Nevada Sports Net,8.0,mens_basketball
+Peachtree Sports Network,9.4,mens_basketball
+Peacock,11.4,mens_basketball
+ROOT Sports Network,9.4,mens_basketball
+Rock Entertainment Sports Network,9.4,mens_basketball
+SEC Network,46.3,mens_basketball
+SEC+,9.9,mens_basketball
+SNY,8.7,mens_basketball
+Scripps Sports,8.7,mens_basketball
+Service Electric Network,8.0,mens_basketball
+Spectrum OC16,8.0,mens_basketball
+Spectrum SportsNet LA,9.4,mens_basketball
+SportsNet Pittsburgh,8.1,mens_basketball
+TBS,59.3,mens_basketball
+TNT,56.7,mens_basketball
+TruTV,55.7,mens_basketball
+WWAX(The Wax),8.7,mens_basketball
+YES Network,13.8,mens_basketball
+YouTube,9.9,mens_basketball
+Pac-12 Network,10.0,mens_basketball
+ACC Network,49.0,womens_basketball
+ACCN+,9.9,womens_basketball
+AT&T SportsNet Rocky Mountain,8.0,womens_basketball
+Altitude Sports,8.1,womens_basketball
+America East TV,9.9,womens_basketball
+Arizona's Family Sports,8.1,womens_basketball
+Astros.com,10.2,womens_basketball
+BEK Sports,8.0,womens_basketball
+BTN,40.3,womens_basketball
+CBS,63.2,womens_basketball
+CBSSN,40.7,womens_basketball
+ESPN,58.1,womens_basketball
+ESPN+,10.9,womens_basketball
+ESPN2,53.2,womens_basketball
+ESPNU,38.9,womens_basketball
+FOX,63.2,womens_basketball
+FS1,57.0,womens_basketball
+FS2,43.3,womens_basketball
+FloCollege,9.8,womens_basketball
+Gray Sports Network,8.7,womens_basketball
+Hornet Sports Network,8.8,womens_basketball
+Jasper Sports Network,9.9,womens_basketball
+LacrosseTV,9.9,womens_basketball
+MASN,12.0,womens_basketball
+MSG,8.7,womens_basketball
+Marquee Sports Network,10.4,womens_basketball
+Matrix Midwest,8.1,womens_basketball
+Midco Sports Network,8.0,womens_basketball
+Monumental Sports Network,8.7,womens_basketball
+Mountain West Network,9.1,womens_basketball
+NBC Sports Philly,8.7,womens_basketball
+NEC Front Row,8.9,womens_basketball
+NESN,10.4,womens_basketball
+Nevada Sports Net,8.0,womens_basketball
+Peachtree Sports Network,9.4,womens_basketball
+Peacock,11.4,womens_basketball
+ROOT Sports Network,9.4,womens_basketball
+Rock Entertainment Sports Network,9.4,womens_basketball
+SEC Network,46.3,womens_basketball
+SEC+,9.9,womens_basketball
+SNY,8.7,womens_basketball
+Scripps Sports,8.7,womens_basketball
+Service Electric Network,8.0,womens_basketball
+Spectrum OC16,8.0,womens_basketball
+Spectrum SportsNet LA,9.4,womens_basketball
+SportsNet Pittsburgh,8.1,womens_basketball
+TBS,59.3,womens_basketball
+TNT,56.7,womens_basketball
+TruTV,55.7,womens_basketball
+WWAX(The Wax),8.7,womens_basketball
+YES Network,13.8,womens_basketball
+YouTube,9.9,womens_basketball
+ACC Network,49.0,softball
+ACCN+,9.9,softball
+AT&T SportsNet Rocky Mountain,8.0,softball
+Altitude Sports,8.1,softball
+America East TV,9.9,softball
+Arizona's Family Sports,8.1,softball
+Astros.com,10.2,softball
+BEK Sports,8.0,softball
+BTN,40.3,softball
+CBS,63.2,softball
+CBSSN,40.7,softball
+ESPN,58.1,softball
+ESPN+,10.9,softball
+ESPN2,53.2,softball
+ESPNU,38.9,softball
+FOX,63.2,softball
+FS1,57.0,softball
+FS2,43.3,softball
+FloCollege,9.8,softball
+Gray Sports Network,8.7,softball
+Hornet Sports Network,8.8,softball
+Jasper Sports Network,9.9,softball
+LacrosseTV,9.9,softball
+MASN,12.0,softball
+MSG,8.7,softball
+Marquee Sports Network,10.4,softball
+Matrix Midwest,8.1,softball
+Midco Sports Network,8.0,softball
+Monumental Sports Network,8.7,softball
+Mountain West Network,9.1,softball
+NBC Sports Philly,8.7,softball
+NEC Front Row,8.9,softball
+NESN,10.4,softball
+Nevada Sports Net,8.0,softball
+Peachtree Sports Network,9.4,softball
+Peacock,11.4,softball
+ROOT Sports Network,9.4,softball
+Rock Entertainment Sports Network,9.4,softball
+SEC Network,46.3,softball
+SEC+,9.9,softball
+SNY,8.7,softball
+Scripps Sports,8.7,softball
+Service Electric Network,8.0,softball
+Spectrum OC16,8.0,softball
+Spectrum SportsNet LA,9.4,softball
+SportsNet Pittsburgh,8.1,softball
+TBS,59.3,softball
+TNT,56.7,softball
+TruTV,55.7,softball
+WWAX(The Wax),8.7,softball
+YES Network,13.8,softball
+YouTube,9.9,softball
+ACC Network,49.0,baseball
+ACCN+,9.9,baseball
+AT&T SportsNet Rocky Mountain,8.0,baseball
+Altitude Sports,8.1,baseball
+America East TV,9.9,baseball
+Arizona's Family Sports,8.1,baseball
+Astros.com,10.2,baseball
+BEK Sports,8.0,baseball
+BTN,40.3,baseball
+CBS,63.2,baseball
+CBSSN,40.7,baseball
+ESPN,58.1,baseball
+ESPN+,10.9,baseball
+ESPN2,53.2,baseball
+ESPNU,38.9,baseball
+FOX,63.2,baseball
+FS1,57.0,baseball
+FS2,43.3,baseball
+FloCollege,9.8,baseball
+Gray Sports Network,8.7,baseball
+Hornet Sports Network,8.8,baseball
+Jasper Sports Network,9.9,baseball
+LacrosseTV,9.9,baseball
+MASN,12.0,baseball
+MSG,8.7,baseball
+Marquee Sports Network,10.4,baseball
+Matrix Midwest,8.1,baseball
+Midco Sports Network,8.0,baseball
+Monumental Sports Network,8.7,baseball
+Mountain West Network,9.1,baseball
+NBC Sports Philly,8.7,baseball
+NEC Front Row,8.9,baseball
+NESN,10.4,baseball
+Nevada Sports Net,8.0,baseball
+Peachtree Sports Network,9.4,baseball
+Peacock,11.4,baseball
+ROOT Sports Network,9.4,baseball
+Rock Entertainment Sports Network,9.4,baseball
+SEC Network,46.3,baseball
+SEC+,9.9,baseball
+SNY,8.7,baseball
+Scripps Sports,8.7,baseball
+Service Electric Network,8.0,baseball
+Spectrum OC16,8.0,baseball
+Spectrum SportsNet LA,9.4,baseball
+SportsNet Pittsburgh,8.1,baseball
+TBS,59.3,baseball
+TNT,56.7,baseball
+TruTV,55.7,baseball
+WWAX(The Wax),8.7,baseball
+YES Network,13.8,baseball
+YouTube,9.9,baseball

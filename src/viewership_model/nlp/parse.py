@@ -3,6 +3,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
+from viewership_model.data.d1_teams import normalize_team_name
+
 NETWORK_PATTERNS = [
     (r"espn\+", "ESPN+"),
     (r"espn2", "ESPN2"),
@@ -40,6 +42,10 @@ TEAM_ALIASES = {
     "university of arizona": "Arizona",
     "bama": "Alabama",
     "njit": "NJIT",
+    "arkansas": "Arkansas",
+    "uconn": "UConn",
+    "nc state": "NC State",
+    "ole miss": "Ole Miss",
 }
 
 
@@ -61,7 +67,8 @@ def _normalize_team(name: str) -> str:
     key = name.strip().lower()
     if key in TEAM_ALIASES:
         return TEAM_ALIASES[key]
-    return " ".join(part.capitalize() for part in re.split(r"\s+", name.strip()))
+    titled = " ".join(part.capitalize() for part in re.split(r"\s+", name.strip()))
+    return normalize_team_name(titled)
 
 
 def parse_query(text: str) -> ParsedQuery:

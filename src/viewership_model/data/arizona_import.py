@@ -7,6 +7,9 @@ from pathlib import Path
 import openpyxl
 import pandas as pd
 
+from viewership_model.data.key_tab_import import canonicalize_network_name
+from viewership_model.data.network_reach import compute_network_reach_scores
+
 ARIZONA = "Arizona"
 PRIMARY_SHEET = "Valuation (24-25 Data)"
 FALLBACK_SHEET = "Valuation 2024-25 Reg Season"
@@ -58,7 +61,7 @@ def _normalize_network(value: str | None) -> str | None:
     text = str(value).strip()
     if not text:
         return None
-    return NETWORK_ALIASES.get(text.lower(), text)
+    return canonicalize_network_name(text)
 
 
 def _normalize_sport(gender: str | None, sport: str | None) -> str | None:
@@ -75,31 +78,55 @@ def _normalize_sport(gender: str | None, sport: str | None) -> str | None:
     return sport_key
 
 
-def _parse_season(game_date: date | datetime | None) -> int:
+def _coerce_date(game_date: date | datetime | str | None) -> date | None:
     if game_date is None:
+        return None
+    if isinstance(game_date, datetime):
+        return game_date.date()
+    if isinstance(game_date, date):
+        return game_date
+    text = str(game_date).strip()
+    if not text:
+        return None
+    return pd.to_datetime(text).date()
+
+
+def _parse_season(game_date: date | datetime | str | None) -> int:
+    parsed = _coerce_date(game_date)
+    if parsed is None:
         return datetime.now().year
-    if isinstance(game_date, datetime):
-        game_date = game_date.date()
-    return game_date.year if game_date.month >= 8 else game_date.year - 1
+    return parsed.year if parsed.month >= 8 else parsed.year - 1
 
 
-def _parse_week(game_date: date | datetime | None) -> int:
-    if game_date is None:
+def _parse_week(game_date: date | datetime | str | None) -> int:
+    parsed = _coerce_date(game_date)
+    if parsed is None:
         return 1
-    if isinstance(game_date, datetime):
-        game_date = game_date.date()
-    season_start = date(_parse_season(game_date), 8, 1)
-    if game_date < season_start:
-        season_start = date(game_date.year - 1, 8, 1)
-    return max(1, (game_date - season_start).days // 7 + 1)
+    season_start = date(_parse_season(parsed), 8, 1)
+    if parsed < season_start:
+        season_start = date(parsed.year - 1, 8, 1)
+    return max(1, (parsed - season_start).days // 7 + 1)
 
 
-def _is_prime_time(game_time: time | datetime | None) -> bool:
+def _coerce_time(game_time: time | datetime | str | None) -> time | None:
     if game_time is None:
-        return False
+        return None
     if isinstance(game_time, datetime):
-        game_time = game_time.time()
-    return game_time.hour >= 18
+        return game_time.time()
+    if isinstance(game_time, time):
+        return game_time
+    text = str(game_time).strip()
+    if not text:
+        return None
+    parsed = pd.to_datetime(text)
+    return parsed.time() if isinstance(parsed, datetime) else parsed.to_pydatetime().time()
+
+
+def _is_prime_time(game_time: time | datetime | str | None) -> bool:
+    parsed = _coerce_time(game_time)
+    if parsed is None:
+        return False
+    return parsed.hour >= 18
 
 
 def _location_type(home_or_away: str | None) -> str:
@@ -244,7 +271,7 @@ def _read_sheet(ws, ws_values, source_sheet: str) -> list[dict]:
                 "viewership_millions": round(viewers / 1_000_000, 6),
                 "avg_viewers": viewers,
                 "is_estimate": int(_cell_is_yellow(viewers_cell)),
-                "game_date": pd.to_datetime(game_date).date() if game_date else None,
+                "game_date": _coerce_date(game_date),
                 "gender": str(gender or "").strip(),
                 "opponent": str(opponent).strip(),
                 "source_sheet": source_sheet,
@@ -316,17 +343,7 @@ def build_reference_tables(games: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFr
     network_rows: list[dict] = []
     for sport in sorted(games["sport"].unique()):
         sport_games = games[games["sport"] == sport]
-        max_avg = sport_games.groupby("network")["avg_viewers"].mean().max()
-        for network, group in sport_games.groupby("network"):
-            avg_viewers = group["avg_viewers"].mean()
-            reach = min(95, max(20, 95 * (avg_viewers / max(max_avg, 1)) ** 0.4))
-            network_rows.append(
-                {
-                    "network": network,
-                    "reach_score": round(reach, 1),
-                    "sport": sport,
-                }
-            )
+        network_rows.extend(compute_network_reach_scores(sport_games, sport))
 
     networks = pd.DataFrame(network_rows).drop_duplicates(subset=["network", "sport"])
     return teams, networks

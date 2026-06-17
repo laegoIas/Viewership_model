@@ -8,8 +8,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from viewership_model.data.arizona_import import save_import
 from viewership_model.data.load import load_config
+from viewership_model.data.valuation_import import load_workbook_entries_from_config, save_merged_import
 from viewership_model.data.research_import import load_all_games
 from viewership_model.models.train import train
 
@@ -18,20 +18,23 @@ def main() -> None:
     config = load_config(ROOT / "config.yaml")
     paths = config["paths"]
     games_path = ROOT / paths["games"]
-    workbook_path = ROOT / paths["arizona_workbook"]
+    workbook_entries = load_workbook_entries_from_config(config, ROOT)
 
-    if workbook_path.exists():
-        print(f"Importing Arizona workbook: {workbook_path.name}")
-        save_import(
-            workbook_path=workbook_path,
+    if workbook_entries:
+        names = ", ".join(path.name for path, _ in workbook_entries)
+        print(f"Importing valuation workbooks: {names}")
+        save_merged_import(
+            workbook_entries,
             games_output=games_path,
             teams_output=ROOT / paths["teams"],
             networks_output=ROOT / paths["networks"],
+            sports=config.get("sports"),
+            root=ROOT,
         )
         print(f"Wrote {games_path}")
     elif not games_path.exists():
         raise FileNotFoundError(
-            f"No games data found. Add {workbook_path.name} or run with sample data."
+            "No games data found. Add valuation workbook(s) to data/ or config paths."
         )
 
     _, merge_stats = load_all_games(

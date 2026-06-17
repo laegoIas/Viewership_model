@@ -143,8 +143,8 @@ def main() -> None:
         f"{detail['network_reach']:.0f}/100"
     )
     print(
-        "    Formula: sport_scale x (network/100) x (combined_teams/100)"
-        f" -> sport_scale={detail['sport_scale']:,.0f}"
+        "    Formula: sport_scale x (network/100)^network_power x (combined_teams/100)^team_power"
+        f" -> sport_scale={detail['sport_scale']:,.0f}, network_power={detail['network_power']:.2f}"
     )
     if detail["used_default_home"] or detail["used_default_away"] or detail["used_default_network"]:
         print("    Note: default scale used where team/network was not in reference tables.")
