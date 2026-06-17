@@ -10,6 +10,7 @@ from pathlib import Path
 import pandas as pd
 
 NCAA_STANDINGS_URL = "https://ncaa-api.henrygd.me/standings/{path}"
+NCAA_RANKINGS_URL = "https://ncaa-api.henrygd.me/rankings/{path}"
 
 SPORT_API_PATHS: dict[str, list[str]] = {
     "mens_basketball": ["basketball-men/d1"],
@@ -17,6 +18,23 @@ SPORT_API_PATHS: dict[str, list[str]] = {
     "football": ["football/fbs", "football/fcs"],
     "baseball": [],  # filled from basketball roster when API unavailable
     "softball": [],
+}
+
+SPORT_RANKING_PATHS: dict[str, str] = {
+    "baseball": "baseball/d1",
+    "softball": "softball/d1",
+    "mens_basketball": "basketball-men/d1",
+    "womens_basketball": "basketball-women/d1",
+    "football": "football/fbs",
+}
+
+# Popularity ceiling/floor for nationally ranked teams (poll rank 1 vs 25).
+RANKING_POPULARITY_RANGE: dict[str, tuple[float, float]] = {
+    "baseball": (93.0, 72.0),
+    "softball": (95.0, 74.0),
+    "mens_basketball": (95.0, 76.0),
+    "womens_basketball": (95.0, 76.0),
+    "football": (98.0, 78.0),
 }
 
 # Conference base popularity by sport (before win-pct adjustment).
@@ -211,6 +229,9 @@ TEAM_NAME_FIXES: dict[str, str] = {
     "UNC": "North Carolina",
     "NC State": "NC State",
     "Ole Miss": "Ole Miss",
+    "FSU": "Florida State",
+    "Jax State": "Jacksonville State",
+    "Lousiana": "Louisiana",
     "Pitt": "Pittsburgh",
     "UMass": "UMass",
     "UAlbany": "UAlbany",
@@ -229,8 +250,8 @@ def normalize_team_name(name: str) -> str:
     return TEAM_NAME_FIXES.get(text, text)
 
 
-def _fetch_standings(path: str) -> dict:
-    url = NCAA_STANDINGS_URL.format(path=path)
+def _fetch_json(path: str, base_url: str) -> dict:
+    url = base_url.format(path=path)
     try:
         raw = subprocess.check_output(["/usr/bin/curl", "-s", "--max-time", "20", url])
     except (subprocess.CalledProcessError, FileNotFoundError):
@@ -239,6 +260,80 @@ def _fetch_standings(path: str) -> dict:
     if not raw.strip():
         return {}
     return json.loads(raw)
+
+
+def _fetch_standings(path: str) -> dict:
+    return _fetch_json(path, NCAA_STANDINGS_URL)
+
+
+def _parse_ranking_team(raw: str) -> str:
+    name = re.sub(r"\s*\(\d+\)\s*$", "", str(raw).strip())
+    return normalize_team_name(name)
+
+
+def _parse_rank_value(raw: object) -> int | None:
+    if raw is None:
+        return None
+    text = str(raw).strip()
+    if not text or text.upper() in {"NR", "N/A", "-"}:
+        return None
+    try:
+        rank = int(text)
+    except ValueError:
+        return None
+    if rank < 1 or rank > 25:
+        return None
+    return rank
+
+
+def fetch_sport_rankings(sport: str) -> dict[str, int]:
+    """Return team -> poll rank (1-25) from NCAA rankings API."""
+    path = SPORT_RANKING_PATHS.get(sport)
+    if not path:
+        return {}
+
+    payload = _fetch_json(path, NCAA_RANKINGS_URL)
+    rankings: dict[str, int] = {}
+    for row in payload.get("data", []):
+        rank = _parse_rank_value(row.get("RANK") or row.get("RANK "))
+        if rank is None:
+            continue
+        team_raw = row.get("TEAM") or row.get("SCHOOL") or row.get("COLLEGE")
+        if not team_raw:
+            continue
+        team = _parse_ranking_team(str(team_raw))
+        if team:
+            rankings[team] = rank
+    return rankings
+
+
+def load_supplemental_rankings(root: Path | str) -> dict[tuple[str, str], int]:
+    """Optional manual poll ranks from data/team_rankings.csv."""
+    path = Path(root) / "data" / "team_rankings.csv"
+    if not path.exists():
+        return {}
+
+    df = pd.read_csv(path)
+    required = {"team", "sport", "rank"}
+    if not required.issubset(df.columns):
+        return {}
+
+    rankings: dict[tuple[str, str], int] = {}
+    for _, row in df.iterrows():
+        rank = _parse_rank_value(row["rank"])
+        if rank is None:
+            continue
+        team = normalize_team_name(str(row["team"]))
+        sport = str(row["sport"]).strip()
+        rankings[(team, sport)] = rank
+    return rankings
+
+
+def popularity_from_rank(rank: int, sport: str) -> float:
+    """Map national poll rank (1-25) to a popularity score."""
+    rank = max(1, min(25, rank))
+    top, floor = RANKING_POPULARITY_RANGE.get(sport, (92.0, 72.0))
+    return round(top - (rank - 1) * (top - floor) / 24, 1)
 
 
 def _parse_record(row: dict) -> float:
@@ -291,8 +386,21 @@ def _conference_base(conference: str, sport: str) -> float:
     return DEFAULT_CONFERENCE_BASE
 
 
-def score_team(conference: str, sport: str, win_pct: float = 0.5) -> float:
+def score_team(
+    conference: str,
+    sport: str,
+    win_pct: float = 0.5,
+    rank: int | None = None,
+) -> float:
     base = _conference_base(conference, sport)
+    if rank is not None:
+        ranked_score = popularity_from_rank(rank, sport)
+        return round(min(95.0, max(base, ranked_score)), 1)
+
+    # Baseball/softball rosters use basketball win pct as a proxy — skip that drag.
+    if sport in {"baseball", "softball"}:
+        win_pct = 0.5
+
     adjustment = (win_pct - 0.5) * 18.0
     return round(min(95.0, max(28.0, base + adjustment)), 1)
 
@@ -493,13 +601,33 @@ def build_d1_teams(
     roster = pd.concat(roster_parts, ignore_index=True)
     roster = roster.drop_duplicates(subset=["team", "sport"], keep="first")
 
-    roster["popularity_score"] = roster.apply(
-        lambda row: score_team(str(row["conference"]), str(row["sport"]), float(row["win_pct"])),
-        axis=1,
-    )
+    supplemental = load_supplemental_rankings(root)
+    rankings_by_sport: dict[str, dict[str, int]] = {}
+    for sport in sports:
+        if sport not in SPORT_RANKING_PATHS:
+            continue
+        api_ranks = fetch_sport_rankings(sport)
+        merged = dict(api_ranks)
+        for (team, rank_sport), rank in supplemental.items():
+            if rank_sport == sport:
+                merged[team] = rank
+        rankings_by_sport[sport] = merged
+
+    def _row_score(row: pd.Series) -> float:
+        sport = str(row["sport"])
+        team = str(row["team"])
+        rank = rankings_by_sport.get(sport, {}).get(team)
+        return score_team(
+            str(row["conference"]),
+            sport,
+            float(row["win_pct"]),
+            rank=rank,
+        )
+
+    roster["popularity_score"] = roster.apply(_row_score, axis=1)
     roster["market_size_millions"] = 1.0
 
-    # Apply higher-priority sources last so they win: benchmark < override < workbook.
+    # Apply higher-priority sources last so they win: roster < benchmark < override < ranking < workbook.
     priority_frames: list[pd.DataFrame] = []
     manual = _load_manual_scores(root)
     if not manual.empty:
@@ -509,6 +637,22 @@ def build_d1_teams(
             priority_frames.append(benchmarks)
         if not overrides.empty:
             priority_frames.append(overrides)
+
+    ranking_rows: list[dict] = []
+    for sport in sports:
+        if sport not in SPORT_RANKING_PATHS:
+            continue
+        for team, rank in rankings_by_sport.get(sport, {}).items():
+            ranking_rows.append(
+                {
+                    "team": team,
+                    "sport": sport,
+                    "popularity_score": popularity_from_rank(rank, sport),
+                    "source": "ranking",
+                }
+            )
+    if ranking_rows:
+        priority_frames.append(pd.DataFrame(ranking_rows))
     if games is not None and not games.empty:
         conf_lookup = {
             (str(row["team"]), str(row["sport"])): str(row["conference"])

@@ -4,7 +4,7 @@ import re
 
 import pandas as pd
 
-from viewership_model.nlp.parse import NETWORK_PATTERNS, ParsedQuery, _normalize_team
+from viewership_model.nlp.parse import NETWORK_PATTERNS, SPORT_PATTERNS, ParsedQuery, _normalize_team
 
 
 def normalize_network_input(text: str) -> str | None:
@@ -44,33 +44,52 @@ def prompt_for_network(sport: str | None, networks: pd.DataFrame) -> str:
         print("Please enter a network (e.g. ESPN, ESPN+, SEC Network).")
 
 
-def prompt_for_sport() -> str:
+def _normalize_sport_input(text: str) -> str:
+    cleaned = text.strip().lower()
+    if not cleaned:
+        return ""
+    for pattern, canonical in SPORT_PATTERNS:
+        if re.search(pattern, cleaned):
+            return canonical
+    return cleaned.replace(" ", "_").replace("-", "_")
+
+
+def prompt_for_sport(sports: list[str] | None = None) -> str:
     print("\nWhat sport is this?")
-    print("  e.g. baseball, softball, football, mens_basketball, womens_basketball, volleyball")
+    if sports:
+        labels = ", ".join(s.replace("_", " ") for s in sports)
+        print(f"  Options: {labels}")
+    else:
+        print("  e.g. baseball, softball, football, mens_basketball, womens_basketball")
     while True:
-        answer = input("Sport: ").strip().lower()
-        if answer:
-            return answer.replace(" ", "_")
+        answer = input("Sport: ").strip()
+        sport = _normalize_sport_input(answer)
+        if sport:
+            return sport
         print("Please enter a sport.")
 
 
-def prompt_for_teams() -> tuple[str, str]:
-    print("\nWhich teams are playing?")
+def prompt_for_team(label: str) -> str:
+    print(f"\nEnter {label}:")
     while True:
-        answer = input('Teams (e.g. "Clemson vs Coastal Carolina"): ').strip()
-        match = re.search(
-            r"([a-z][a-z0-9\s&\.'-]{0,40}?)\s+(?:vs\.?|versus|@|at)\s+([a-z][a-z0-9\s&\.'-]{0,40})",
-            answer.lower(),
-        )
-        if match:
-            return _normalize_team(match.group(1)), _normalize_team(match.group(2))
-        print('Use the format "Team A vs Team B".')
+        answer = input(f"{label}: ").strip()
+        if answer:
+            return _normalize_team(answer)
+        print(f"Please enter {label.lower()}.")
+
+
+def prompt_for_teams() -> tuple[str, str]:
+    """Legacy combined team prompt (plain-English fallback)."""
+    team_a = prompt_for_team("Team 1")
+    team_b = prompt_for_team("Team 2")
+    return team_a, team_b
 
 
 def resolve_query(
     parsed: ParsedQuery,
     networks: pd.DataFrame,
     interactive: bool = True,
+    sports: list[str] | None = None,
 ) -> ParsedQuery:
     sport = parsed.sport
     network = parsed.network
@@ -78,10 +97,12 @@ def resolve_query(
     team_b = parsed.team_b
 
     if interactive:
-        if not team_a or not team_b:
-            team_a, team_b = prompt_for_teams()
         if not sport:
-            sport = prompt_for_sport()
+            sport = prompt_for_sport(sports)
+        if not team_a:
+            team_a = prompt_for_team("Team 1")
+        if not team_b:
+            team_b = prompt_for_team("Team 2")
         if not network:
             network = prompt_for_network(sport, networks)
 

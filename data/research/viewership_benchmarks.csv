@@ -48,5 +48,3 @@ baseball,network,ESPN,,130000,network_avg_per_game,2026,Sports Business Journal,
 baseball,network,ESPN2,,110000,network_avg_per_game,2026,Estimated,Regular season cable tier
 baseball,network,SEC Network,,80000,network_avg_per_game,2024,Estimated,Regular season cable tier
 baseball,network,ESPN+,,8000,reported_game,,Arizona spreadsheet,Streaming regular season tier
-baseball,team,Clemson,,68,team_popularity_proxy,,,Strong ACC
-baseball,team,Coastal Carolina,,55,team_popularity_proxy,,,Mid-major champion history

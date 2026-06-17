@@ -48,10 +48,12 @@ def _build_prediction_input(parsed) -> GamePredictionInput | None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Estimate viewership from plain English")
-    parser.add_argument("query", nargs="*", help='e.g. "clemson vs coastal carolina baseball"')
-    parser.add_argument("--network", help="Broadcast network if not in the query")
-    parser.add_argument("--sport", help="Sport if not in the query")
+    parser = argparse.ArgumentParser(
+        description="Estimate viewership — prompts for sport, teams, and network when run interactively"
+    )
+    parser.add_argument("query", nargs="*", help='Optional plain-English query, e.g. "clemson vs coastal carolina baseball"')
+    parser.add_argument("--network", help="Broadcast network if not prompted")
+    parser.add_argument("--sport", help="Sport if not prompted")
     parser.add_argument(
         "--no-prompt",
         action="store_true",
@@ -60,9 +62,6 @@ def main() -> None:
     args = parser.parse_args()
 
     query_text = " ".join(args.query).strip()
-    if not query_text and not args.no_prompt:
-        query_text = input("Describe the game: ").strip()
-
     parsed = parse_query(query_text) if query_text else parse_query("")
     if args.sport:
         parsed = ParsedQuery(
@@ -94,17 +93,12 @@ def main() -> None:
 
     config = load_config(ROOT / "config.yaml")
     networks = load_networks(ROOT / config["paths"]["networks"])
+    sports = config.get("sports")
 
     if not args.no_prompt:
-        parsed = resolve_query(parsed, networks, interactive=True)
-
-    print(f'\nEstimate for: "{query_text or "your game"}"')
-    print(
-        "  ",
-        f"sport={parsed.sport or '?'}",
-        f"| network={parsed.network or '?'}",
-        f"| {parsed.home_team or parsed.team_a or '?'} vs {parsed.away_team or parsed.team_b or '?'}",
-    )
+        if not query_text:
+            print("Viewership estimate — answer each prompt in order.")
+        parsed = resolve_query(parsed, networks, interactive=True, sports=sports)
 
     if not parsed.network and args.no_prompt:
         print("\nNetwork is required. Re-run and add --network ESPN (or drop --no-prompt).")
@@ -122,12 +116,12 @@ def main() -> None:
         print("Run: py scripts/import_arizona.py && py scripts/train.py")
         return
 
-    print("\nEstimated viewership:")
-    print(f"  {game_input.home_team} vs {game_input.away_team}")
-    print(f"  {game_input.sport} on {game_input.network}")
-    print(f"  {_format_viewers(detail['viewership_millions'])}")
-    print("\n  How this was calculated:")
     sport_label = game_input.sport.replace("_", " ")
+    print("\n--- Conclusion ---")
+    print(f"  {game_input.home_team} vs {game_input.away_team}")
+    print(f"  {sport_label} on {game_input.network}")
+    print(f"  Estimated viewership: {_format_viewers(detail['viewership_millions'])}")
+    print("\n  How this was calculated:")
     print(f"    Sport: {sport_label}")
     print(
         f"    {game_input.home_team} popularity ({sport_label}): "
