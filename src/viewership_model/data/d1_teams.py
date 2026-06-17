@@ -9,6 +9,14 @@ from pathlib import Path
 
 import pandas as pd
 
+from viewership_model.data.school_size import (
+    blend_popularity,
+    enrollment_for_team,
+    load_school_enrollment,
+    market_size_from_enrollment,
+    popularity_from_enrollment,
+)
+
 NCAA_STANDINGS_URL = "https://ncaa-api.henrygd.me/standings/{path}"
 NCAA_RANKINGS_URL = "https://ncaa-api.henrygd.me/rankings/{path}"
 
@@ -391,18 +399,24 @@ def score_team(
     sport: str,
     win_pct: float = 0.5,
     rank: int | None = None,
+    enrollment: int | None = None,
 ) -> float:
     base = _conference_base(conference, sport)
-    if rank is not None:
-        ranked_score = popularity_from_rank(rank, sport)
-        return round(min(95.0, max(base, ranked_score)), 1)
 
     # Baseball/softball rosters use basketball win pct as a proxy — skip that drag.
     if sport in {"baseball", "softball"}:
         win_pct = 0.5
 
-    adjustment = (win_pct - 0.5) * 18.0
-    return round(min(95.0, max(28.0, base + adjustment)), 1)
+    conf_score = round(min(95.0, max(28.0, base + (win_pct - 0.5) * 18.0)), 1)
+
+    if rank is not None:
+        core = max(conf_score, popularity_from_rank(rank, sport))
+    else:
+        core = conf_score
+
+    if enrollment is not None:
+        return blend_popularity(core, enrollment, sport)
+    return core
 
 
 def _load_manual_scores(root: Path | str) -> pd.DataFrame:
@@ -602,6 +616,7 @@ def build_d1_teams(
     roster = roster.drop_duplicates(subset=["team", "sport"], keep="first")
 
     supplemental = load_supplemental_rankings(root)
+    enrollment_lookup = load_school_enrollment(root)
     rankings_by_sport: dict[str, dict[str, int]] = {}
     for sport in sports:
         if sport not in SPORT_RANKING_PATHS:
@@ -613,19 +628,27 @@ def build_d1_teams(
                 merged[team] = rank
         rankings_by_sport[sport] = merged
 
-    def _row_score(row: pd.Series) -> float:
+    def _row_metrics(row: pd.Series) -> pd.Series:
         sport = str(row["sport"])
         team = str(row["team"])
+        conference = str(row["conference"])
         rank = rankings_by_sport.get(sport, {}).get(team)
-        return score_team(
-            str(row["conference"]),
+        enrollment = enrollment_for_team(team, conference, enrollment_lookup, normalize=normalize_team_name)
+        popularity = score_team(
+            conference,
             sport,
             float(row["win_pct"]),
             rank=rank,
+            enrollment=enrollment,
+        )
+        return pd.Series(
+            {
+                "popularity_score": popularity,
+                "market_size_millions": market_size_from_enrollment(enrollment),
+            }
         )
 
-    roster["popularity_score"] = roster.apply(_row_score, axis=1)
-    roster["market_size_millions"] = 1.0
+    roster[["popularity_score", "market_size_millions"]] = roster.apply(_row_metrics, axis=1)
 
     # Apply higher-priority sources last so they win: roster < benchmark < override < ranking < workbook.
     priority_frames: list[pd.DataFrame] = []
@@ -643,11 +666,19 @@ def build_d1_teams(
         if sport not in SPORT_RANKING_PATHS:
             continue
         for team, rank in rankings_by_sport.get(sport, {}).items():
+            conf_row = roster[(roster["team"] == team) & (roster["sport"] == sport)]
+            conference = str(conf_row.iloc[0]["conference"]) if not conf_row.empty else "Unknown"
+            enrollment = enrollment_for_team(
+                team, conference, enrollment_lookup, normalize=normalize_team_name
+            )
             ranking_rows.append(
                 {
                     "team": team,
                     "sport": sport,
-                    "popularity_score": popularity_from_rank(rank, sport),
+                    "popularity_score": score_team(
+                        conference, sport, 0.5, rank=rank, enrollment=enrollment
+                    ),
+                    "market_size_millions": market_size_from_enrollment(enrollment),
                     "source": "ranking",
                 }
             )
@@ -667,6 +698,8 @@ def build_d1_teams(
             mask = (roster["team"] == row["team"]) & (roster["sport"] == row["sport"])
             if mask.any():
                 roster.loc[mask, "popularity_score"] = float(row["popularity_score"])
+                if "market_size_millions" in row and pd.notna(row.get("market_size_millions")):
+                    roster.loc[mask, "market_size_millions"] = float(row["market_size_millions"])
                 if "conference" in row and pd.notna(row.get("conference")):
                     roster.loc[mask, "conference"] = row["conference"]
             else:

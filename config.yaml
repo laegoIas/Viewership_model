@@ -48,6 +48,8 @@ paths:
   teams: data/teams.csv
   networks: data/networks.csv
   team_overrides: data/team_overrides.csv
+  team_rankings: data/team_rankings.csv
+  school_enrollment: data/school_enrollment.csv
   network_overrides: data/network_overrides.csv
   research_games: data/research/games.csv
   research_benchmarks: data/research/viewership_benchmarks.csv
