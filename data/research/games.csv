@@ -127,9 +127,7 @@ womens_basketball,Stanford,Notre Dame,ESPN,0.392,2025,0,The Boneyard,Feb 6,0,1,0
 womens_basketball,Texas,Ole Miss,ESPN,0.227,2025,0,The Boneyard,Jan 26,0,1,0,Unknown
 womens_basketball,South Carolina,TCU,ESPN2,0.217,2024,0,The Boneyard,Dec 8,0,1,0,Unknown
 womens_basketball,South Carolina,Clemson,ESPN2,0.202,2024,0,The Boneyard,Nov 20,0,1,0,Unknown
-softball,Oklahoma,Texas,ESPN,0.57,2024,0,ESPN Press Room,Alabama vs Auburn tier SEC marquee,0,1,0,Unknown
 softball,Alabama,Florida,ESPN,0.42,2024,1,Estimated,SEC marquee,0,1,0,Unknown
-baseball,Arkansas,Tennessee,ESPN,0.65,2024,1,Estimated,SEC tournament tier,0,1,0,Unknown
 softball,Arkansas,Alabama,ESPN,0.57,2024,0,ESPN Press Room,Apr 20 SEC series,0,1,0,SEC
 softball,Texas,Georgia,ESPN,0.725,2026,0,ESPN Press Room,Apr 19 regular season,0,1,0,SEC
 softball,Florida,Georgia,ESPN,0.677,2026,0,ESPN Press Room,May 2 regular season,0,1,0,SEC
@@ -157,3 +155,61 @@ mens_basketball,Iowa,Purdue,BTN,0.25,2024,1,Estimated,Big Ten regular season,0,1
 womens_basketball,Iowa,Maryland,BTN,0.287,2025,0,The Boneyard,Jan 5 regular season,0,1,0,Big Ten
 womens_basketball,UConn,NC State,ESPN2,0.403,2024,0,The Boneyard,Nov 15 regular season,0,1,0,Big East
 womens_basketball,South Carolina,Iowa State,FOX,0.35,2024,1,Estimated,Non-con regular season,0,1,0,SEC
+softball,Oklahoma,Texas,ESPN,0.7,2026,0,ESPN Press Room,Apr 11 regular season,0,1,0,Big 12
+softball,LSU,Alabama,SEC Network,0.22,2024,1,Estimated,SEC regular season cable,0,1,0,SEC
+softball,Tennessee,Florida,ESPN,0.28,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Alabama,Ole Miss,ESPNU,0.15,2024,1,Estimated,SEC regular season cable,0,1,0,SEC
+softball,Florida,Florida State,ESPN2,0.24,2024,1,Estimated,In-state regular season,0,1,0,ACC
+softball,South Carolina,Clemson,SEC Network,0.19,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Texas,Oklahoma State,ESPN,0.31,2025,1,Estimated,Big 12 regular season,0,1,0,Big 12
+softball,Auburn,Tennessee,ESPN2,0.21,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Georgia,Tennessee,ESPN,0.27,2025,1,Estimated,SEC regular season,0,1,0,SEC
+softball,LSU,Mississippi State,SEC Network,0.2,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Oklahoma,Baylor,ESPN+,0.013,2024,1,Estimated,Streaming regular season,0,1,0,Big 12
+softball,Texas Tech,Baylor,ESPN+,0.011,2024,1,Estimated,Streaming regular season,0,1,0,Big 12
+softball,Missouri,Arkansas,ESPN+,0.015,2025,1,Estimated,Streaming regular season,0,1,0,SEC
+softball,Stanford,UCLA,ESPNU,0.16,2024,1,Estimated,Pac/ACC regular season,0,1,0,Pac-12
+softball,Washington,Oregon,ESPN2,0.17,2024,1,Estimated,Pac regular season,0,1,0,Pac-12
+softball,Florida,LSU,ESPNU,0.18,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Oklahoma,Kansas,ESPN+,0.013,2025,1,Estimated,Streaming regular season,0,1,0,Big 12
+softball,Texas A&M,Missouri,SEC Network,0.17,2024,1,Estimated,SEC regular season,0,1,0,SEC
+softball,Louisiana,Louisiana Tech,ESPN+,0.005,2024,1,Estimated,Streaming regular season,0,1,0,Sun Belt
+softball,James Madison,Liberty,ESPN+,0.005,2024,1,Estimated,Streaming regular season,0,1,0,Sun Belt
+softball,Duke,North Carolina,ACC Network,0.08,2024,1,Estimated,ACC regular season,0,1,0,ACC
+softball,UCLA,Oregon,ESPN2,0.14,2024,1,Estimated,Pac regular season,0,1,0,Pac-12
+softball,Florida State,Miami,ACC Network,0.09,2024,1,Estimated,ACC regular season,0,1,0,ACC
+softball,Nebraska,Oklahoma,ESPN,0.26,2025,1,Estimated,Big Ten/Big 12 crossover,0,1,0,Big Ten
+softball,Texas,Stanford,ESPN+,0.012,2025,1,Estimated,Streaming regular season,0,1,0,SEC
+softball,Alabama,LSU,ESPN,0.35,2024,1,Estimated,SEC marquee regular season,0,1,0,SEC
+softball,Oklahoma,UCLA,ESPN,0.29,2024,1,Estimated,Top-25 regular season,0,1,0,Big 12
+softball,BYU,Utah,ESPN+,0.008,2024,1,Estimated,Streaming regular season,0,1,0,Big 12
+softball,Kentucky,Tennessee,SEC Network,0.16,2024,1,Estimated,SEC regular season rivalry,1,1,0,SEC
+baseball,Texas A&M,LSU,ESPN,0.382,2026,0,Sports Business Journal,Apr 17 regular season,0,1,0,SEC
+baseball,LSU,Arkansas,ESPN2,0.28,2024,1,ESPN Press Room,Mar 28 primetime regular season,0,1,0,SEC
+baseball,Florida,LSU,SEC Network,0.18,2024,1,Estimated,SEC weekend series,0,1,0,SEC
+baseball,Florida,Vanderbilt,ESPN2,0.22,2024,1,ESPN Press Room,Apr 19 regular season,0,1,0,SEC
+baseball,Mississippi State,Ole Miss,ESPN2,0.2,2024,1,ESPN Press Room,Apr 13 regular season rivalry,1,1,0,SEC
+baseball,Vanderbilt,LSU,ESPN2,0.25,2024,1,ESPN Press Room,Apr 4 regular season,0,1,0,SEC
+baseball,Tennessee,Vanderbilt,ESPN2,0.21,2024,1,ESPN Press Room,May 12 regular season,0,1,0,SEC
+baseball,Florida State,Florida,ESPN2,0.23,2024,1,ESPN Press Room,Apr 9 regular season,0,1,0,ACC
+baseball,Wake Forest,Clemson,ESPNU,0.13,2024,1,Estimated,ACC regular season,0,1,0,ACC
+baseball,Oregon State,Oregon,ESPN2,0.19,2024,1,ESPN Press Room,Apr 27 regular season,0,1,0,Pac-12
+baseball,North Carolina,Duke,ACC Network,0.09,2024,1,Estimated,ACC rivalry regular season,1,1,0,ACC
+baseball,Miami,Florida State,ACC Network,0.1,2024,1,Estimated,ACC regular season,0,1,0,ACC
+baseball,Louisville,Vanderbilt,ESPN2,0.17,2024,1,ESPN Press Room,May 7 regular season,0,1,0,SEC
+baseball,Alabama,Auburn,SEC Network,0.16,2024,1,Estimated,SEC rivalry regular season,1,1,0,SEC
+baseball,Georgia,Georgia Tech,ACC Network,0.11,2024,1,Estimated,In-state regular season,0,1,0,ACC
+baseball,TCU,Texas,ESPN+,0.014,2024,1,Estimated,Streaming regular season,0,1,0,Big 12
+baseball,Oklahoma,Texas,ESPN+,0.016,2024,1,Estimated,Streaming regular season,0,1,0,SEC
+baseball,Mississippi State,LSU,SEC Network,0.17,2024,1,Estimated,SEC regular season,0,1,0,SEC
+baseball,Texas,Stanford,ESPNU,0.11,2024,1,Estimated,Non-con regular season,0,1,0,SEC
+baseball,Arkansas,Ole Miss,SEC Network,0.15,2024,1,Estimated,SEC regular season,0,1,0,SEC
+baseball,Kentucky,Louisville,ESPN2,0.14,2024,1,Estimated,Rivalry regular season,1,1,0,SEC
+baseball,West Virginia,Texas Tech,ESPN+,0.026,2025,0,Arizona spreadsheet,Reported streaming regular season,0,1,0,Big 12
+baseball,Rice,Houston,FloCollege,0.008,2024,1,Estimated,Streaming regular season,0,1,0,AAC
+baseball,Coastal Carolina,South Carolina,ESPNU,0.1,2024,1,Estimated,Non-con regular season,0,1,0,Sun Belt
+baseball,East Carolina,NC State,ESPNU,0.11,2024,1,Estimated,Non-con regular season,0,1,0,AAC
+baseball,Cal State Fullerton,LSU,ESPNU,0.12,2024,1,Estimated,Non-con regular season,0,1,0,SEC
+baseball,Arizona,Texas,ESPN+,0.045,2025,0,Arizona spreadsheet,Reported streaming regular season,0,1,0,Big 12
+baseball,Arizona,Oklahoma State,ESPN+,0.0055,2025,0,Arizona spreadsheet,Reported streaming regular season,0,1,0,Big 12
+baseball,Arizona,Stanford,ESPN+,0.0104,2025,0,Arizona spreadsheet,Reported streaming regular season,0,1,0,Big 12
