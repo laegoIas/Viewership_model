@@ -35,6 +35,7 @@ womens_basketball,network,ESPN,,476000,network_avg_per_game,2023-24,ESPN 2024 in
 womens_basketball,network,FS1,,134000,network_avg_per_game,2023-24,Sports Business Journal,
 womens_basketball,network,Big Ten Network,,101000,network_avg_per_game,2023-24,Sports Business Journal,
 softball,network,ESPN,,292000,network_avg_per_game,2026,ESPN Press Room,Regular season platform avg
+softball,network,ESPN,,190000,network_avg_per_game,2024,ESPN Press Room,Regular season platform avg
 softball,network,ESPN,,570000,reported_game,2024,ESPN Press Room,Alabama vs Auburn
 softball,game,Arizona vs Alabama,ESPN+,13159,reported_game,2025,Arizona spreadsheet,Regular season streaming
 softball,network,WCWS,,1300000,network_avg_per_game,2025,ESPN Press Room,Postseason avg
@@ -43,6 +44,9 @@ softball,team,Arizona,,88,team_popularity_proxy,,,Historic WCWS brand
 softball,team,Oklahoma,,95,team_popularity_proxy,,,Top WCWS draw
 baseball,network,MCWS,,1560000,network_avg_per_game,2024,Sports Media Watch,Tournament avg
 baseball,network,MCWS Final,,2820000,network_avg_per_game,2024,Sports Media Watch,
-baseball,network,ESPN+,,5000,reported_game,,Arizona spreadsheet,Estimated streaming tier
+baseball,network,ESPN,,130000,network_avg_per_game,2026,Sports Business Journal,Regular season linear avg
+baseball,network,ESPN2,,110000,network_avg_per_game,2026,Estimated,Regular season cable tier
+baseball,network,SEC Network,,80000,network_avg_per_game,2024,Estimated,Regular season cable tier
+baseball,network,ESPN+,,8000,reported_game,,Arizona spreadsheet,Streaming regular season tier
 baseball,team,Clemson,,68,team_popularity_proxy,,,Strong ACC
 baseball,team,Coastal Carolina,,55,team_popularity_proxy,,,Mid-major champion history
