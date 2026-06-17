@@ -6,6 +6,8 @@ When committing or pushing this project, always use:
 - **Branch:** `main`
 - **Push command:** `py scripts/push.py` (after committing)
 
+After making and committing changes, **always push to `main`** on `origin` (use `py scripts/push.py` or `git push origin main`). Do not leave commits only on the local machine unless push fails (e.g. auth); report push failures clearly.
+
 If `origin` points elsewhere, reset it before pushing:
 
 ```bash
