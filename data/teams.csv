@@ -9,18 +9,17 @@ Alabama A&M,SWAC,30.8,1.0,baseball
 Alcorn,SWAC,28.0,1.0,baseball
 American,Patriot,34.0,1.0,baseball
 App State,Sun Belt,63.7,1.0,baseball
-Arizona,Big 12,95.0,1.0,baseball
+Arizona,Big 12,80.0,1.0,baseball
 Arizona  State,Big 12,72.3,1.0,baseball
-Arizona State,Big 12,95.0,1.0,baseball
 Ark.-Pine Bluff,SWAC,28.3,1.0,baseball
 Arkansas,SEC,86.6,1.0,baseball
 Arkansas  State,Sun Belt,64.2,1.0,baseball
 Army West Point,Patriot,31.2,1.0,baseball
 Auburn,SEC,83.4,1.0,baseball
 Austin Peay,ASUN,43.8,1.0,baseball
-BYU,Big 12,95.0,1.0,baseball
+BYU,Big 12,74.8,1.0,baseball
 Ball  State,MAC,40.0,1.0,baseball
-Baylor,Big 12,59.6,1.0,baseball
+Baylor,Big 12,72.0,1.0,baseball
 Bellarmine,ASUN,38.3,1.0,baseball
 Belmont,MVC,47.6,1.0,baseball
 Bethune-Cookman,SWAC,30.6,1.0,baseball
@@ -37,7 +36,7 @@ Buffalo,MAC,42.6,1.0,baseball
 Butler,Big East,48.0,1.0,baseball
 CSU Bakersfield,Big West,35.5,1.0,baseball
 CSUN,Big West,41.6,1.0,baseball
-Cal Poly,Big 12,95.0,1.0,baseball
+Cal Poly,Big West,38.6,1.0,baseball
 Cal St. Fullerton,Big West,40.5,1.0,baseball
 California,ACC,76.6,1.0,baseball
 California Baptist,WAC,38.2,1.0,baseball
@@ -50,10 +49,10 @@ Charleston So.,Big South,35.4,1.0,baseball
 Charlotte,American,58.0,1.0,baseball
 Chattanooga,SoCon,36.3,1.0,baseball
 Chicago  State,NEC,28.0,1.0,baseball
-Cincinnati,Big 12,55.8,1.0,baseball
-Clemson,Big 12,77.0,1.0,baseball
+Cincinnati,Big 12,72.8,1.0,baseball
+Clemson,ACC,68.0,1.0,baseball
 Cleveland  State,Horizon,33.0,1.0,baseball
-Coastal Carolina,Big 12,95.0,1.0,baseball
+Coastal Carolina,Sun Belt,55.0,1.0,baseball
 Col. of Charleston,CAA,46.8,1.0,baseball
 Colgate,Patriot,34.8,1.0,baseball
 Colorado,Big 12,72.3,1.0,baseball
@@ -104,7 +103,7 @@ Georgia  State,Sun Belt,58.6,1.0,baseball
 Georgia Tech,ACC,71.4,1.0,baseball
 Gonzaga,WCC,52.9,1.0,baseball
 Grambling,SWAC,28.6,1.0,baseball
-Grand Canyon,Non-Conference,88.9,1.0,baseball
+Grand Canyon,Mountain West,52.2,1.0,baseball
 Green Bay,Horizon,36.8,1.0,baseball
 Hampton,CAA,42.3,1.0,baseball
 Harvard,Ivy League,35.6,1.0,baseball
@@ -112,7 +111,7 @@ Hawaii,Big West,44.1,1.0,baseball
 High Point,Big South,42.5,1.0,baseball
 Hofstra,CAA,47.3,1.0,baseball
 Holy Cross,Patriot,31.0,1.0,baseball
-Houston,Big 12,95.0,1.0,baseball
+Houston,Big 12,77.6,1.0,baseball
 Houston Christian,Southland,29.8,1.0,baseball
 Howard,MEAC,31.3,1.0,baseball
 IU Indy,Horizon,30.9,1.0,baseball
@@ -129,7 +128,7 @@ Jackson  State,SWAC,28.0,1.0,baseball
 Jacksonville,ASUN,37.8,1.0,baseball
 Jacksonville  State,CUSA,51.4,1.0,baseball
 James Madison,Sun Belt,62.8,1.0,baseball
-Kansas,Big 12,58.2,1.0,baseball
+Kansas,Big 12,75.3,1.0,baseball
 Kansas  State,Big 12,69.8,1.0,baseball
 Kansas City,Summit League,28.0,1.0,baseball
 Kennesaw  State,CUSA,53.8,1.0,baseball
@@ -151,7 +150,7 @@ Long Beach  State,Big West,36.6,1.0,baseball
 Longwood,Big South,36.0,1.0,baseball
 Louisiana,Sun Belt,59.0,1.0,baseball
 Louisiana Tech,CUSA,53.6,1.0,baseball
-Louisville,Big 12,95.0,1.0,baseball
+Louisville,ACC,77.3,1.0,baseball
 Loyola Chicago,Atlantic 10,51.9,1.0,baseball
 Loyola Maryland,Patriot,31.8,1.0,baseball
 Maine,America East,31.5,1.0,baseball
@@ -174,11 +173,10 @@ Middle Tenn.,CUSA,52.6,1.0,baseball
 Milwaukee,Horizon,33.8,1.0,baseball
 Minnesota,Big Ten,67.2,1.0,baseball
 Mississippi  State,SEC,80.3,1.0,baseball
-Mississippi State,Big 12,77.0,1.0,baseball
 Mississippi Val.,SWAC,28.0,1.0,baseball
 Missouri,SEC,83.9,1.0,baseball
 Missouri  State,CUSA,51.5,1.0,baseball
-Monmouth,CAA,45.1,1.0,baseball
+Monmouth,CAA,42.3,1.0,baseball
 Montana,Big Sky,32.5,1.0,baseball
 Montana  State,Big Sky,33.1,1.0,baseball
 Morehead  State,OVC,33.9,1.0,baseball
@@ -193,15 +191,14 @@ Nebraska,Big Ten,73.4,1.0,baseball
 Nevada,Mountain West,52.7,1.0,baseball
 New Hampshire,America East,32.4,1.0,baseball
 New Haven,NEC,31.1,1.0,baseball
-New Mexico,Non-Conference,79.5,1.0,baseball
+New Mexico,Mountain West,53.6,1.0,baseball
 New Mexico  State,CUSA,52.0,1.0,baseball
-New Mexico State,Non-Conference,52.4,1.0,baseball
 New Orleans,Southland,31.2,1.0,baseball
 Niagara,MAAC,28.0,1.0,baseball
 Nicholls,Southland,30.6,1.0,baseball
 Norfolk  State,MEAC,28.0,1.0,baseball
 North Ala.,ASUN,36.4,1.0,baseball
-North Carolina,Big 12,95.0,1.0,baseball
+North Carolina,ACC,78.1,1.0,baseball
 North Carolina A&T,CAA,41.6,1.0,baseball
 North Carolina Central,MEAC,28.0,1.0,baseball
 North Dakota,Summit League,34.3,1.0,baseball
@@ -220,9 +217,8 @@ Ohio,MAC,41.4,1.0,baseball
 Ohio  State,Big Ten,70.1,1.0,baseball
 Oklahoma,SEC,83.2,1.0,baseball
 Oklahoma  State,Big 12,73.3,1.0,baseball
-Oklahoma State,Big 12,73.8,1.0,baseball
 Old Dominion,Sun Belt,59.5,1.0,baseball
-Ole Miss,Big 12,77.0,1.0,baseball
+Ole Miss,SEC,80.7,1.0,baseball
 Omaha,Summit League,33.7,1.0,baseball
 Oral Roberts,Summit League,30.5,1.0,baseball
 Oregon,Big Ten,65.8,1.0,baseball
@@ -230,7 +226,7 @@ Oregon  State,WCC,46.3,1.0,baseball
 Pacific,WCC,46.8,1.0,baseball
 Penn,Ivy League,35.8,1.0,baseball
 Penn  State,Big Ten,65.8,1.0,baseball
-Pepperdine,Non-Conference,52.1,1.0,baseball
+Pepperdine,WCC,42.1,1.0,baseball
 Pittsburgh,ACC,72.1,1.0,baseball
 Portland,WCC,44.9,1.0,baseball
 Portland  State,Big Sky,34.6,1.0,baseball
@@ -244,7 +240,7 @@ Queens (NC),ASUN,41.8,1.0,baseball
 Quinnipiac,MAAC,31.7,1.0,baseball
 Radford,Big South,36.0,1.0,baseball
 Rhode Island,Atlantic 10,56.0,1.0,baseball
-Rice,Non-Conference,95.0,1.0,baseball
+Rice,American,56.5,1.0,baseball
 Richmond,Atlantic 10,55.4,1.0,baseball
 Rider,MAAC,28.0,1.0,baseball
 Robert Morris,Horizon,39.0,1.0,baseball
@@ -263,12 +259,12 @@ Saint Peter's,MAAC,31.6,1.0,baseball
 Saint Thomas (MN),Summit League,37.7,1.0,baseball
 Sam Houston,CUSA,54.6,1.0,baseball
 Samford,SoCon,39.1,1.0,baseball
-San Diego,Non-Conference,86.0,1.0,baseball
+San Diego,WCC,43.5,1.0,baseball
 San Diego  State,Mountain West,53.0,1.0,baseball
 San Francisco,WCC,46.3,1.0,baseball
 San Jose  State,Mountain West,45.9,1.0,baseball
 Santa Clara,WCC,50.4,1.0,baseball
-Seattle U,Non-Conference,75.6,1.0,baseball
+Seattle U,WCC,47.8,1.0,baseball
 Seton Hall,Big East,50.5,1.0,baseball
 Siena,MAAC,32.8,1.0,baseball
 South Alabama,Sun Belt,64.5,1.0,baseball
@@ -291,17 +287,17 @@ Stetson,ASUN,37.5,1.0,baseball
 Stonehill,NEC,29.5,1.0,baseball
 Stony Brook,CAA,44.6,1.0,baseball
 Syracuse,ACC,73.4,1.0,baseball
-TCU,Big 12,95.0,1.0,baseball
+TCU,Big 12,74.8,1.0,baseball
 Tarleton  State,WAC,32.9,1.0,baseball
 Temple,American,58.0,1.0,baseball
-Tennessee,Big 12,77.0,1.0,baseball
+Tennessee,SEC,85.2,1.0,baseball
 Tennessee  State,OVC,35.5,1.0,baseball
 Tennessee Tech,OVC,30.5,1.0,baseball
 Texas,SEC,83.5,1.0,baseball
 Texas  State,Sun Belt,63.7,1.0,baseball
-Texas A&M,Big 12,77.0,1.0,baseball
+Texas A&M,SEC,84.6,1.0,baseball
 Texas Southern,SWAC,28.2,1.0,baseball
-Texas Tech,Big 12,95.0,1.0,baseball
+Texas Tech,Big 12,75.2,1.0,baseball
 The Citadel,SoCon,35.0,1.0,baseball
 Toledo,MAC,43.1,1.0,baseball
 Towson,CAA,45.1,1.0,baseball
@@ -330,15 +326,15 @@ UNCW,CAA,49.3,1.0,baseball
 UNI,MVC,44.5,1.0,baseball
 UNLV,Mountain West,50.3,1.0,baseball
 USC Upstate,Big South,34.3,1.0,baseball
-UT Arlington,Non-Conference,50.5,1.0,baseball
+UT Arlington,WAC,35.1,1.0,baseball
 UT Martin,OVC,35.0,1.0,baseball
 UTEP,CUSA,49.4,1.0,baseball
 UTRGV,Southland,33.4,1.0,baseball
 UTSA,American,52.0,1.0,baseball
-Utah,Big 12,95.0,1.0,baseball
+Utah,Big 12,68.6,1.0,baseball
 Utah  State,Mountain West,55.5,1.0,baseball
 Utah Tech,WAC,35.1,1.0,baseball
-Utah Valley,Big 12,95.0,1.0,baseball
+Utah Valley,WAC,38.2,1.0,baseball
 VCU,Atlantic 10,61.0,1.0,baseball
 VMI,SoCon,32.4,1.0,baseball
 Valparaiso,MVC,42.8,1.0,baseball
@@ -353,7 +349,7 @@ Washington,Big Ten,67.7,1.0,baseball
 Washington  State,WCC,43.8,1.0,baseball
 Weber  State,Big Sky,32.0,1.0,baseball
 West Ga.,ASUN,39.4,1.0,baseball
-West Virginia,Big 12,95.0,1.0,baseball
+West Virginia,Big 12,73.8,1.0,baseball
 Western Caro.,SoCon,37.7,1.0,baseball
 Western Ill.,OVC,28.0,1.0,baseball
 Western Ky.,CUSA,53.1,1.0,baseball
@@ -368,9 +364,7 @@ Wyoming,Mountain West,50.8,1.0,baseball
 Xavier,Big East,47.2,1.0,baseball
 Yale,Ivy League,38.9,1.0,baseball
 Youngstown  State,Horizon,35.4,1.0,baseball
-Arizona,Big 12,95.0,1.0,beach volleyball
-Arizona State,Big 12,95.0,1.0,beach volleyball
-Utah,Big 12,95.0,1.0,beach volleyball
+Arizona,Big 12,43.0,1.0,beach volleyball
 Abilene Christian,United Athletic,39.6,1.0,football
 Air Force,Mountain West,49.0,1.0,football
 Akron,MAC,43.5,1.0,football
@@ -379,18 +373,17 @@ Alabama  State,SWAC,36.0,1.0,football
 Alabama A&M,SWAC,28.0,1.0,football
 Alcorn,SWAC,28.5,1.0,football
 App State,Sun Belt,45.9,1.0,football
-Arizona,Big 12,95.0,1.0,football
+Arizona,Big 12,94.0,1.0,football
 Arizona  State,Big 12,88.1,1.0,football
-Arizona State,Big 12,95.0,1.0,football
 Ark.-Pine Bluff,SWAC,28.0,1.0,football
 Arkansas,SEC,89.0,1.0,football
 Arkansas  State,Sun Belt,48.7,1.0,football
 Army West Point,American,55.7,1.0,football
 Auburn,SEC,93.5,1.0,football
 Austin Peay,United Athletic,38.5,1.0,football
-BYU,Big 12,95.0,1.0,football
+BYU,Big 12,92.4,1.0,football
 Ball  State,MAC,42.0,1.0,football
-Baylor,Big 12,84.6,1.0,football
+Baylor,Big 12,84.5,1.0,football
 Bethune-Cookman,SWAC,30.0,1.0,football
 Boise  State,Mountain West,54.6,1.0,football
 Boston College,ACC,66.0,1.0,football
@@ -409,12 +402,11 @@ Central Mich.,MAC,45.7,1.0,football
 Charleston So.,Big South-OVC,36.5,1.0,football
 Charlotte,American,47.5,1.0,football
 Chattanooga,SoCon,36.5,1.0,football
-Cincinatti,Big 12,95.0,1.0,football
 Cincinnati,Big 12,86.7,1.0,football
 Clemson,ACC,72.7,1.0,football
 Coastal Carolina,Sun Belt,47.3,1.0,football
 Colgate,Patriot,31.5,1.0,football
-Colorado,Big 12,95.0,1.0,football
+Colorado,Big 12,81.5,1.0,football
 Colorado  State,Mountain West,46.0,1.0,football
 Columbia,Ivy League,28.6,1.0,football
 Cornell,Ivy League,32.2,1.0,football
@@ -451,9 +443,9 @@ Georgia Tech,ACC,75.5,1.0,football
 Grambling,SWAC,31.5,1.0,football
 Hampton,CAA,34.0,1.0,football
 Harvard,Ivy League,39.7,1.0,football
-Hawaii,Non-Conference,86.6,1.0,football
+Hawaii,Mountain West,55.5,1.0,football
 Holy Cross,Patriot,28.5,1.0,football
-Houston,Big 12,91.8,1.0,football
+Houston,Big 12,90.8,1.0,football
 Houston Christian,Southland,30.0,1.0,football
 Howard,MEAC,28.5,1.0,football
 Idaho,Big Sky,39.0,1.0,football
@@ -464,13 +456,11 @@ Indiana,Big Ten,95.0,1.0,football
 Indiana  State,MVFC,39.5,1.0,football
 Iowa,Big Ten,91.5,1.0,football
 Iowa  State,Big 12,89.0,1.0,football
-Iowa State,Big 12,95.0,1.0,football
 Jackson  State,SWAC,34.5,1.0,football
 Jacksonville  State,CUSA,46.6,1.0,football
 James Madison,Sun Belt,54.4,1.0,football
-Kansas,Big 12,95.0,1.0,football
+Kansas,Big 12,84.5,1.0,football
 Kansas  State,Big 12,86.0,1.0,football
-Kansas State,Big 12,95.0,1.0,football
 Kennesaw  State,CUSA,47.9,1.0,football
 Kent  State,MAC,43.5,1.0,football
 Kentucky,SEC,93.5,1.0,football
@@ -504,7 +494,7 @@ Mississippi  State,SEC,92.9,1.0,football
 Mississippi Val.,SWAC,28.0,1.0,football
 Missouri,SEC,95.0,1.0,football
 Missouri  State,CUSA,44.7,1.0,football
-Monmouth,CAA,44.5,1.0,football
+Monmouth,CAA,42.8,1.0,football
 Montana,Big Sky,48.6,1.0,football
 Montana  State,Big Sky,48.6,1.0,football
 Morehead  State,Pioneer,28.0,1.0,football
@@ -537,7 +527,6 @@ Ohio  State,Big Ten,94.4,1.0,football
 Ohio State,Unknown,86.0,1.0,football
 Oklahoma,SEC,85.0,1.0,football
 Oklahoma  State,Big 12,78.5,1.0,football
-Oklahoma State,Big 12,82.5,1.0,football
 Old Dominion,Sun Belt,52.8,1.0,football
 Ole Miss,SEC,95.0,1.0,football
 Oregon,Big Ten,94.6,1.0,football
@@ -556,7 +545,7 @@ Richmond,Patriot,34.5,1.0,football
 Robert Morris,NEC,28.0,1.0,football
 Rutgers,Big Ten,86.5,1.0,football
 SFA,Southland,41.1,1.0,football
-SMU,ACC,95.0,1.0,football
+SMU,ACC,75.5,1.0,football
 Sacramento  State,Big Sky,43.5,1.0,football
 Sacred Heart,FCS Independent,39.0,1.0,football
 Saint Francis,NEC,28.0,1.0,football
@@ -630,7 +619,6 @@ Wake Forest,ACC,75.5,1.0,football
 Washington,Big Ten,91.5,1.0,football
 Washington  State,Pac-12,70.7,1.0,football
 Weber  State,Big Sky,39.0,1.0,football
-Weber State,Non-Conference,53.5,1.0,football
 West Ga.,United Athletic,41.1,1.0,football
 West Virginia,Big 12,83.0,1.0,football
 Western Caro.,SoCon,39.5,1.0,football
@@ -643,49 +631,40 @@ Wofford,SoCon,38.0,1.0,football
 Wyoming,Mountain West,49.0,1.0,football
 Yale,Ivy League,38.5,1.0,football
 Youngstown  State,MVFC,46.1,1.0,football
-Air Force,Non-Conference,94.8,1.0,gymnastics
-Arizona,Big 12,95.0,1.0,gymnastics
-Arizona State,Big 12,95.0,1.0,gymnastics
-BYU,Big 12,95.0,1.0,gymnastics
-"Clemson, Michigan, NC State",Big 12,95.0,1.0,gymnastics
-Denver,Big 12,95.0,1.0,gymnastics
-Iowa State,Big 12,92.9,1.0,gymnastics
-Utah State,Non-Conference,95.0,1.0,gymnastics
+Arizona,Big 12,43.0,1.0,gymnastics
 A&M-Corpus Christi,Southland,37.8,1.0,mens_basketball
 Abilene Christian,WAC,42.6,1.0,mens_basketball
 Air Force,Mountain West,52.7,1.0,mens_basketball
-Akron,MAC,95.0,1.0,mens_basketball
+Akron,MAC,60.9,1.0,mens_basketball
 Alabama,SEC,81.9,1.0,mens_basketball
 Alabama  State,SWAC,30.6,1.0,mens_basketball
 Alabama A&M,SWAC,34.8,1.0,mens_basketball
 Alcorn,SWAC,30.1,1.0,mens_basketball
 American,Patriot,41.0,1.0,mens_basketball
 App State,Sun Belt,57.7,1.0,mens_basketball
-Arizona,Big 12,95.0,1.0,mens_basketball
+Arizona,Big 12,84.0,1.0,mens_basketball
 Arizona  State,Big 12,76.3,1.0,mens_basketball
-Arizona Red and Blue Showcase,Big 12,54.0,1.0,mens_basketball
-Arizona State,Big 12,95.0,1.0,mens_basketball
 Ark.-Pine Bluff,SWAC,32.3,1.0,mens_basketball
 Arkansas,SEC,82.6,1.0,mens_basketball
 Arkansas  State,Sun Belt,58.2,1.0,mens_basketball
 Army West Point,Patriot,38.2,1.0,mens_basketball
 Auburn,SEC,79.4,1.0,mens_basketball
 Austin Peay,ASUN,50.8,1.0,mens_basketball
-BYU,Big 12,95.0,1.0,mens_basketball
+BYU,Big 12,78.8,1.0,mens_basketball
 Ball  State,MAC,53.0,1.0,mens_basketball
-Baylor,Big 12,95.0,1.0,mens_basketball
+Baylor,Big 12,76.0,1.0,mens_basketball
 Bellarmine,ASUN,45.3,1.0,mens_basketball
 Belmont,MVC,63.6,1.0,mens_basketball
 Bethune-Cookman,SWAC,34.6,1.0,mens_basketball
-Binghamton,America East,43.3,1.0,mens_basketball
+Binghamton,America East,35.6,1.0,mens_basketball
 Boise  State,Mountain West,62.2,1.0,mens_basketball
 Boston College,ACC,72.4,1.0,mens_basketball
 Boston U.,Patriot,41.0,1.0,mens_basketball
 Bowling Green,MAC,56.1,1.0,mens_basketball
 Bradley,MVC,60.1,1.0,mens_basketball
 Brown,Ivy League,39.0,1.0,mens_basketball
-Bryant,America East,43.3,1.0,mens_basketball
-Bucknell,Non-Conference,43.3,1.0,mens_basketball
+Bryant,America East,36.2,1.0,mens_basketball
+Bucknell,Patriot,37.5,1.0,mens_basketball
 Buffalo,MAC,55.6,1.0,mens_basketball
 Butler,Big East,74.0,1.0,mens_basketball
 CSU Bakersfield,Big West,41.5,1.0,mens_basketball
@@ -696,35 +675,31 @@ California,ACC,77.6,1.0,mens_basketball
 California Baptist,WAC,48.2,1.0,mens_basketball
 Campbell,CAA,49.5,1.0,mens_basketball
 Canisius,MAAC,34.8,1.0,mens_basketball
-Canisius University,Non-Conference,77.7,1.0,mens_basketball
 Central Ark.,ASUN,49.6,1.0,mens_basketball
 Central Conn.  State,NEC,37.8,1.0,mens_basketball
 Central Mich.,MAC,51.8,1.0,mens_basketball
-Central Michigan,Non-Conference,76.9,1.0,mens_basketball
 Charleston So.,Big South,38.4,1.0,mens_basketball
 Charlotte,American,62.0,1.0,mens_basketball
 Chattanooga,SoCon,42.3,1.0,mens_basketball
 Chicago  State,NEC,30.9,1.0,mens_basketball
-Cincinnati,Big 12,95.0,1.0,mens_basketball
+Cincinnati,Big 12,76.8,1.0,mens_basketball
 Clemson,ACC,78.3,1.0,mens_basketball
 Cleveland  State,Horizon,46.0,1.0,mens_basketball
-Cleveland State,Non-Conference,43.3,1.0,mens_basketball
 Coastal Carolina,Sun Belt,57.7,1.0,mens_basketball
 Col. of Charleston,CAA,52.8,1.0,mens_basketball
 Colgate,Patriot,41.8,1.0,mens_basketball
-Colorado,Big 12,95.0,1.0,mens_basketball
+Colorado,Big 12,76.3,1.0,mens_basketball
 Colorado  State,Mountain West,62.1,1.0,mens_basketball
 Columbia,Ivy League,43.3,1.0,mens_basketball
 Coppin  State,MEAC,28.1,1.0,mens_basketball
 Cornell,Ivy League,42.6,1.0,mens_basketball
 Creighton,Big East,73.5,1.0,mens_basketball
 Dartmouth,Ivy League,40.3,1.0,mens_basketball
-Davidson,Non-Conference,95.0,1.0,mens_basketball
+Davidson,Atlantic 10,62.6,1.0,mens_basketball
 Dayton,Atlantic 10,64.2,1.0,mens_basketball
 DePaul,Big East,74.0,1.0,mens_basketball
 Delaware,CUSA,50.8,1.0,mens_basketball
 Delaware  State,MEAC,28.6,1.0,mens_basketball
-Delaware State,Non-Conference,43.3,1.0,mens_basketball
 Denver,Summit League,44.4,1.0,mens_basketball
 Detroit Mercy,Horizon,49.6,1.0,mens_basketball
 Drake,MVC,56.4,1.0,mens_basketball
@@ -737,7 +712,6 @@ East Texas A&M,Southland,34.2,1.0,mens_basketball
 Eastern Ill.,OVC,34.1,1.0,mens_basketball
 Eastern Ky.,ASUN,44.2,1.0,mens_basketball
 Eastern Mich.,MAC,51.8,1.0,mens_basketball
-Eastern New Mexico,Divsion II,67.3,1.0,mens_basketball
 Eastern Wash.,Big Sky,37.6,1.0,mens_basketball
 Elon,CAA,48.9,1.0,mens_basketball
 Evansville,MVC,52.9,1.0,mens_basketball
@@ -755,7 +729,7 @@ Furman,SoCon,46.3,1.0,mens_basketball
 Ga. Southern,Sun Belt,57.2,1.0,mens_basketball
 Gardner-Webb,Big South,32.2,1.0,mens_basketball
 George Mason,Atlantic 10,64.5,1.0,mens_basketball
-George Washington,Non-Conference,43.3,1.0,mens_basketball
+George Washington,Atlantic 10,61.8,1.0,mens_basketball
 Georgetown,Big East,73.5,1.0,mens_basketball
 Georgia,SEC,81.0,1.0,mens_basketball
 Georgia  State,Sun Belt,52.6,1.0,mens_basketball
@@ -770,7 +744,7 @@ Hawaii,Big West,50.1,1.0,mens_basketball
 High Point,Big South,45.5,1.0,mens_basketball
 Hofstra,CAA,53.3,1.0,mens_basketball
 Holy Cross,Patriot,38.0,1.0,mens_basketball
-Houston,Big 12,95.0,1.0,mens_basketball
+Houston,Big 12,81.6,1.0,mens_basketball
 Houston Christian,Southland,34.8,1.0,mens_basketball
 Howard,MEAC,36.3,1.0,mens_basketball
 IU Indy,Horizon,43.9,1.0,mens_basketball
@@ -783,15 +757,13 @@ Indiana  State,MVC,55.2,1.0,mens_basketball
 Iona,MAAC,39.1,1.0,mens_basketball
 Iowa,Big Ten,79.7,1.0,mens_basketball
 Iowa  State,Big 12,81.1,1.0,mens_basketball
-Iowa State,Big 12,95.0,1.0,mens_basketball
 Jackson  State,SWAC,31.5,1.0,mens_basketball
 Jacksonville,ASUN,44.8,1.0,mens_basketball
 Jacksonville  State,CUSA,53.4,1.0,mens_basketball
 James Madison,Sun Belt,56.8,1.0,mens_basketball
-Kansas,Big 12,95.0,1.0,mens_basketball
+Kansas,Big 12,84.0,1.0,mens_basketball
 Kansas  State,Big 12,73.8,1.0,mens_basketball
 Kansas City,Summit League,38.3,1.0,mens_basketball
-Kansas State,Big 12,95.0,1.0,mens_basketball
 Kennesaw  State,CUSA,55.8,1.0,mens_basketball
 Kent  State,MAC,58.7,1.0,mens_basketball
 Kentucky,SEC,85.0,1.0,mens_basketball
@@ -812,10 +784,9 @@ Longwood,Big South,39.0,1.0,mens_basketball
 Louisiana,Sun Belt,53.0,1.0,mens_basketball
 Louisiana Tech,CUSA,55.6,1.0,mens_basketball
 Louisville,ACC,78.3,1.0,mens_basketball
-Loyola (Md.),Non-Conference,43.3,1.0,mens_basketball
 Loyola Chicago,Atlantic 10,56.9,1.0,mens_basketball
 Loyola Maryland,Patriot,38.8,1.0,mens_basketball
-Maine,America East,43.3,1.0,mens_basketball
+Maine,America East,35.5,1.0,mens_basketball
 Manhattan,MAAC,35.8,1.0,mens_basketball
 Marist,MAAC,40.0,1.0,mens_basketball
 Marquette,Big East,71.8,1.0,mens_basketball
@@ -823,7 +794,6 @@ Marshall,Sun Belt,57.7,1.0,mens_basketball
 Maryland,Big Ten,74.5,1.0,mens_basketball
 Massachusetts,MAC,55.3,1.0,mens_basketball
 McNeese,Southland,42.8,1.0,mens_basketball
-Medgar Evers,Non-Conference,43.3,1.0,mens_basketball
 Memphis,American,60.3,1.0,mens_basketball
 Mercer,SoCon,45.7,1.0,mens_basketball
 Mercyhurst,NEC,36.0,1.0,mens_basketball
@@ -839,22 +809,20 @@ Mississippi  State,SEC,76.3,1.0,mens_basketball
 Mississippi Val.,SWAC,28.0,1.0,mens_basketball
 Missouri,SEC,79.9,1.0,mens_basketball
 Missouri  State,CUSA,53.5,1.0,mens_basketball
-Monmouth,CAA,51.1,1.0,mens_basketball
+Monmouth,CAA,58.0,1.0,mens_basketball
 Montana,Big Sky,39.5,1.0,mens_basketball
 Montana  State,Big Sky,40.1,1.0,mens_basketball
 Morehead  State,OVC,37.9,1.0,mens_basketball
-Morehead State,OVC,43.3,1.0,mens_basketball
 Morgan  State,MEAC,32.4,1.0,mens_basketball
-Morgan State,Non-Conference,43.3,1.0,mens_basketball
 Mount St. Mary's,MAAC,37.4,1.0,mens_basketball
 Murray  State,MVC,59.9,1.0,mens_basketball
 NC State,ACC,76.6,1.0,mens_basketball
 NIU,MAC,51.4,1.0,mens_basketball
-NJIT,America East,80.4,1.0,mens_basketball
-Navy,Non-Conference,43.3,1.0,mens_basketball
+NJIT,America East,48.0,1.0,mens_basketball
+Navy,Patriot,45.8,1.0,mens_basketball
 Nebraska,Big Ten,82.4,1.0,mens_basketball
 Nevada,Mountain West,62.7,1.0,mens_basketball
-New Hampshire,America East,43.3,1.0,mens_basketball
+New Hampshire,America East,36.4,1.0,mens_basketball
 New Haven,NEC,35.1,1.0,mens_basketball
 New Mexico,Mountain West,63.6,1.0,mens_basketball
 New Mexico  State,CUSA,54.0,1.0,mens_basketball
@@ -880,21 +848,19 @@ Notre Dame,ACC,73.5,1.0,mens_basketball
 Oakland,Horizon,49.0,1.0,mens_basketball
 Ohio,MAC,54.4,1.0,mens_basketball
 Ohio  State,Big Ten,79.1,1.0,mens_basketball
-Oklahoma,Non-Conference,95.0,1.0,mens_basketball
+Oklahoma,SEC,79.2,1.0,mens_basketball
 Oklahoma  State,Big 12,77.3,1.0,mens_basketball
-Oklahoma State,Big 12,95.0,1.0,mens_basketball
-Old Dominion,Non-Conference,89.2,1.0,mens_basketball
+Old Dominion,Sun Belt,53.5,1.0,mens_basketball
 Ole Miss,SEC,76.7,1.0,mens_basketball
 Omaha,Summit League,44.7,1.0,mens_basketball
 Oral Roberts,Summit League,41.5,1.0,mens_basketball
-Oregon,Big Ten,95.0,1.0,mens_basketball
+Oregon,Big Ten,74.8,1.0,mens_basketball
 Oregon  State,WCC,57.3,1.0,mens_basketball
 Pacific,WCC,57.8,1.0,mens_basketball
-Penn,Non-Conference,43.3,1.0,mens_basketball
+Penn,Ivy League,43.8,1.0,mens_basketball
 Penn  State,Big Ten,74.8,1.0,mens_basketball
 Pepperdine,WCC,53.1,1.0,mens_basketball
 Pittsburgh,ACC,73.1,1.0,mens_basketball
-Point Loma,Divsion II,74.3,1.0,mens_basketball
 Portland,WCC,55.9,1.0,mens_basketball
 Portland  State,Big Sky,41.6,1.0,mens_basketball
 Prairie View,SWAC,34.2,1.0,mens_basketball
@@ -925,14 +891,14 @@ Saint Mary's,WCC,62.7,1.0,mens_basketball
 Saint Peter's,MAAC,39.6,1.0,mens_basketball
 Saint Thomas (MN),Summit League,48.7,1.0,mens_basketball
 Sam Houston,CUSA,56.6,1.0,mens_basketball
-Samford,Non-Conference,90.7,1.0,mens_basketball
+Samford,SoCon,45.1,1.0,mens_basketball
 San Diego,WCC,54.5,1.0,mens_basketball
 San Diego  State,Mountain West,63.0,1.0,mens_basketball
 San Francisco,WCC,57.3,1.0,mens_basketball
 San Jose  State,Mountain West,55.9,1.0,mens_basketball
 Santa Clara,WCC,61.4,1.0,mens_basketball
 Seattle U,WCC,58.8,1.0,mens_basketball
-Seton Hall,Non-Conference,95.0,1.0,mens_basketball
+Seton Hall,Big East,76.5,1.0,mens_basketball
 Siena,MAAC,40.8,1.0,mens_basketball
 South Alabama,Sun Belt,58.5,1.0,mens_basketball
 South Carolina,SEC,76.3,1.0,mens_basketball
@@ -947,14 +913,14 @@ Southern Ill.,MVC,58.0,1.0,mens_basketball
 Southern Ind.,OVC,31.2,1.0,mens_basketball
 Southern Miss.,Sun Belt,56.8,1.0,mens_basketball
 Southern U.,SWAC,34.0,1.0,mens_basketball
-Southern Utah,Non-Conference,95.0,1.0,mens_basketball
+Southern Utah,WAC,40.6,1.0,mens_basketball
 St. John's,Big East,79.6,1.0,mens_basketball
 Stanford,ACC,76.9,1.0,mens_basketball
 Stetson,ASUN,44.5,1.0,mens_basketball
 Stonehill,NEC,33.5,1.0,mens_basketball
 Stony Brook,CAA,50.6,1.0,mens_basketball
 Syracuse,ACC,74.4,1.0,mens_basketball
-TCU,Big 12,95.0,1.0,mens_basketball
+TCU,Big 12,78.8,1.0,mens_basketball
 Tarleton  State,WAC,42.9,1.0,mens_basketball
 Temple,American,62.0,1.0,mens_basketball
 Tennessee,SEC,81.2,1.0,mens_basketball
@@ -964,7 +930,7 @@ Texas,SEC,79.5,1.0,mens_basketball
 Texas  State,Sun Belt,57.7,1.0,mens_basketball
 Texas A&M,SEC,80.6,1.0,mens_basketball
 Texas Southern,SWAC,32.2,1.0,mens_basketball
-Texas Tech,Big 12,95.0,1.0,mens_basketball
+Texas Tech,Big 12,79.2,1.0,mens_basketball
 The Citadel,SoCon,41.0,1.0,mens_basketball
 Toledo,MAC,56.1,1.0,mens_basketball
 Towson,CAA,51.1,1.0,mens_basketball
@@ -972,22 +938,21 @@ Troy,Sun Belt,58.6,1.0,mens_basketball
 Tulane,American,62.8,1.0,mens_basketball
 Tulsa,American,67.2,1.0,mens_basketball
 UAB,American,64.2,1.0,mens_basketball
-UAlbany,America East,43.3,1.0,mens_basketball
+UAlbany,America East,37.2,1.0,mens_basketball
 UC Davis,Big West,47.4,1.0,mens_basketball
 UC Irvine,Big West,48.8,1.0,mens_basketball
 UC Riverside,Big West,42.6,1.0,mens_basketball
 UC San Diego,Big West,49.2,1.0,mens_basketball
 UC Santa Barbara,Big West,47.1,1.0,mens_basketball
-UCF,Big 12,95.0,1.0,mens_basketball
-UCLA,Non-Conference,95.0,1.0,mens_basketball
+UCF,Big 12,78.5,1.0,mens_basketball
+UCLA,Big Ten,80.0,1.0,mens_basketball
 UConn,Big East,82.0,1.0,mens_basketball
 UIC,MVC,58.8,1.0,mens_basketball
 UIW,Southland,35.0,1.0,mens_basketball
 ULM,Sun Belt,49.2,1.0,mens_basketball
-UMBC,America East,43.3,1.0,mens_basketball
+UMBC,America East,44.1,1.0,mens_basketball
 UMES,MEAC,29.1,1.0,mens_basketball
-UMass,Non-Conference,43.3,1.0,mens_basketball
-UMass Lowell,America East,43.3,1.0,mens_basketball
+UMass Lowell,America East,39.2,1.0,mens_basketball
 UNC Asheville,Big South,38.4,1.0,mens_basketball
 UNC Greensboro,SoCon,42.9,1.0,mens_basketball
 UNCW,CAA,55.3,1.0,mens_basketball
@@ -999,7 +964,7 @@ UT Martin,OVC,39.0,1.0,mens_basketball
 UTEP,CUSA,51.4,1.0,mens_basketball
 UTRGV,Southland,38.4,1.0,mens_basketball
 UTSA,American,56.0,1.0,mens_basketball
-Utah,Big 12,95.0,1.0,mens_basketball
+Utah,Big 12,72.6,1.0,mens_basketball
 Utah  State,Mountain West,65.5,1.0,mens_basketball
 Utah Tech,WAC,45.1,1.0,mens_basketball
 Utah Valley,WAC,48.2,1.0,mens_basketball
@@ -1007,17 +972,17 @@ VCU,Atlantic 10,66.0,1.0,mens_basketball
 VMI,SoCon,38.4,1.0,mens_basketball
 Valparaiso,MVC,58.8,1.0,mens_basketball
 Vanderbilt,SEC,82.5,1.0,mens_basketball
-Vermont,America East,43.3,1.0,mens_basketball
-Villanova,Non-Conference,95.0,1.0,mens_basketball
+Vermont,America East,42.6,1.0,mens_basketball
+Villanova,Big East,72.0,1.0,mens_basketball
 Virginia,ACC,81.0,1.0,mens_basketball
 Virginia Tech,ACC,76.7,1.0,mens_basketball
-Wagner,Non-Conference,43.3,1.0,mens_basketball
+Wagner,NEC,35.1,1.0,mens_basketball
 Wake Forest,ACC,75.3,1.0,mens_basketball
-Washington,Non-Conference,95.0,1.0,mens_basketball
+Washington,Big Ten,76.7,1.0,mens_basketball
 Washington  State,WCC,54.8,1.0,mens_basketball
 Weber  State,Big Sky,39.0,1.0,mens_basketball
 West Ga.,ASUN,46.4,1.0,mens_basketball
-West Virginia,Big 12,95.0,1.0,mens_basketball
+West Virginia,Big 12,77.8,1.0,mens_basketball
 Western Caro.,SoCon,43.7,1.0,mens_basketball
 Western Ill.,OVC,29.9,1.0,mens_basketball
 Western Ky.,CUSA,55.1,1.0,mens_basketball
@@ -1025,52 +990,33 @@ Western Mich.,MAC,51.8,1.0,mens_basketball
 Wichita  State,American,65.0,1.0,mens_basketball
 William & Mary,CAA,52.2,1.0,mens_basketball
 Winthrop,Big South,42.2,1.0,mens_basketball
-Wisconsin,Non-Conference,95.0,1.0,mens_basketball
+Wisconsin,Big Ten,80.3,1.0,mens_basketball
 Wofford,SoCon,45.7,1.0,mens_basketball
 Wright  State,Horizon,51.8,1.0,mens_basketball
 Wyoming,Mountain West,60.8,1.0,mens_basketball
 Xavier,Big East,73.2,1.0,mens_basketball
 Yale,Ivy League,46.9,1.0,mens_basketball
 Youngstown  State,Horizon,48.4,1.0,mens_basketball
-Arizona,Big 12,95.0,1.0,soccer
-Arizona State,Big 12,95.0,1.0,soccer
-BYU,Big 12,95.0,1.0,soccer
-Baylor,Big 12,95.0,1.0,soccer
-Cincinatti,Big 12,72.2,1.0,soccer
-Grand Canyon,Non-Conference,95.0,1.0,soccer
-Houston,Big 12,71.5,1.0,soccer
-Kansas,Big 12,83.0,1.0,soccer
-Kansas State,Big 12,69.3,1.0,soccer
-New Mexico State,Non-Conference,76.2,1.0,soccer
-North Carolina,Non-Conference,95.0,1.0,soccer
-Northern Arizona,Non-Conference,95.0,1.0,soccer
-Pacific,Non-Conference,95.0,1.0,soccer
-Pepperdine,Non-Conference,95.0,1.0,soccer
-TCU,Big 12,90.7,1.0,soccer
-UC Irvine,Non-Conference,95.0,1.0,soccer
-UCF,Big 12,95.0,1.0,soccer
-Utah,Big 12,92.5,1.0,soccer
-West Virginia,Big 12,94.2,1.0,soccer
+Arizona,Big 12,43.0,1.0,soccer
 A&M-Corpus Christi,Southland,30.8,1.0,softball
 Abilene Christian,WAC,30.6,1.0,softball
 Air Force,Mountain West,44.7,1.0,softball
 Akron,MAC,45.9,1.0,softball
-Alabama,Big 12,95.0,1.0,softball
+Alabama,SEC,95.0,1.0,softball
 Alabama  State,SWAC,28.0,1.0,softball
 Alabama A&M,SWAC,28.8,1.0,softball
 Alcorn,SWAC,28.0,1.0,softball
 American,Patriot,32.0,1.0,softball
 App State,Sun Belt,63.7,1.0,softball
-Arizona,Big 12,95.0,1.0,softball
+Arizona,Big 12,81.0,1.0,softball
 Arizona  State,Big 12,82.3,1.0,softball
-Arizona State,Big 12,95.0,1.0,softball
 Ark.-Pine Bluff,SWAC,28.0,1.0,softball
 Arkansas,SEC,92.6,1.0,softball
 Arkansas  State,Sun Belt,64.2,1.0,softball
 Army West Point,Patriot,29.2,1.0,softball
 Auburn,SEC,89.4,1.0,softball
 Austin Peay,ASUN,39.8,1.0,softball
-BYU,Big 12,81.5,1.0,softball
+BYU,Big 12,84.8,1.0,softball
 Ball  State,MAC,38.0,1.0,softball
 Baylor,Big 12,82.0,1.0,softball
 Bellarmine,ASUN,34.3,1.0,softball
@@ -1091,7 +1037,6 @@ CSU Bakersfield,Big West,31.5,1.0,softball
 CSUN,Big West,37.6,1.0,softball
 Cal Poly,Big West,34.6,1.0,softball
 Cal St. Fullerton,Big West,36.5,1.0,softball
-Cal State Fullerton,Big 12,81.2,1.0,softball
 California,ACC,74.6,1.0,softball
 California Baptist,WAC,36.2,1.0,softball
 Campbell,CAA,37.5,1.0,softball
@@ -1111,7 +1056,6 @@ Col. of Charleston,CAA,40.8,1.0,softball
 Colgate,Patriot,32.8,1.0,softball
 Colorado,Big 12,82.3,1.0,softball
 Colorado  State,Mountain West,54.1,1.0,softball
-Colorado State,Big 12,71.1,1.0,softball
 Columbia,Ivy League,33.3,1.0,softball
 Coppin  State,MEAC,28.0,1.0,softball
 Cornell,Ivy League,32.6,1.0,softball
@@ -1158,7 +1102,7 @@ Georgia  State,Sun Belt,58.6,1.0,softball
 Georgia Tech,ACC,69.4,1.0,softball
 Gonzaga,WCC,52.9,1.0,softball
 Grambling,SWAC,28.0,1.0,softball
-Grand Canyon,Non-Conference,95.0,1.0,softball
+Grand Canyon,Mountain West,54.2,1.0,softball
 Green Bay,Horizon,34.8,1.0,softball
 Hampton,CAA,36.3,1.0,softball
 Harvard,Ivy League,33.6,1.0,softball
@@ -1166,7 +1110,7 @@ Hawaii,Big West,40.1,1.0,softball
 High Point,Big South,40.5,1.0,softball
 Hofstra,CAA,41.3,1.0,softball
 Holy Cross,Patriot,29.0,1.0,softball
-Houston,Big 12,95.0,1.0,softball
+Houston,Big 12,87.6,1.0,softball
 Houston Christian,Southland,28.0,1.0,softball
 Howard,MEAC,29.3,1.0,softball
 IU Indy,Horizon,28.9,1.0,softball
@@ -1179,19 +1123,17 @@ Indiana  State,MVC,39.2,1.0,softball
 Iona,MAAC,29.1,1.0,softball
 Iowa,Big Ten,70.7,1.0,softball
 Iowa  State,Big 12,87.1,1.0,softball
-Iowa State,Big 12,95.0,1.0,softball
 Jackson  State,SWAC,28.0,1.0,softball
 Jacksonville,ASUN,33.8,1.0,softball
 Jacksonville  State,CUSA,49.4,1.0,softball
 James Madison,Sun Belt,62.8,1.0,softball
-Kansas,Big 12,67.2,1.0,softball
+Kansas,Big 12,85.3,1.0,softball
 Kansas  State,Big 12,79.8,1.0,softball
 Kansas City,Summit League,28.0,1.0,softball
 Kennesaw  State,CUSA,51.8,1.0,softball
 Kent  State,MAC,43.7,1.0,softball
 Kentucky,SEC,90.0,1.0,softball
 LIU,NEC,33.3,1.0,softball
-LMU,Non-Conference,95.0,1.0,softball
 LMU (CA),WCC,45.4,1.0,softball
 LSU,SEC,84.0,1.0,softball
 La Salle,Atlantic 10,40.1,1.0,softball
@@ -1226,7 +1168,6 @@ Miami,ACC,76.4,1.0,softball
 Miami (OH),MAC,47.9,1.0,softball
 Michigan,Big Ten,75.7,1.0,softball
 Michigan  State,Big Ten,72.9,1.0,softball
-Michigan State,Big 12,68.3,1.0,softball
 Middle Tenn.,CUSA,50.6,1.0,softball
 Milwaukee,Horizon,31.8,1.0,softball
 Minnesota,Big Ten,67.2,1.0,softball
@@ -1251,7 +1192,6 @@ New Hampshire,America East,30.4,1.0,softball
 New Haven,NEC,29.1,1.0,softball
 New Mexico,Mountain West,55.6,1.0,softball
 New Mexico  State,CUSA,50.0,1.0,softball
-New Mexico State,Non-Conference,49.8,1.0,softball
 New Orleans,Southland,29.2,1.0,softball
 Niagara,MAAC,28.0,1.0,softball
 Nicholls,Southland,28.6,1.0,softball
@@ -1270,15 +1210,14 @@ Northern Colo.,Big Sky,32.2,1.0,softball
 Northern Ky.,Horizon,35.6,1.0,softball
 Northwestern,Big Ten,66.9,1.0,softball
 Northwestern  State,Southland,28.0,1.0,softball
-Notre Dame,Big 12,95.0,1.0,softball
+Notre Dame,ACC,70.5,1.0,softball
 Oakland,Horizon,34.0,1.0,softball
-Ohio,Big 12,63.2,1.0,softball
+Ohio,MAC,39.4,1.0,softball
 Ohio  State,Big Ten,70.1,1.0,softball
 Oklahoma,SEC,95.0,1.0,softball
 Oklahoma  State,Big 12,83.3,1.0,softball
-Oklahoma State,Big 12,95.0,1.0,softball
 Old Dominion,Sun Belt,59.5,1.0,softball
-Ole Miss,Big 12,95.0,1.0,softball
+Ole Miss,SEC,86.7,1.0,softball
 Omaha,Summit League,31.7,1.0,softball
 Oral Roberts,Summit League,28.5,1.0,softball
 Oregon,Big Ten,65.8,1.0,softball
@@ -1321,14 +1260,13 @@ Sam Houston,CUSA,52.6,1.0,softball
 Samford,SoCon,33.1,1.0,softball
 San Diego,WCC,43.5,1.0,softball
 San Diego  State,Mountain West,55.0,1.0,softball
-San Diego State,Non-Conference,95.0,1.0,softball
 San Francisco,WCC,46.3,1.0,softball
 San Jose  State,Mountain West,47.9,1.0,softball
-Santa Clara,Big 12,95.0,1.0,softball
+Santa Clara,WCC,50.4,1.0,softball
 Seattle U,WCC,47.8,1.0,softball
 Seton Hall,Big East,50.5,1.0,softball
 Siena,MAAC,30.8,1.0,softball
-South Alabama,Big 12,71.8,1.0,softball
+South Alabama,Sun Belt,64.5,1.0,softball
 South Carolina,SEC,86.3,1.0,softball
 South Carolina  State,MEAC,28.0,1.0,softball
 South Dakota,Summit League,32.0,1.0,softball
@@ -1343,7 +1281,7 @@ Southern Miss.,Sun Belt,62.8,1.0,softball
 Southern U.,SWAC,28.0,1.0,softball
 Southern Utah,WAC,28.6,1.0,softball
 St. John's,Big East,53.6,1.0,softball
-Stanford,Big 12,95.0,1.0,softball
+Stanford,ACC,73.9,1.0,softball
 Stetson,ASUN,33.5,1.0,softball
 Stonehill,NEC,28.0,1.0,softball
 Stony Brook,CAA,38.6,1.0,softball
@@ -1354,11 +1292,11 @@ Temple,American,58.0,1.0,softball
 Tennessee,SEC,91.2,1.0,softball
 Tennessee  State,OVC,33.5,1.0,softball
 Tennessee Tech,OVC,28.5,1.0,softball
-Texas,Big 12,95.0,1.0,softball
+Texas,SEC,92.0,1.0,softball
 Texas  State,Sun Belt,63.7,1.0,softball
 Texas A&M,SEC,90.6,1.0,softball
 Texas Southern,SWAC,28.0,1.0,softball
-Texas Tech,Big 12,95.0,1.0,softball
+Texas Tech,Big 12,85.2,1.0,softball
 The Citadel,SoCon,29.0,1.0,softball
 Toledo,MAC,41.1,1.0,softball
 Towson,CAA,39.1,1.0,softball
@@ -1367,13 +1305,13 @@ Tulane,American,58.8,1.0,softball
 Tulsa,American,63.2,1.0,softball
 UAB,American,60.2,1.0,softball
 UAlbany,America East,31.2,1.0,softball
-UC Davis,Big 12,68.9,1.0,softball
+UC Davis,Big West,37.4,1.0,softball
 UC Irvine,Big West,38.8,1.0,softball
 UC Riverside,Big West,32.6,1.0,softball
 UC San Diego,Big West,39.2,1.0,softball
 UC Santa Barbara,Big West,37.1,1.0,softball
-UCF,Big 12,93.2,1.0,softball
-UCLA,Big 12,95.0,1.0,softball
+UCF,Big 12,84.5,1.0,softball
+UCLA,Big Ten,71.0,1.0,softball
 UConn,Big East,54.3,1.0,softball
 UIC,MVC,42.8,1.0,softball
 UIW,Southland,28.0,1.0,softball
@@ -1392,9 +1330,8 @@ UT Martin,OVC,33.0,1.0,softball
 UTEP,CUSA,47.4,1.0,softball
 UTRGV,Southland,31.4,1.0,softball
 UTSA,American,52.0,1.0,softball
-Utah,Big 12,77.0,1.0,softball
+Utah,Big 12,78.6,1.0,softball
 Utah  State,Mountain West,57.5,1.0,softball
-Utah State,Non-Conference,73.7,1.0,softball
 Utah Tech,WAC,33.1,1.0,softball
 Utah Valley,WAC,36.2,1.0,softball
 VCU,Atlantic 10,49.0,1.0,softball
@@ -1407,17 +1344,15 @@ Virginia,ACC,78.0,1.0,softball
 Virginia Tech,ACC,73.7,1.0,softball
 Wagner,NEC,29.1,1.0,softball
 Wake Forest,ACC,72.3,1.0,softball
-Washington,Big 12,74.6,1.0,softball
+Washington,Big Ten,67.7,1.0,softball
 Washington  State,WCC,43.8,1.0,softball
 Weber  State,Big Sky,30.0,1.0,softball
-Weber State,Big 12,95.0,1.0,softball
 West Ga.,ASUN,35.4,1.0,softball
 West Virginia,Big 12,83.8,1.0,softball
 Western Caro.,SoCon,31.7,1.0,softball
 Western Ill.,OVC,28.0,1.0,softball
 Western Ky.,CUSA,51.1,1.0,softball
 Western Mich.,MAC,36.8,1.0,softball
-Western Michigan,Big 12,52.6,1.0,softball
 Wichita  State,American,61.0,1.0,softball
 William & Mary,CAA,40.2,1.0,softball
 Winthrop,Big South,37.2,1.0,softball
@@ -1428,65 +1363,8 @@ Wyoming,Mountain West,52.8,1.0,softball
 Xavier,Big East,47.2,1.0,softball
 Yale,Ivy League,36.9,1.0,softball
 Youngstown  State,Horizon,33.4,1.0,softball
-Arizona,Big 12,95.0,1.0,tennis
-Arizona State,Big 12,95.0,1.0,tennis
-BYU,Big 12,95.0,1.0,tennis
-Baylor,Big 12,95.0,1.0,tennis
-Buffalo,Non-Conference,95.0,1.0,tennis
-Cal Poly,Non-Conference,95.0,1.0,tennis
-Cincinnati,Big 12,95.0,1.0,tennis
-Colorado State,Non-Conference,95.0,1.0,tennis
-Georgia State,Non-Conference,95.0,1.0,tennis
-Georgia Tech,Big 12,95.0,1.0,tennis
-Grand Canyon,Non-Conference,95.0,1.0,tennis
-LMU,Non-Conference,95.0,1.0,tennis
-New Mexico State,Non-Conference,95.0,1.0,tennis
-Northern Arizona,Non-Conference,95.0,1.0,tennis
-Oklahoma State,Big 12,95.0,1.0,tennis
-Pepperdine,Big 12,95.0,1.0,tennis
-Saint Johns,Unknown,20.0,1.0,tennis
-San Diego,Non-Conference,95.0,1.0,tennis
-TCU,Big 12,95.0,1.0,tennis
-Texas Tech,Big 12,95.0,1.0,tennis
-Tulsa,Non-Conference,95.0,1.0,tennis
-UC San Diego,Non-Conference,95.0,1.0,tennis
-UC Santa Barbara,Non-Conference,95.0,1.0,tennis
-UCF,Big 12,95.0,1.0,tennis
-USC,Big 12,95.0,1.0,tennis
-Utah,Big 12,95.0,1.0,tennis
-Utah State,Non-Conference,95.0,1.0,tennis
-Washington,Big 12,95.0,1.0,tennis
-West Virginia,Big 12,95.0,1.0,tennis
-Abilene Christian,WAC,95.0,1.0,volleyball
-Alabama,SEC,87.9,1.0,volleyball
-Alabama State,Big 12,87.9,1.0,volleyball
-Arizona,Big 12,95.0,1.0,volleyball
-Arizona State,Big 12,95.0,1.0,volleyball
-BYU,Big 12,95.0,1.0,volleyball
-Baylor,Big 12,95.0,1.0,volleyball
-Boise State,Big 12,95.0,1.0,volleyball
-Bowling Green,MAC,95.0,1.0,volleyball
-Cincinatti,Big 12,95.0,1.0,volleyball
-Colorado,Big 12,95.0,1.0,volleyball
-Houston,Big 12,89.0,1.0,volleyball
-Iowa State,Big 12,89.8,1.0,volleyball
-Kansas,Big 12,95.0,1.0,volleyball
-Kansas State,Big 12,95.0,1.0,volleyball
-New Mexico State,Big 12,95.0,1.0,volleyball
-North Dakota State,Summit League,78.8,1.0,volleyball
-Northern Colorado,Big Sky,95.0,1.0,volleyball
-Pacific,WCC,91.2,1.0,volleyball
-Prairie View A&M,Big 12,87.9,1.0,volleyball
-Southern Utah,Big 12,66.2,1.0,volleyball
-TCU,Big 12,82.7,1.0,volleyball
-Tennessee State,Big 12,73.5,1.0,volleyball
-Texas Southern,Big 12,95.0,1.0,volleyball
-Texas Tech,Big 12,93.4,1.0,volleyball
-UCF,Big 12,89.1,1.0,volleyball
-Utah,Big 12,95.0,1.0,volleyball
-VCU,A10,84.3,1.0,volleyball
-West Virginia,Big 12,90.7,1.0,volleyball
-Wyoming,Big 12,95.0,1.0,volleyball
+Arizona,Big 12,43.0,1.0,tennis
+Arizona,Big 12,43.0,1.0,volleyball
 A&M-Corpus Christi,Southland,29.7,1.0,womens_basketball
 Abilene Christian,WAC,45.3,1.0,womens_basketball
 Air Force,Mountain West,57.2,1.0,womens_basketball
@@ -1497,37 +1375,35 @@ Alabama A&M,SWAC,35.0,1.0,womens_basketball
 Alcorn,SWAC,32.9,1.0,womens_basketball
 American,Patriot,34.2,1.0,womens_basketball
 App State,Sun Belt,51.6,1.0,womens_basketball
-Arizona,Big 12,95.0,1.0,womens_basketball
+Arizona,Big 12,82.0,1.0,womens_basketball
 Arizona  State,Big 12,77.3,1.0,womens_basketball
-Arizona State,Big 12,95.0,1.0,womens_basketball
 Ark.-Pine Bluff,SWAC,31.7,1.0,womens_basketball
 Arkansas,SEC,73.8,1.0,womens_basketball
 Arkansas  State,Sun Belt,58.1,1.0,womens_basketball
-Army West Point,Non-Conference,59.1,1.0,womens_basketball
+Army West Point,Patriot,43.8,1.0,womens_basketball
 Auburn,SEC,75.4,1.0,womens_basketball
 Austin Peay,ASUN,46.4,1.0,womens_basketball
-BYU,Big 12,95.0,1.0,womens_basketball
+BYU,Big 12,77.3,1.0,womens_basketball
 Ball  State,MAC,58.2,1.0,womens_basketball
-Baylor,Big 12,95.0,1.0,womens_basketball
+Baylor,Big 12,78.2,1.0,womens_basketball
 Bellarmine,ASUN,37.1,1.0,womens_basketball
 Belmont,MVC,58.2,1.0,womens_basketball
 Bethune-Cookman,SWAC,28.0,1.0,womens_basketball
-Binghamton,America East,59.1,1.0,womens_basketball
+Binghamton,America East,39.9,1.0,womens_basketball
 Boise  State,Mountain West,62.2,1.0,womens_basketball
 Boston College,ACC,67.9,1.0,womens_basketball
 Boston U.,Patriot,36.4,1.0,womens_basketball
 Bowling Green,MAC,53.9,1.0,womens_basketball
 Bradley,MVC,57.9,1.0,womens_basketball
 Brown,Ivy League,41.7,1.0,womens_basketball
-Bryant,America East,59.1,1.0,womens_basketball
+Bryant,America East,39.8,1.0,womens_basketball
 Bucknell,Patriot,36.6,1.0,womens_basketball
 Buffalo,MAC,45.8,1.0,womens_basketball
 Butler,Big East,76.0,1.0,womens_basketball
-CSU Bakersfield,Non-Conference,95.0,1.0,womens_basketball
+CSU Bakersfield,Big West,39.2,1.0,womens_basketball
 CSUN,Big West,41.0,1.0,womens_basketball
 Cal Poly,Big West,37.4,1.0,womens_basketball
 Cal St. Fullerton,Big West,45.1,1.0,womens_basketball
-Cal State LA,Big 12,95.0,1.0,womens_basketball
 California,ACC,75.5,1.0,womens_basketball
 California Baptist,WAC,45.2,1.0,womens_basketball
 Campbell,CAA,50.2,1.0,womens_basketball
@@ -1539,18 +1415,16 @@ Charleston So.,Big South,32.8,1.0,womens_basketball
 Charlotte,American,58.9,1.0,womens_basketball
 Chattanooga,SoCon,44.6,1.0,womens_basketball
 Chicago  State,NEC,30.1,1.0,womens_basketball
-Chicago State,Non-Conference,59.1,1.0,womens_basketball
-Cincinnati,Big 12,95.0,1.0,womens_basketball
+Cincinnati,Big 12,71.4,1.0,womens_basketball
 Clemson,ACC,76.5,1.0,womens_basketball
 Cleveland  State,Horizon,51.0,1.0,womens_basketball
 Coastal Carolina,Sun Belt,52.9,1.0,womens_basketball
 Col. of Charleston,CAA,53.7,1.0,womens_basketball
 Colgate,Patriot,34.1,1.0,womens_basketball
-Colorado,Big 12,95.0,1.0,womens_basketball
+Colorado,Big 12,76.6,1.0,womens_basketball
 Colorado  State,Mountain West,62.9,1.0,womens_basketball
 Columbia,Ivy League,44.6,1.0,womens_basketball
 Coppin  State,MEAC,28.0,1.0,womens_basketball
-Coppin State,Non-Conference,59.1,1.0,womens_basketball
 Cornell,Ivy League,37.0,1.0,womens_basketball
 Creighton,Big East,78.3,1.0,womens_basketball
 Dartmouth,Ivy League,37.7,1.0,womens_basketball
@@ -1575,7 +1449,7 @@ Eastern Wash.,Big Sky,36.2,1.0,womens_basketball
 Elon,CAA,48.0,1.0,womens_basketball
 Evansville,MVC,52.1,1.0,womens_basketball
 FDU,NEC,40.4,1.0,womens_basketball
-FGCU,Non-Conference,59.1,1.0,womens_basketball
+FGCU,ASUN,45.0,1.0,womens_basketball
 FIU,CUSA,54.5,1.0,womens_basketball
 Fairfield,MAAC,42.3,1.0,womens_basketball
 Fla. Atlantic,American,58.9,1.0,womens_basketball
@@ -1595,16 +1469,15 @@ Georgia  State,Sun Belt,50.8,1.0,womens_basketball
 Georgia Tech,ACC,72.6,1.0,womens_basketball
 Gonzaga,WCC,58.7,1.0,womens_basketball
 Grambling,SWAC,30.3,1.0,womens_basketball
-Grambling State,Non-Conference,95.0,1.0,womens_basketball
-Grand Canyon,Non-Conference,95.0,1.0,womens_basketball
+Grand Canyon,Mountain West,56.3,1.0,womens_basketball
 Green Bay,Horizon,51.2,1.0,womens_basketball
 Hampton,CAA,44.8,1.0,womens_basketball
 Harvard,Ivy League,42.2,1.0,womens_basketball
 Hawaii,Big West,47.0,1.0,womens_basketball
 High Point,Big South,42.7,1.0,womens_basketball
-Hofstra,Non-Conference,59.1,1.0,womens_basketball
+Hofstra,CAA,45.0,1.0,womens_basketball
 Holy Cross,Patriot,42.5,1.0,womens_basketball
-Houston,Big 12,95.0,1.0,womens_basketball
+Houston,Big 12,69.2,1.0,womens_basketball
 Houston Christian,Southland,31.0,1.0,womens_basketball
 Howard,MEAC,35.8,1.0,womens_basketball
 IU Indy,Horizon,46.1,1.0,womens_basketball
@@ -1617,23 +1490,21 @@ Indiana  State,MVC,52.6,1.0,womens_basketball
 Iona,MAAC,38.2,1.0,womens_basketball
 Iowa,Big Ten,80.3,1.0,womens_basketball
 Iowa  State,Big 12,77.4,1.0,womens_basketball
-Iowa State,Big 12,95.0,1.0,womens_basketball
 Jackson  State,SWAC,30.0,1.0,womens_basketball
 Jacksonville,ASUN,49.1,1.0,womens_basketball
 Jacksonville  State,CUSA,52.0,1.0,womens_basketball
 James Madison,Sun Belt,58.4,1.0,womens_basketball
-Kansas,Big 12,95.0,1.0,womens_basketball
+Kansas,Big 12,76.0,1.0,womens_basketball
 Kansas  State,Big 12,74.2,1.0,womens_basketball
 Kansas City,Summit League,38.2,1.0,womens_basketball
-Kansas State,Big 12,95.0,1.0,womens_basketball
 Kennesaw  State,CUSA,50.8,1.0,womens_basketball
 Kent  State,MAC,52.7,1.0,womens_basketball
 Kentucky,SEC,79.5,1.0,womens_basketball
-LIU,Non-Conference,59.1,1.0,womens_basketball
+LIU,NEC,36.8,1.0,womens_basketball
 LMU (CA),WCC,58.2,1.0,womens_basketball
 LSU,SEC,81.9,1.0,womens_basketball
 La Salle,Atlantic 10,60.4,1.0,womens_basketball
-Lafayette,Non-Conference,59.1,1.0,womens_basketball
+Lafayette,Patriot,36.6,1.0,womens_basketball
 Lamar University,Southland,37.6,1.0,womens_basketball
 Le Moyne,NEC,31.5,1.0,womens_basketball
 Lehigh,Patriot,39.6,1.0,womens_basketball
@@ -1648,7 +1519,7 @@ Louisiana Tech,CUSA,57.2,1.0,womens_basketball
 Louisville,ACC,79.1,1.0,womens_basketball
 Loyola Chicago,Atlantic 10,58.5,1.0,womens_basketball
 Loyola Maryland,Patriot,37.2,1.0,womens_basketball
-Maine,America East,60.4,1.0,womens_basketball
+Maine,America East,39.7,1.0,womens_basketball
 Manhattan,MAAC,33.4,1.0,womens_basketball
 Marist,MAAC,33.4,1.0,womens_basketball
 Marquette,Big East,79.8,1.0,womens_basketball
@@ -1659,7 +1530,7 @@ McNeese,Southland,40.9,1.0,womens_basketball
 Memphis,American,56.8,1.0,womens_basketball
 Mercer,SoCon,43.2,1.0,womens_basketball
 Mercyhurst,NEC,33.4,1.0,womens_basketball
-Merrimack,Non-Conference,59.1,1.0,womens_basketball
+Merrimack,MAAC,37.7,1.0,womens_basketball
 Miami,ACC,74.8,1.0,womens_basketball
 Miami (OH),MAC,58.4,1.0,womens_basketball
 Michigan,Big Ten,80.4,1.0,womens_basketball
@@ -1671,7 +1542,7 @@ Mississippi  State,SEC,77.5,1.0,womens_basketball
 Mississippi Val.,SWAC,28.0,1.0,womens_basketball
 Missouri,SEC,76.0,1.0,womens_basketball
 Missouri  State,CUSA,54.5,1.0,womens_basketball
-Monmouth,Non-Conference,59.1,1.0,womens_basketball
+Monmouth,CAA,56.0,1.0,womens_basketball
 Montana,Big Sky,33.2,1.0,womens_basketball
 Montana  State,Big Sky,41.9,1.0,womens_basketball
 Morehead  State,OVC,34.8,1.0,womens_basketball
@@ -1680,11 +1551,11 @@ Mount St. Mary's,MAAC,36.0,1.0,womens_basketball
 Murray  State,MVC,62.9,1.0,womens_basketball
 NC State,ACC,76.8,1.0,womens_basketball
 NIU,MAC,48.2,1.0,womens_basketball
-NJIT,America East,67.7,1.0,womens_basketball
+NJIT,America East,46.0,1.0,womens_basketball
 Navy,Patriot,42.8,1.0,womens_basketball
 Nebraska,Big Ten,76.7,1.0,womens_basketball
 Nevada,Mountain West,54.8,1.0,womens_basketball
-New Hampshire,America East,59.1,1.0,womens_basketball
+New Hampshire,America East,35.0,1.0,womens_basketball
 New Haven,NEC,29.3,1.0,womens_basketball
 New Mexico,Mountain West,61.4,1.0,womens_basketball
 New Mexico  State,CUSA,48.4,1.0,womens_basketball
@@ -1702,7 +1573,6 @@ North Florida,ASUN,41.4,1.0,womens_basketball
 North Texas,American,61.4,1.0,womens_basketball
 Northeastern,CAA,43.3,1.0,womens_basketball
 Northern Ariz.,Big Sky,33.6,1.0,womens_basketball
-Northern Arizona,Non-Conference,95.0,1.0,womens_basketball
 Northern Colo.,Big Sky,40.2,1.0,womens_basketball
 Northern Ky.,Horizon,46.4,1.0,womens_basketball
 Northwestern,Big Ten,71.0,1.0,womens_basketball
@@ -1713,7 +1583,6 @@ Ohio,MAC,54.1,1.0,womens_basketball
 Ohio  State,Big Ten,79.9,1.0,womens_basketball
 Oklahoma,SEC,80.8,1.0,womens_basketball
 Oklahoma  State,Big 12,77.7,1.0,womens_basketball
-Oklahoma State,Big 12,95.0,1.0,womens_basketball
 Old Dominion,Sun Belt,55.1,1.0,womens_basketball
 Ole Miss,SEC,79.0,1.0,womens_basketball
 Omaha,Summit League,37.3,1.0,womens_basketball
@@ -1741,19 +1610,18 @@ Rice,American,65.9,1.0,womens_basketball
 Richmond,Atlantic 10,63.8,1.0,womens_basketball
 Rider,MAAC,31.3,1.0,womens_basketball
 Robert Morris,Horizon,48.8,1.0,womens_basketball
-Rutgers,Non-Conference,95.0,1.0,womens_basketball
+Rutgers,Big Ten,71.6,1.0,womens_basketball
 SFA,Southland,38.9,1.0,womens_basketball
 SIUE,OVC,34.0,1.0,womens_basketball
 SMU,ACC,70.4,1.0,womens_basketball
 Sacramento  State,Big Sky,36.2,1.0,womens_basketball
-Sacred Heart,Non-Conference,59.1,1.0,womens_basketball
+Sacred Heart,MAAC,34.5,1.0,womens_basketball
 Saint Bonaventure,Atlantic 10,59.3,1.0,womens_basketball
 Saint Francis,NEC,28.0,1.0,womens_basketball
-Saint Francis U,Non-Conference,59.1,1.0,womens_basketball
 Saint Joseph's,Atlantic 10,61.6,1.0,womens_basketball
 Saint Louis,Atlantic 10,56.5,1.0,womens_basketball
 Saint Mary's,WCC,54.4,1.0,womens_basketball
-Saint Peter's,Non-Conference,59.1,1.0,womens_basketball
+Saint Peter's,MAAC,31.2,1.0,womens_basketball
 Saint Thomas (MN),Summit League,43.0,1.0,womens_basketball
 Sam Houston,CUSA,53.5,1.0,womens_basketball
 Samford,SoCon,41.2,1.0,womens_basketball
@@ -1763,7 +1631,6 @@ San Francisco,WCC,56.1,1.0,womens_basketball
 San Jose  State,Mountain West,51.2,1.0,womens_basketball
 Santa Clara,WCC,58.7,1.0,womens_basketball
 Seattle U,WCC,49.0,1.0,womens_basketball
-Seattle University,Non-Conference,95.0,1.0,womens_basketball
 Seton Hall,Big East,79.7,1.0,womens_basketball
 Siena,MAAC,34.8,1.0,womens_basketball
 South Alabama,Sun Belt,53.5,1.0,womens_basketball
@@ -1786,9 +1653,8 @@ Stetson,ASUN,47.2,1.0,womens_basketball
 Stonehill,NEC,32.2,1.0,womens_basketball
 Stony Brook,CAA,48.8,1.0,womens_basketball
 Syracuse,ACC,78.1,1.0,womens_basketball
-TCU,Big 12,95.0,1.0,womens_basketball
+TCU,Big 12,80.2,1.0,womens_basketball
 Tarleton  State,WAC,41.1,1.0,womens_basketball
-Tarleton State,Non-Conference,95.0,1.0,womens_basketball
 Temple,American,59.4,1.0,womens_basketball
 Tennessee,SEC,76.6,1.0,womens_basketball
 Tennessee  State,OVC,28.1,1.0,womens_basketball
@@ -1797,60 +1663,57 @@ Texas,SEC,83.2,1.0,womens_basketball
 Texas  State,Sun Belt,51.6,1.0,womens_basketball
 Texas A&M,SEC,76.3,1.0,womens_basketball
 Texas Southern,SWAC,28.8,1.0,womens_basketball
-Texas Tech,Big 12,95.0,1.0,womens_basketball
+Texas Tech,Big 12,78.8,1.0,womens_basketball
 Toledo,MAC,53.6,1.0,womens_basketball
 Towson,CAA,48.9,1.0,womens_basketball
 Troy,Sun Belt,58.6,1.0,womens_basketball
 Tulane,American,57.4,1.0,womens_basketball
 Tulsa,American,62.0,1.0,womens_basketball
 UAB,American,57.6,1.0,womens_basketball
-UAlbany,America East,59.1,1.0,womens_basketball
+UAlbany,America East,37.4,1.0,womens_basketball
 UC Davis,Big West,47.2,1.0,womens_basketball
 UC Irvine,Big West,49.2,1.0,womens_basketball
 UC Riverside,Big West,41.2,1.0,womens_basketball
-UC San Diego,Non-Conference,95.0,1.0,womens_basketball
+UC San Diego,Big West,48.1,1.0,womens_basketball
 UC Santa Barbara,Big West,47.0,1.0,womens_basketball
-UCF,Big 12,95.0,1.0,womens_basketball
+UCF,Big 12,71.6,1.0,womens_basketball
 UCLA,Big Ten,83.5,1.0,womens_basketball
 UConn,Big East,90.0,1.0,womens_basketball
 UIC,MVC,54.9,1.0,womens_basketball
 UIW,Southland,33.8,1.0,womens_basketball
 ULM,Sun Belt,54.3,1.0,womens_basketball
-UMBC,America East,59.1,1.0,womens_basketball
+UMBC,America East,38.6,1.0,womens_basketball
 UMES,MEAC,32.3,1.0,womens_basketball
-UMass Lowell,America East,59.1,1.0,womens_basketball
+UMass Lowell,America East,34.0,1.0,womens_basketball
 UNC Asheville,Big South,35.2,1.0,womens_basketball
 UNC Greensboro,SoCon,41.4,1.0,womens_basketball
 UNCW,CAA,43.1,1.0,womens_basketball
 UNI,MVC,57.1,1.0,womens_basketball
-UNLV,Non-Conference,95.0,1.0,womens_basketball
+UNLV,Mountain West,60.8,1.0,womens_basketball
 USC Upstate,Big South,34.8,1.0,womens_basketball
-UT Arlington,Non-Conference,95.0,1.0,womens_basketball
+UT Arlington,WAC,39.5,1.0,womens_basketball
 UT Martin,OVC,32.8,1.0,womens_basketball
 UTEP,CUSA,50.8,1.0,womens_basketball
 UTRGV,Southland,36.8,1.0,womens_basketball
 UTSA,American,60.5,1.0,womens_basketball
-University of California,ACC,95.0,1.0,womens_basketball
-Utah,Big 12,95.0,1.0,womens_basketball
+Utah,Big 12,75.7,1.0,womens_basketball
 Utah  State,Mountain West,52.6,1.0,womens_basketball
 Utah Tech,WAC,38.6,1.0,womens_basketball
 Utah Valley,WAC,42.3,1.0,womens_basketball
 VCU,Atlantic 10,54.6,1.0,womens_basketball
 Valparaiso,MVC,47.0,1.0,womens_basketball
-Vanderbilt,SEC,95.0,1.0,womens_basketball
-Vermont,America East,59.1,1.0,womens_basketball
+Vanderbilt,SEC,82.4,1.0,womens_basketball
+Vermont,America East,42.9,1.0,womens_basketball
 Villanova,Big East,82.6,1.0,womens_basketball
 Virginia,ACC,76.6,1.0,womens_basketball
 Virginia Tech,ACC,77.5,1.0,womens_basketball
-Wagner,Non-Conference,59.1,1.0,womens_basketball
+Wagner,NEC,32.8,1.0,womens_basketball
 Wake Forest,ACC,72.9,1.0,womens_basketball
 Washington,Big Ten,78.0,1.0,womens_basketball
 Washington  State,WCC,50.8,1.0,womens_basketball
 Weber  State,Big Sky,34.0,1.0,womens_basketball
-Weber State,Non-Conference,95.0,1.0,womens_basketball
 West Ga.,ASUN,46.5,1.0,womens_basketball
-West Texas A&M,Big 12,95.0,1.0,womens_basketball
-West Virginia,Big 12,95.0,1.0,womens_basketball
+West Virginia,Big 12,79.4,1.0,womens_basketball
 Western Caro.,SoCon,34.9,1.0,womens_basketball
 Western Ill.,OVC,39.6,1.0,womens_basketball
 Western Ky.,CUSA,48.0,1.0,womens_basketball

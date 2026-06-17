@@ -27,6 +27,7 @@ from viewership_model.data.key_tab_import import (
     canonicalize_network_name,
     merge_key_tabs,
 )
+from viewership_model.data.monmouth_import import import_monmouth_schedule_workbook
 from viewership_model.data.network_reach import compute_network_reach_scores
 
 
@@ -50,6 +51,7 @@ class ValuationImportConfig:
     default_conference: str
     home_city: str
     home_state: str
+    format: str = "standard"
 
 
 DEFAULT_VALUATION_WORKBOOKS: list[dict] = [
@@ -71,6 +73,24 @@ DEFAULT_VALUATION_WORKBOOKS: list[dict] = [
         "city": "Newark",
         "state": "NJ",
     },
+    {
+        "file": "data/Monmouth Jersey Patch Valuation.xlsx",
+        "home_team": "Monmouth",
+        "format": "monmouth_schedule",
+        "sheets": [
+            "MBB Schedule 2024-2025",
+            "MBB Schedule 2025-26",
+            "WBB Schedule 2024-25",
+            "WBB Schedule 2025-26",
+            "Baseball Schedule 2024-2025",
+            "Football Schedule 2024",
+            "Football Schedule 2025",
+        ],
+        "prefix": "MU",
+        "conference": "CAA",
+        "city": "West Long Branch",
+        "state": "NJ",
+    },
 ]
 
 
@@ -82,6 +102,7 @@ def config_from_dict(entry: dict) -> ValuationImportConfig:
         default_conference=str(entry.get("conference", "Unknown")),
         home_city=str(entry.get("city", "Unknown")),
         home_state=str(entry.get("state", "ST")),
+        format=str(entry.get("format", "standard")),
     )
 
 
@@ -202,6 +223,17 @@ def import_valuation_workbook(
     config: ValuationImportConfig,
 ) -> pd.DataFrame:
     path = Path(workbook_path)
+    if config.format == "monmouth_schedule":
+        return import_monmouth_schedule_workbook(
+            path,
+            home_team=config.home_team,
+            sheets=config.sheets or None,
+            game_id_prefix=config.game_id_prefix,
+            default_conference=config.default_conference,
+            home_city=config.home_city,
+            home_state=config.home_state,
+        )
+
     wb = openpyxl.load_workbook(path, data_only=False)
     wb_values = openpyxl.load_workbook(path, data_only=True)
 

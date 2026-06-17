@@ -88,6 +88,7 @@ def _coerce_date(game_date: date | datetime | str | None) -> date | None:
     text = str(game_date).strip()
     if not text:
         return None
+    text = re.sub(r"\s*\([^)]*\)\s*$", "", text).strip()
     return pd.to_datetime(text).date()
 
 

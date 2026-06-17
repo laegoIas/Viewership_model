@@ -13,6 +13,7 @@ sport: all  # legacy single-sport filter; ignored when sports list is set
 paths:
   arizona_workbook: data/Arizona Jersey Patch Valuation .xlsx
   njit_workbook: data/NJIT Jersey Patch Valuation 2024-25.xlsx
+  monmouth_workbook: data/Monmouth Jersey Patch Valuation.xlsx
   valuation_workbooks:
     - file: data/Arizona Jersey Patch Valuation .xlsx
       home_team: Arizona
@@ -27,6 +28,21 @@ paths:
       prefix: NJ
       conference: America East
       city: Newark
+      state: NJ
+    - file: data/Monmouth Jersey Patch Valuation.xlsx
+      home_team: Monmouth
+      format: monmouth_schedule
+      sheets:
+        - MBB Schedule 2024-2025
+        - MBB Schedule 2025-26
+        - WBB Schedule 2024-25
+        - WBB Schedule 2025-26
+        - Baseball Schedule 2024-2025
+        - Football Schedule 2024
+        - Football Schedule 2025
+      prefix: MU
+      conference: CAA
+      city: West Long Branch
       state: NJ
   games: data/games.csv
   teams: data/teams.csv

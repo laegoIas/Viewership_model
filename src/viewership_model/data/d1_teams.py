@@ -344,27 +344,107 @@ def _load_manual_scores(root: Path | str) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
-def observed_scores_from_games(games: pd.DataFrame) -> pd.DataFrame:
-    """Derive popularity from valuation workbook game history."""
+WORKBOOK_POPULARITY_CAP_ABOVE_CONFERENCE = 8.0
+OUTLIER_VIEWERSHIP_MULTIPLIER = 5.0
+
+
+def _workbook_owner_from_source(source: str | float | None) -> str | None:
+    """Map valuation source_sheet to the school that owns the workbook."""
+    if source is None or (isinstance(source, float) and pd.isna(source)):
+        return None
+    filename = str(source).split(":")[0].strip()
+    match = re.match(r"^(.+?)\s+Jersey Patch", filename, re.IGNORECASE)
+    if match:
+        return normalize_team_name(match.group(1).strip())
+    return None
+
+
+def _workbook_owned_games(sport_games: pd.DataFrame, team: str) -> pd.DataFrame:
+    """Games from valuation workbooks owned by this team only."""
+    team = normalize_team_name(team)
+    source_col = "source_sheet" if "source_sheet" in sport_games.columns else "source"
+    if source_col not in sport_games.columns:
+        return sport_games.iloc[0:0]
+    owned = sport_games[
+        sport_games[source_col].apply(lambda s: _workbook_owner_from_source(s) == team)
+    ]
+    return owned
+
+
+def _workbook_games_for_team_popularity(sport_games: pd.DataFrame, team: str) -> pd.DataFrame:
+    """Home/neutral games from this team's workbook — away visits excluded."""
+    team = normalize_team_name(team)
+    owned = _workbook_owned_games(sport_games, team)
+    if owned.empty:
+        return owned
+    home = owned[owned["home_team"] == team]
+    if "location_type" not in owned.columns:
+        return home
+
+    neutral = owned[
+        (owned["location_type"] == "neutral")
+        & ((owned["home_team"] == team) | (owned["away_team"] == team))
+    ]
+    if neutral.empty:
+        return home
+    combined = pd.concat([home, neutral], ignore_index=True)
+    if "game_id" in combined.columns:
+        return combined.drop_duplicates(subset=["game_id"], keep="first")
+    return combined.drop_duplicates(keep="first")
+
+
+def observed_scores_from_games(
+    games: pd.DataFrame,
+    team_conferences: dict[tuple[str, str], str] | None = None,
+) -> pd.DataFrame:
+    """Derive popularity from a team's own workbook home/neutral games only.
+
+    Away games remain in games.csv for training but do not inflate the
+    visiting team's popularity (e.g. Monmouth @ Auburn on SEC Network).
+    Opponent teams are not scored from another school's workbook.
+    """
     if games.empty:
         return pd.DataFrame(columns=["team", "sport", "popularity_score", "source"])
 
+    source_col = "source_sheet" if "source_sheet" in games.columns else "source"
     rows: list[dict] = []
     for sport in sorted(games["sport"].unique()):
         sport_games = games[games["sport"] == sport]
         sport_median = float(sport_games["avg_viewers"].median())
-        teams = set(sport_games["home_team"]) | set(sport_games["away_team"])
-        for team in teams:
-            team = normalize_team_name(str(team))
-            team_games = sport_games[
-                (sport_games["home_team"] == team) | (sport_games["away_team"] == team)
-            ]
-            avg_viewers = float(team_games["avg_viewers"].mean())
-            popularity = min(95, max(20, 100 * (avg_viewers / max(sport_median, 1)) ** 0.35))
-            conf_series = sport_games.loc[sport_games["home_team"] == team, "conference"]
-            if conf_series.empty:
-                conf_series = sport_games.loc[sport_games["away_team"] == team, "conference"]
-            conference = conf_series.mode().iloc[0] if not conf_series.empty else "Unknown"
+        owners: set[str] = set()
+        if source_col in sport_games.columns:
+            for src in sport_games[source_col].dropna().unique():
+                owner = _workbook_owner_from_source(src)
+                if owner:
+                    owners.add(owner)
+        for team in sorted(owners):
+            team_games = _workbook_games_for_team_popularity(sport_games, team)
+            if team_games.empty:
+                continue
+
+            viewers = team_games["avg_viewers"].astype(float)
+            outlier_cap = sport_median * OUTLIER_VIEWERSHIP_MULTIPLIER
+            filtered = viewers[viewers <= outlier_cap]
+            if not filtered.empty:
+                viewers = filtered
+            typical_viewers = float(viewers.median())
+
+            popularity = min(
+                95.0, max(20.0, 100.0 * (typical_viewers / max(sport_median, 1)) ** 0.35)
+            )
+
+            conference = (team_conferences or {}).get((team, sport))
+            if not conference:
+                conf_series = team_games.loc[team_games["home_team"] == team, "conference"]
+                if conf_series.empty and "conference" in team_games.columns:
+                    conf_series = team_games["conference"]
+                conference = (
+                    conf_series.mode().iloc[0] if not conf_series.empty else "Unknown"
+                )
+            conf_base = _conference_base(str(conference), sport)
+            popularity = min(popularity, conf_base + WORKBOOK_POPULARITY_CAP_ABOVE_CONFERENCE)
+            popularity = max(popularity, conf_base - 8.0)
+
             rows.append(
                 {
                     "team": team,
@@ -430,7 +510,11 @@ def build_d1_teams(
         if not overrides.empty:
             priority_frames.append(overrides)
     if games is not None and not games.empty:
-        priority_frames.append(observed_scores_from_games(games))
+        conf_lookup = {
+            (str(row["team"]), str(row["sport"])): str(row["conference"])
+            for _, row in roster.iterrows()
+        }
+        priority_frames.append(observed_scores_from_games(games, team_conferences=conf_lookup))
 
     for frame in priority_frames:
         if frame.empty:
