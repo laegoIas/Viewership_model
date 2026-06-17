@@ -9,7 +9,8 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-from viewership_model.data.load import load_config, load_games, load_networks, load_teams
+from viewership_model.data.load import load_config, load_networks, load_teams
+from viewership_model.data.research_import import load_all_games
 from viewership_model.features.build import enrich_games
 from viewership_model.models.scoring import ScoringModel, calibrate_scoring_model, score_game
 
@@ -45,7 +46,13 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     sport_filter = config["sport"]
     paths = config["paths"]
 
-    games = load_games(paths["games"])
+    games, _merge_stats = load_all_games(
+        paths["games"],
+        paths.get("research_games"),
+        paths.get("research_benchmarks"),
+    )
+    if games.empty:
+        raise FileNotFoundError(f"No games data found at {paths['games']}")
     if sport_filter != "all" and "sport" in games.columns:
         games = games[games["sport"] == sport_filter]
     teams = load_teams(paths["teams"], paths.get("team_overrides"))

@@ -9,6 +9,8 @@ paths:
   networks: data/networks.csv
   team_overrides: data/team_overrides.csv
   network_overrides: data/network_overrides.csv
+  research_games: data/research/games.csv
+  research_benchmarks: data/research/viewership_benchmarks.csv
   model_dir: artifacts
   model_file: viewership_model.joblib
   scoring_model: scoring_model.joblib

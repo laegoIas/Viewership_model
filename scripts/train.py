@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from viewership_model.data.arizona_import import save_import
 from viewership_model.data.load import load_config
+from viewership_model.data.research_import import load_all_games
 from viewership_model.models.train import train
 
 
@@ -31,6 +32,17 @@ def main() -> None:
     elif not games_path.exists():
         raise FileNotFoundError(
             f"No games data found. Add {workbook_path.name} or run with sample data."
+        )
+
+    _, merge_stats = load_all_games(
+        games_path,
+        ROOT / paths.get("research_games", "data/research/games.csv"),
+        ROOT / paths.get("research_benchmarks", "data/research/viewership_benchmarks.csv"),
+    )
+    if merge_stats["added_rows"]:
+        print(
+            f"Research data: +{merge_stats['added_rows']} games "
+            f"({merge_stats['merged_rows']} total for training)"
         )
 
     result = train(ROOT / "config.yaml")

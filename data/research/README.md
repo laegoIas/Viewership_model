@@ -76,7 +76,13 @@ team_popularity = 100 × (benchmark_avg / sport_top_team_avg) ^ 0.35
 
 Edit `data/network_overrides.csv` and `data/team_overrides.csv`, then run `py scripts/train.py`.
 
-Raw data: `viewership_benchmarks.csv`
+Raw data: `viewership_benchmarks.csv` and `games.csv` (game-level Nielsen/reporting).
+
+Game-level research rows are merged into training automatically when you run `py scripts/train.py`. Preview the merge:
+
+```bash
+py scripts/import_research.py
+```
 
 Print suggested scores from benchmarks:
 
