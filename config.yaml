@@ -36,6 +36,14 @@ model:
 training:
   game_types:
     - regular_season
+  # Train on schedule-tier games; marquee article outliers are downweighted heavily.
+  calibration_tiers:
+    - typical
+  weights:
+    spreadsheet: 1.0
+    research_typical: 0.45
+    research_marquee: 0.08
+    estimate: 0.35
 
 features:
   categorical:

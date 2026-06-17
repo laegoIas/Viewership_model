@@ -5,6 +5,8 @@ from dataclasses import dataclass, field
 import numpy as np
 import pandas as pd
 
+from viewership_model.data.calibration_tiers import assign_calibration_tier, compute_calibration_weights
+
 
 @dataclass
 class ScoringModel:
@@ -46,15 +48,28 @@ def _weighted_median(values: np.ndarray, weights: np.ndarray) -> float:
 def calibrate_scoring_model(
     enriched: pd.DataFrame,
     team_power: float = 1.0,
+    config: dict | None = None,
 ) -> ScoringModel:
     """Learn per-sport scale constants from historical games and the team/network tables."""
     df = enriched.copy()
+    if config is None:
+        config = {}
+
+    if "calibration_tier" not in df.columns:
+        df["calibration_tier"] = assign_calibration_tier(df)
+
+    allowed_tiers = config.get("training", {}).get("calibration_tiers")
+    if allowed_tiers:
+        df = df[df["calibration_tier"].isin(allowed_tiers)].copy()
+    if df.empty:
+        raise ValueError("No games remain after calibration tier filter.")
+
     if "avg_viewers" in df.columns:
         viewers = df["avg_viewers"].astype(float)
     else:
         viewers = df["viewership_millions"].astype(float) * 1_000_000
 
-    weights = df["is_estimate"].map({0: 1.0, 1: 0.35}).fillna(1.0).astype(float).values
+    weights = compute_calibration_weights(df, config)
     team_factor = (df["combined_popularity"] / 100.0) ** team_power
     network_factor = df["network_reach"] / 100.0
     implied_scale = viewers / np.maximum(team_factor * network_factor, 1e-6)
@@ -65,11 +80,11 @@ def calibrate_scoring_model(
     team_power_by_sport: dict[str, float] = {}
 
     for sport, group in df.groupby("sport"):
-        w = group["is_estimate"].map({0: 1.0, 1: 0.35}).fillna(1.0).astype(float).values
+        w = compute_calibration_weights(group, config)
         sport_scale[sport] = _weighted_median(group["_implied_scale"].values, w)
         team_power_by_sport[sport] = team_power
 
-    default_scale = float(np.median(implied_scale.values))
+    default_scale = float(_weighted_median(implied_scale.values, weights))
     return ScoringModel(
         sport_scale=sport_scale,
         team_power=team_power_by_sport,

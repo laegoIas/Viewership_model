@@ -9,6 +9,7 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
+from viewership_model.data.calibration_tiers import assign_calibration_tier
 from viewership_model.data.load import load_config, load_networks, load_teams
 from viewership_model.data.research_import import load_all_games
 from viewership_model.features.build import enrich_games
@@ -70,6 +71,7 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     networks = load_networks(paths["networks"], paths.get("network_overrides"))
 
     enriched = enrich_games(games, teams, networks)
+    enriched["calibration_tier"] = assign_calibration_tier(enriched)
     if "viewership_millions" not in enriched.columns:
         raise ValueError("Training requires viewership_millions in games data.")
 
@@ -80,7 +82,7 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     )
 
     team_power = config.get("scoring", {}).get("team_power", 1.0)
-    model = calibrate_scoring_model(train_df, team_power=team_power)
+    model = calibrate_scoring_model(train_df, team_power=team_power, config=config)
     preds = _evaluate(model, test_df, teams, networks)
     y_test = test_df["viewership_millions"].values
 

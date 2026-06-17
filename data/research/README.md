@@ -4,9 +4,14 @@ Published benchmarks and game-level ratings for **football, men's basketball, wo
 
 ## Game-level data
 
-`games.csv` holds reported Nielsen/ESPN viewership for **regular-season** games. Bowls, CFP, conference title games, NCAA tournament/regionals, and WCWS/MCWS are excluded from training.
+`games.csv` holds **schedule-tier** regular-season viewership: Arizona spreadsheet games, cable/streaming matchups, and network-average anchors. These reflect what a normal weeknight or weekend game draws.
 
-Training uses `training.game_types: [regular_season]` in `config.yaml`. Postseason rows can stay in the CSV for reference but are filtered out automatically.
+`marquee_games.csv` holds top-rated games from "most watched" articles (Iron Bowl, Duke–UNC, etc.). They are **not used to calibrate** the model — only kept as reference. Training uses `calibration_tiers: [typical]` in `config.yaml`.
+
+**Priority order for typical-game data:**
+1. Arizona valuation workbook (reported streaming viewership)
+2. Research schedule-tier games (ESPN+, SEC Network, ESPNU, etc.)
+3. Marquee article games (reference only)
 
 Preview the merge:
 
