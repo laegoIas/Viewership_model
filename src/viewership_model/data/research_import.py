@@ -5,6 +5,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from viewership_model.data.calibration_tiers import tag_marquee_games
+
 RESEARCH_GAME_COLUMNS = {
     "sport",
     "home_team",
@@ -282,6 +284,8 @@ def load_all_games(
             supplemental = merge_games(supplemental, part)
 
     merged = merge_games(primary, supplemental)
+    if not merged.empty:
+        merged = tag_marquee_games(merged)
     stats = {
         "primary_rows": len(primary),
         "supplemental_rows": len(supplemental),

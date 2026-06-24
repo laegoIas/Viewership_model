@@ -221,3 +221,67 @@ football,Virginia,Duke,ACC Network,0.28,2024,1,Estimated,ACC cable regular seaso
 football,Baylor,UCF,ESPN2,0.55,2024,1,Estimated,Big 12 cable regular season,0,0,0,Big 12
 football,Iowa,Minnesota,FS1,0.48,2024,1,Estimated,Big Ten FS1 regular season,0,0,0,Big Ten
 football,Washington State,Oregon State,CW,0.25,2024,1,Estimated,Pac tier regular season,0,0,0,Pac-12
+football,Ohio State,Michigan,FOX,18.4,2025,0,Statista,Week 14 regular season,1,1,1,Big Ten
+football,Texas,Ohio State,FOX,16.62,2025,0,Statista,Week 1 regular season,0,1,1,SEC
+football,Texas A&M,Texas,ABC,13.04,2025,0,Sports Media Watch,Week 14 rivalry regular season,1,1,1,SEC
+football,Georgia,Tennessee,ABC,12.58,2025,0,Statista,Week 3 regular season,0,1,1,SEC
+football,Alabama,Auburn,CBS,11.43,2025,0,Sports Media Watch,Iron Bowl regular season,1,1,1,SEC
+football,Notre Dame,Miami,ABC,10.8,2025,0,Statista,Week 1 regular season,0,1,1,ACC
+football,Oklahoma,Alabama,ABC,10.48,2025,0,Sports Media Watch,Week 12 regular season,0,1,1,SEC
+football,Texas,Georgia,ABC,10.43,2025,0,Sports Media Watch,Week 12 regular season,0,1,1,SEC
+football,Alabama,Georgia,ABC,10.42,2025,0,Statista,Week 5 regular season,0,1,1,SEC
+football,Alabama,Florida State,ABC,10.4,2025,0,Statista,Week 1 regular season,0,1,1,SEC
+football,LSU,Clemson,ABC,10.45,2025,0,On3,Week 1 neutral site opener,0,1,1,SEC
+football,Georgia,Georgia Tech,ABC,8.72,2025,0,Sports Media Watch,Black Friday rivalry regular season,1,1,0,SEC
+football,LSU,Alabama,ABC,7.54,2025,0,Sports Media Watch,Nov primetime regular season,0,1,1,SEC
+football,Penn State,Ohio State,FOX,7.19,2025,0,Sports Media Watch,Big Noon regular season,0,1,1,Big Ten
+football,Florida,Miami,ABC,6.46,2025,0,Sports Media Watch,Week 4 regular season,1,1,0,ACC
+football,Auburn,Oklahoma,ABC,6.12,2025,0,Sports Media Watch,Week 4 regular season,0,1,0,SEC
+football,Indiana,Penn State,FOX,6.03,2025,0,Sports Media Watch,Big Noon regular season,0,1,1,Big Ten
+football,Indiana,Oregon,CBS,5.59,2025,0,Sports Media Watch,Top-10 regular season,0,1,0,Big Ten
+football,Arkansas,Texas,ABC,5.61,2025,0,Sports Media Watch,Week 13 regular season,0,1,0,SEC
+football,Oregon,Iowa,CBS,5.37,2025,0,Sports Media Watch,Afternoon window regular season,0,1,0,Big Ten
+football,Missouri,Oklahoma,ABC,5.37,2025,0,Sports Media Watch,Week 13 noon regular season,0,1,0,SEC
+football,USC,Oregon,CBS,5.43,2025,0,Sports Media Watch,Week 13 marquee regular season,0,1,0,Big Ten
+football,Texas A&M,Missouri,ABC,4.87,2025,0,Sports Media Watch,Mid-afternoon regular season,0,1,0,SEC
+football,Texas A&M,South Carolina,ESPN,4.28,2025,0,Sports Media Watch,Noon window regular season,0,1,0,SEC
+football,Texas Tech,Utah,FOX,4.04,2025,0,Sports Media Watch,Week 4 noon regular season,0,1,0,Big 12
+football,BYU,Texas Tech,ABC,3.98,2025,0,Sports Media Watch,Big 12 Gameday regular season,0,1,0,Big 12
+football,Rutgers,Ohio State,FOX,4.06,2025,0,Sports Media Watch,Week 13 Big Noon regular season,0,1,0,Big Ten
+football,Syracuse,Clemson,ESPN,3.39,2025,0,Sports Media Watch,Week 4 noon regular season,0,1,0,ACC
+football,Michigan,Northwestern,FOX,3.76,2025,0,Sports Media Watch,Big Noon regular season,0,0,0,Big Ten
+football,Clemson,Louisville,ESPN,2.56,2025,0,Sports Media Watch,Friday night regular season,0,1,0,ACC
+football,Florida,Ole Miss,ESPN,2.50,2025,0,Sports Media Watch,Saturday night regular season,0,1,0,SEC
+football,Georgia,Mississippi State,ESPN,2.32,2025,0,Sports Media Watch,Noon SEC regular season,0,1,0,SEC
+football,Syracuse,Miami,ESPN,1.20,2025,0,Sports Media Watch,Mid-afternoon ACC regular season,0,1,0,ACC
+football,Wake Forest,Virginia,ESPN,0.734,2025,0,Sports Media Watch,Primetime ACC regular season,0,0,0,ACC
+football,SMU,Baylor,CW,1.13,2025,0,Sports Business Journal,ACC on CW regular season,0,1,0,ACC
+mens_basketball,Duke,Arkansas,CBS,6.81,2025,0,Front Office Sports,Thanksgiving regular season,0,1,1,ACC
+mens_basketball,Duke,Michigan,ESPN,4.32,2025,0,Front Office Sports,Top ESPN regular season game,0,1,1,ACC
+mens_basketball,Seton Hall,Marquette,FS1,0.19,2024,1,Estimated,Big East FS1 regular season tier,0,1,0,Big East
+mens_basketball,Georgetown,Butler,FS1,0.16,2024,1,Estimated,Big East FS1 regular season tier,0,0,0,Big East
+mens_basketball,Gonzaga,Saint Mary's,ESPN,0.95,2024,1,Estimated,WCC marquee regular season,0,1,0,WCC
+mens_basketball,Memphis,Temple,ESPN2,0.09,2024,1,Estimated,American regular season cable,0,0,0,American
+mens_basketball,Dayton,VCU,CBSSN,0.08,2024,1,Estimated,Atlantic 10 regular season cable,0,1,0,Atlantic 10
+mens_basketball,San Diego State,New Mexico,FS1,0.11,2024,1,Estimated,Mountain West regular season,0,1,0,Mountain West
+mens_basketball,Utah State,Boise State,FS1,0.105,2024,1,Estimated,Mountain West regular season,0,1,0,Mountain West
+mens_basketball,Colorado State,Wyoming,CBSSN,0.07,2024,1,Estimated,Mountain West cable tier,0,0,0,Mountain West
+mens_basketball,Florida Atlantic,Charlotte,ESPN2,0.06,2024,1,Estimated,American regular season,0,0,0,American
+mens_basketball,Grand Canyon,UNLV,CBSSN,0.075,2024,1,Estimated,Mountain West regular season,0,1,0,Mountain West
+womens_basketball,Notre Dame,NC State,ESPN,0.887,2025,0,ESPN Press Room,Feb 23 regular season,0,1,0,ACC
+womens_basketball,USC,UCLA,FOX,0.62,2025,1,Estimated,Big Ten regular season FOX,0,1,0,Big Ten
+womens_basketball,Iowa,Indiana,FOX,0.48,2025,1,Estimated,Big Ten regular season FOX,0,1,0,Big Ten
+womens_basketball,Colorado,Kansas State,ESPN2,0.19,2024,1,Estimated,Big 12 regular season cable,0,0,0,Big 12
+womens_basketball,Baylor,TCU,ESPN+,0.045,2024,1,Estimated,Big 12 streaming regular season,0,0,0,Big 12
+womens_basketball,Gonzaga,Saint Mary's,ESPN+,0.035,2024,1,Estimated,WCC streaming regular season,0,1,0,WCC
+baseball,Georgia Tech,Georgia,ESPNU,0.15,2024,1,Estimated,In-state rivalry regular season,1,1,0,ACC
+baseball,TCU,West Virginia,ESPN+,0.018,2025,1,Estimated,Big 12 streaming regular season,0,1,0,Big 12
+baseball,East Carolina,Tulane,ESPNU,0.09,2024,1,Estimated,American regular season cable,0,0,0,American
+baseball,Dallas Baptist,TCU,FloCollege,0.006,2024,1,Estimated,Non-con streaming regular season,0,0,0,Big 12
+baseball,Southern Miss,LSU,ESPNU,0.11,2024,1,Estimated,Sun Belt at SEC regular season,0,1,0,Sun Belt
+baseball,App State,Coastal Carolina,ESPNU,0.07,2024,1,Estimated,Sun Belt regular season cable,0,0,0,Sun Belt
+softball,Arkansas,Missouri,SEC Network,0.19,2024,1,Estimated,SEC regular season cable,0,1,0,SEC
+softball,Washington State,Oregon,ESPNU,0.12,2024,1,Estimated,Pac-12 regular season cable,0,0,0,Pac-12
+softball,Cal State Fullerton,Long Beach State,ESPNU,0.08,2024,1,Estimated,Big West regular season,0,0,0,Big West
+softball,James Madison,Coastal Carolina,ESPN+,0.006,2024,1,Estimated,Sun Belt streaming regular season,0,0,0,Sun Belt
+softball,Liberty,Western Kentucky,ESPN+,0.005,2024,1,Estimated,Conference USA streaming tier,0,0,0,CUSA

@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
-from viewership_model.data.calibration_tiers import assign_calibration_tier
+from viewership_model.data.calibration_tiers import tag_marquee_games
 from viewership_model.data.load import load_config
 from viewership_model.data.research_import import load_all_games
 
@@ -28,17 +28,16 @@ def main() -> None:
     if sports:
         merged = merged[merged["sport"].isin(sports)]
 
-    merged["calibration_tier"] = assign_calibration_tier(merged)
-    typical_n = int((merged["calibration_tier"] == "typical").sum())
-    marquee_n = int((merged["calibration_tier"] == "marquee").sum())
+    typical_n = int((merged["is_marquee"] == 0).sum())
+    marquee_n = int((merged["is_marquee"] == 1).sum())
 
     print("Research data merge preview (regular season only)")
     print(f"  Arizona games:     {stats['primary_rows']}")
     print(f"  Research games:    {stats['supplemental_rows']}")
     print(f"  Added for training:{stats['added_rows']}")
     print(f"  Total merged:      {stats['merged_rows']}")
-    print(f"  Schedule tier:     {typical_n} (used to calibrate)")
-    print(f"  Marquee tier:      {marquee_n} (reference only; excluded from calibration)")
+    print(f"  Schedule tier (is_marquee=0): {typical_n} (used for training)")
+    print(f"  Marquee tier (is_marquee=1): {marquee_n} (excluded when exclude_marquee=true)")
     print()
     print("By sport (merged):")
     counts = merged.groupby("sport").size().sort_values(ascending=False)

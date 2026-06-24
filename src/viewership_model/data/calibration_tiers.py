@@ -13,7 +13,7 @@ SPREADSHEET_MEDIAN_MILLIONS: dict[str, float] = {
 }
 
 MARQUEE_VIEWERSHIP_MILLIONS: dict[str, float] = {
-    "football": 4.0,
+    "football": 3.0,
     "mens_basketball": 1.2,
     "womens_basketball": 0.8,
     "softball": 0.10,
@@ -42,10 +42,6 @@ def assign_calibration_tier(df: pd.DataFrame) -> pd.Series:
         spreadsheet_medians.setdefault(sport, median)
 
     for row in df.itertuples():
-        if not _is_research_row(getattr(row, "source_sheet", "")):
-            tiers.append("typical")
-            continue
-
         sport = str(row.sport)
         viewers = float(row.viewership_millions)
         floor = MARQUEE_VIEWERSHIP_MILLIONS.get(sport, 0.5)
@@ -54,6 +50,26 @@ def assign_calibration_tier(df: pd.DataFrame) -> pd.Series:
         tiers.append("marquee" if viewers >= threshold else "typical")
 
     return pd.Series(tiers, index=df.index)
+
+
+def assign_is_marquee(df: pd.DataFrame) -> pd.Series:
+    """Return 1 for marquee games, 0 for schedule-tier games.
+
+    Manual override: if ``is_marquee`` is already set on a row, that value wins.
+    """
+    auto = (assign_calibration_tier(df) == "marquee").astype(int)
+    if "is_marquee" not in df.columns:
+        return auto
+    manual = pd.to_numeric(df["is_marquee"], errors="coerce")
+    return manual.where(manual.notna(), auto).astype(int)
+
+
+def tag_marquee_games(df: pd.DataFrame) -> pd.DataFrame:
+    """Add calibration_tier and is_marquee columns."""
+    out = df.copy()
+    out["calibration_tier"] = assign_calibration_tier(out)
+    out["is_marquee"] = assign_is_marquee(out)
+    return out
 
 
 def compute_calibration_weights(df: pd.DataFrame, config: dict) -> np.ndarray:

@@ -52,7 +52,9 @@ paths:
   school_enrollment: data/school_enrollment.csv
   network_overrides: data/network_overrides.csv
   research_games: data/research/games.csv
+  research_marquee_games: data/research/marquee_games.csv
   research_benchmarks: data/research/viewership_benchmarks.csv
+  research_sources: data/research/sources.md
   model_dir: artifacts
   model_file: viewership_model.joblib
   scoring_model: scoring_model.joblib
@@ -74,7 +76,9 @@ model:
 training:
   game_types:
     - regular_season
-  # Train on schedule-tier games; marquee article outliers are downweighted heavily.
+  # Drop marquee-tagged games before train/test split so Iron Bowls etc. do not skew metrics.
+  exclude_marquee: true
+  # Train on schedule-tier games; marquee article outliers are heavily downweighted if kept.
   calibration_tiers:
     - typical
   weights:

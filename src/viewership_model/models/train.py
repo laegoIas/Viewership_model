@@ -9,7 +9,7 @@ import pandas as pd
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.model_selection import train_test_split
 
-from viewership_model.data.calibration_tiers import assign_calibration_tier
+from viewership_model.data.calibration_tiers import tag_marquee_games
 from viewership_model.data.load import load_config, load_networks, load_teams
 from viewership_model.data.research_import import load_all_games
 from viewership_model.features.build import enrich_games
@@ -23,6 +23,7 @@ class TrainResult:
     r2: float
     n_train: int
     n_test: int
+    n_marquee: int
     model_path: Path
 
 
@@ -72,21 +73,31 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     star_weight = config.get("scoring", {}).get("star_weight", 0.65)
 
     enriched = enrich_games(games, teams, networks, star_weight=star_weight)
-    enriched["calibration_tier"] = assign_calibration_tier(enriched)
+    enriched = tag_marquee_games(enriched)
     if "viewership_millions" not in enriched.columns:
         raise ValueError("Training requires viewership_millions in games data.")
 
+    n_marquee = int((enriched["is_marquee"] == 1).sum())
+    exclude_marquee = config.get("training", {}).get("exclude_marquee", True)
+    if exclude_marquee:
+        schedule = enriched[enriched["is_marquee"] == 0].copy()
+    else:
+        schedule = enriched
+
+    if schedule.empty:
+        raise ValueError("No schedule-tier games remain after marquee filter.")
+
     train_df, test_df = train_test_split(
-        enriched,
+        schedule,
         test_size=config["model"]["test_size"],
         random_state=config["model"]["random_state"],
     )
 
     team_power = config.get("scoring", {}).get("team_power", 1.0)
     model = calibrate_scoring_model(train_df, team_power=team_power, config=config)
+
     preds = _evaluate(model, test_df, teams, networks)
     y_test = test_df["viewership_millions"].values
-
     mae = float(mean_absolute_error(y_test, preds))
     rmse = float(np.sqrt(mean_squared_error(y_test, preds)))
     r2 = float(r2_score(y_test, preds))
@@ -99,6 +110,8 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
     metadata = {
         "sports": config.get("sports") or config.get("sport", "all"),
         "metrics": {"mae": mae, "rmse": rmse, "r2": r2},
+        "marquee_games_excluded": exclude_marquee,
+        "marquee_games_total": n_marquee,
         "formula": "viewers = sport_scale * (network_reach/100)^network_power * (combined_pop/100)^team_power",
     }
     joblib.dump(metadata, model_dir / paths["model_file"])
@@ -109,5 +122,6 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
         r2=r2,
         n_train=len(train_df),
         n_test=len(test_df),
+        n_marquee=n_marquee,
         model_path=model_path,
     )
