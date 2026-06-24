@@ -69,8 +69,9 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
         raise ValueError("No games remain after sport filter. Check config sports list.")
     teams = load_teams(paths["teams"], paths.get("team_overrides"))
     networks = load_networks(paths["networks"], paths.get("network_overrides"))
+    star_weight = config.get("scoring", {}).get("star_weight", 0.65)
 
-    enriched = enrich_games(games, teams, networks)
+    enriched = enrich_games(games, teams, networks, star_weight=star_weight)
     enriched["calibration_tier"] = assign_calibration_tier(enriched)
     if "viewership_millions" not in enriched.columns:
         raise ValueError("Training requires viewership_millions in games data.")

@@ -3,7 +3,7 @@ A&M-Corpus Christi,Southland,33.4,12.0,baseball
 Abilene Christian,WAC,35.8,14.0,baseball
 Air Force,Mountain West,48.5,4.5,baseball
 Akron,MAC,44.9,20.0,baseball
-Alabama,SEC,86.9,39.0,baseball
+Alabama,SEC,93.5,39.0,baseball
 Alabama  State,SWAC,30.2,8.0,baseball
 Alabama A&M,SWAC,30.2,8.0,baseball
 Alcorn,SWAC,30.2,8.0,baseball
@@ -11,12 +11,11 @@ American,Patriot,33.3,6.0,baseball
 App State,Sun Belt,65.0,21.0,baseball
 Arizona,Big 12,80.0,53.0,baseball
 Arizona  State,Big 12,75.9,28.0,baseball
-Arizona State,Unknown,81.4,1.0,baseball
 Ark.-Pine Bluff,SWAC,30.2,8.0,baseball
 Arkansas,SEC,85.9,28.0,baseball
 Arkansas  State,Sun Belt,64.6,18.0,baseball
 Army West Point,Patriot,33.3,6.0,baseball
-Auburn,SEC,93.8,32.0,baseball
+Auburn,SEC,90.3,32.0,baseball
 Austin Peay,ASUN,40.8,10.0,baseball
 BYU,Big 12,76.6,35.0,baseball
 Ball  State,MAC,44.9,20.0,baseball
@@ -37,7 +36,7 @@ Buffalo,MAC,46.3,32.0,baseball
 Butler,Big East,47.3,6.0,baseball
 CSU Bakersfield,Big West,43.2,22.0,baseball
 CSUN,Big West,43.2,22.0,baseball
-Cal Poly,Big West,43.2,22.0,baseball
+Cal Poly,Big West,80.4,22.0,baseball
 Cal St. Fullerton,Big West,43.2,22.0,baseball
 California,ACC,77.7,26.0,baseball
 California Baptist,WAC,35.8,14.0,baseball
@@ -50,7 +49,7 @@ Charleston So.,Big South,36.2,8.0,baseball
 Charlotte,American,62.1,30.0,baseball
 Chattanooga,SoCon,38.2,8.0,baseball
 Chicago  State,NEC,32.2,8.0,baseball
-Cincinnati,Big 12,77.9,40.0,baseball
+Cincinnati,Big 12,77.0,40.0,baseball
 Clemson,ACC,77.2,22.0,baseball
 Cleveland  State,Horizon,37.8,14.0,baseball
 Coastal Carolina,Sun Belt,55.0,10.5,baseball
@@ -88,9 +87,9 @@ FGCU,ASUN,40.8,10.0,baseball
 FIU,CUSA,58.0,58.0,baseball
 Fairfield,MAAC,29.3,6.0,baseball
 Fla. Atlantic,American,61.2,22.0,baseball
-Florida,SEC,91.0,56.0,baseball
+Florida,SEC,87.9,56.0,baseball
 Florida A&M,SWAC,30.2,8.0,baseball
-Florida State,ACC,88.6,44.0,baseball
+Florida State,ACC,83.3,44.0,baseball
 Fordham,Atlantic 10,57.8,14.0,baseball
 Fresno  State,Mountain West,53.4,24.0,baseball
 Furman,SoCon,38.2,8.0,baseball
@@ -101,7 +100,7 @@ George Washington,Atlantic 10,57.8,14.0,baseball
 Georgetown,Big East,50.9,20.0,baseball
 Georgia,SEC,95.0,41.0,baseball
 Georgia  State,Sun Belt,64.6,18.0,baseball
-Georgia Tech,ACC,95.0,40.0,baseball
+Georgia Tech,ACC,90.0,40.0,baseball
 Gonzaga,WCC,46.2,8.0,baseball
 Grambling,SWAC,30.2,8.0,baseball
 Grand Canyon,Mountain West,53.4,24.0,baseball
@@ -128,9 +127,8 @@ Iowa  State,Big 12,75.9,28.0,baseball
 Jackson  State,SWAC,30.2,8.0,baseball
 Jacksonville,ASUN,40.8,10.0,baseball
 Jacksonville  State,CUSA,54.6,18.0,baseball
-Jacksonville State,Unknown,76.3,1.0,baseball
 James Madison,Sun Belt,65.2,22.0,baseball
-Kansas,Big 12,86.4,28.0,baseball
+Kansas,Big 12,87.3,28.0,baseball
 Kansas  State,Big 12,75.9,28.0,baseball
 Kansas City,Summit League,34.8,10.0,baseball
 Kennesaw  State,CUSA,54.6,18.0,baseball
@@ -147,10 +145,10 @@ Lehigh,Patriot,33.3,6.0,baseball
 Liberty,CUSA,54.0,15.0,baseball
 Lindenwood,OVC,32.8,10.0,baseball
 Lipscomb,ASUN,40.8,10.0,baseball
-Little Rock,OVC,32.8,10.0,baseball
+Little Rock,OVC,76.3,10.0,baseball
 Long Beach  State,Big West,43.2,22.0,baseball
 Longwood,Big South,36.2,8.0,baseball
-Louisiana,Sun Belt,74.7,19.0,baseball
+Louisiana,Sun Belt,64.7,19.0,baseball
 Louisiana Tech,CUSA,53.4,12.0,baseball
 Louisville,ACC,77.3,23.0,baseball
 Loyola Chicago,Atlantic 10,58.4,17.0,baseball
@@ -175,7 +173,7 @@ Middle Tenn.,CUSA,54.6,18.0,baseball
 Milwaukee,Horizon,37.8,14.0,baseball
 Minnesota,Big Ten,73.8,54.0,baseball
 Mississippi  State,SEC,86.3,32.0,baseball
-Mississippi State,Unknown,82.3,1.0,baseball
+Mississippi State,Unknown,84.9,1.0,baseball
 Mississippi Val.,SWAC,30.2,8.0,baseball
 Missouri,SEC,86.2,31.0,baseball
 Missouri  State,CUSA,54.6,18.0,baseball
@@ -190,7 +188,7 @@ NC State,ACC,78.7,37.0,baseball
 NIU,MAC,44.9,20.0,baseball
 NJIT,America East,37.4,12.0,baseball
 Navy,Patriot,33.3,6.0,baseball
-Nebraska,Big Ten,79.9,25.0,baseball
+Nebraska,Big Ten,71.5,25.0,baseball
 Nevada,Mountain West,53.4,24.0,baseball
 New Hampshire,America East,36.8,10.0,baseball
 New Haven,NEC,32.2,8.0,baseball
@@ -201,7 +199,7 @@ Niagara,MAAC,29.3,6.0,baseball
 Nicholls,Southland,33.4,12.0,baseball
 Norfolk  State,MEAC,28.0,6.0,baseball
 North Ala.,ASUN,40.8,10.0,baseball
-North Carolina,ACC,94.7,32.0,baseball
+North Carolina,ACC,95.0,32.0,baseball
 North Carolina A&T,CAA,45.4,12.0,baseball
 North Carolina Central,MEAC,28.0,6.0,baseball
 North Dakota,Summit League,34.8,10.0,baseball
@@ -218,16 +216,16 @@ Notre Dame,ACC,75.6,13.0,baseball
 Oakland,Horizon,37.8,14.0,baseball
 Ohio,MAC,45.9,28.0,baseball
 Ohio  State,Big Ten,72.8,38.0,baseball
-Oklahoma,SEC,86.0,29.0,baseball
+Oklahoma,SEC,95.0,29.0,baseball
 Oklahoma  State,Big 12,75.9,28.0,baseball
-Oklahoma State,Unknown,80.9,1.0,baseball
+Oklahoma State,Unknown,75.7,1.0,baseball
 Old Dominion,Sun Belt,65.4,24.0,baseball
-Ole Miss,SEC,85.3,23.0,baseball
+Ole Miss,SEC,91.1,23.0,baseball
 Omaha,Summit League,34.8,10.0,baseball
 Oral Roberts,Summit League,34.8,10.0,baseball
-Oregon,Big Ten,84.2,24.0,baseball
+Oregon,Big Ten,85.9,24.0,baseball
 Oregon  State,WCC,46.8,10.0,baseball
-Oregon State,Unknown,91.4,1.0,baseball
+Oregon State,Unknown,79.1,1.0,baseball
 Pacific,WCC,46.8,10.0,baseball
 Penn,Ivy League,34.2,8.0,baseball
 Penn  State,Big Ten,72.8,38.0,baseball
@@ -257,6 +255,7 @@ Sacramento  State,Big Sky,33.4,12.0,baseball
 Sacred Heart,MAAC,29.3,6.0,baseball
 Saint Bonaventure,Atlantic 10,57.8,14.0,baseball
 Saint Francis,NEC,32.2,8.0,baseball
+Saint John's,Unknown,77.2,1.0,baseball
 Saint Joseph's,Atlantic 10,57.8,14.0,baseball
 Saint Louis,Atlantic 10,57.6,13.0,baseball
 Saint Mary's,WCC,44.1,4.0,baseball
@@ -280,10 +279,10 @@ South Dakota  State,Summit League,34.8,10.0,baseball
 South Fla.,American,61.2,22.0,baseball
 Southeast Mo.  State,OVC,32.8,10.0,baseball
 Southeastern La.,Southland,33.4,12.0,baseball
-Southern California,Big Ten,73.5,48.0,baseball
+Southern California,Big Ten,86.3,48.0,baseball
 Southern Ill.,MVC,43.4,12.0,baseball
 Southern Ind.,OVC,32.8,10.0,baseball
-Southern Miss,Unknown,89.6,1.0,baseball
+Southern Miss,Unknown,74.7,1.0,baseball
 Southern Miss.,Sun Belt,64.6,18.0,baseball
 Southern U.,SWAC,30.2,8.0,baseball
 Southern Utah,WAC,35.8,14.0,baseball
@@ -299,15 +298,15 @@ Temple,American,62.6,35.0,baseball
 Tennessee,SEC,86.6,36.0,baseball
 Tennessee  State,OVC,32.8,10.0,baseball
 Tennessee Tech,OVC,32.8,10.0,baseball
-Texas,SEC,94.4,53.0,baseball
+Texas,SEC,95.0,53.0,baseball
 Texas  State,Sun Belt,64.6,18.0,baseball
-Texas A&M,SEC,91.0,74.0,baseball
+Texas A&M,SEC,88.8,74.0,baseball
 Texas Southern,SWAC,30.2,8.0,baseball
 Texas Tech,Big 12,77.0,40.0,baseball
 The Citadel,SoCon,38.2,8.0,baseball
 Toledo,MAC,44.7,19.0,baseball
 Towson,CAA,45.4,12.0,baseball
-Troy,Sun Belt,64.4,17.0,baseball
+Troy,Sun Belt,89.3,17.0,baseball
 Tulane,American,59.8,14.0,baseball
 Tulsa,American,58.8,10.0,baseball
 UAB,American,61.2,22.0,baseball
@@ -318,7 +317,7 @@ UC Riverside,Big West,43.2,22.0,baseball
 UC San Diego,Big West,43.2,22.0,baseball
 UC Santa Barbara,Big West,43.2,22.0,baseball
 UCF,Big 12,78.7,72.0,baseball
-UCLA,Big Ten,95.0,47.0,baseball
+UCLA,Big Ten,89.6,47.0,baseball
 UConn,Big East,52.3,32.0,baseball
 UIC,MVC,43.4,12.0,baseball
 UIW,Southland,33.4,12.0,baseball
@@ -355,7 +354,7 @@ Washington,Big Ten,73.5,48.0,baseball
 Washington  State,WCC,46.8,10.0,baseball
 Weber  State,Big Sky,33.4,12.0,baseball
 West Ga.,ASUN,40.8,10.0,baseball
-West Virginia,Big 12,89.7,26.0,baseball
+West Virginia,Big 12,94.1,26.0,baseball
 Western Caro.,SoCon,38.2,8.0,baseball
 Western Ill.,OVC,32.8,10.0,baseball
 Western Ky.,CUSA,54.6,18.0,baseball

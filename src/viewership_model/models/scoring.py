@@ -21,6 +21,7 @@ class ScoringModel:
     default_network_power: float = 2.25
     default_network_reach: float = 35.0
     default_team_popularity: float = 35.0
+    star_weight: float = 0.65
 
     def predict_viewers(
         self,
@@ -34,6 +35,18 @@ class ScoringModel:
         team_factor = (combined_popularity / 100.0) ** team_pwr
         network_factor = (network_reach / 100.0) ** net_pwr
         return max(100.0, scale * network_factor * team_factor)
+
+
+def combine_team_popularity(
+    home_pop: float,
+    away_pop: float,
+    star_weight: float = 0.65,
+) -> float:
+    """Star-weighted combine: the higher-rated team carries more of the draw."""
+    weight = min(0.95, max(0.5, float(star_weight)))
+    high = max(home_pop, away_pop)
+    low = min(home_pop, away_pop)
+    return round(weight * high + (1.0 - weight) * low, 1)
 
 
 def _weighted_median(values: np.ndarray, weights: np.ndarray) -> float:
@@ -75,6 +88,7 @@ def calibrate_scoring_model(
 
     team_power = config.get("scoring", {}).get("team_power", 1.0)
     network_power = config.get("scoring", {}).get("network_power", 2.25)
+    star_weight = config.get("scoring", {}).get("star_weight", 0.65)
 
     weights = compute_calibration_weights(df, config)
     team_factor = (df["combined_popularity"] / 100.0) ** team_power
@@ -101,6 +115,7 @@ def calibrate_scoring_model(
         default_scale=default_scale,
         default_team_power=team_power,
         default_network_power=network_power,
+        star_weight=star_weight,
     )
 
 
@@ -145,7 +160,7 @@ def score_game(
     home_pop, home_default = lookup_team_popularity(home_team, sport, teams, model.default_team_popularity)
     away_pop, away_default = lookup_team_popularity(away_team, sport, teams, model.default_team_popularity)
     network_reach, network_default = lookup_network_reach(network, sport, networks, model.default_network_reach)
-    combined = (home_pop + away_pop) / 2.0
+    combined = combine_team_popularity(home_pop, away_pop, model.star_weight)
     viewers = model.predict_viewers(sport, combined, network_reach)
 
     return {

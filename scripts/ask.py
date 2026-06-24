@@ -131,7 +131,7 @@ def main() -> None:
         f"    {game_input.away_team} popularity ({sport_label}): "
         f"{detail['away_popularity']:.0f}/100"
     )
-    print(f"    Combined team score: {detail['combined_popularity']:.0f}/100")
+    print(f"    Combined team score: {detail['combined_popularity']:.0f}/100 (star-weighted)")
     print(
         f"    {game_input.network} reach ({sport_label}): "
         f"{detail['network_reach']:.0f}/100"

@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import pandas as pd
 
+from viewership_model.models.scoring import combine_team_popularity
+
 DEFAULT_POPULARITY = 35.0
 DEFAULT_NETWORK_REACH = 40.0
 
@@ -10,6 +12,7 @@ def enrich_games(
     games: pd.DataFrame,
     teams: pd.DataFrame,
     networks: pd.DataFrame,
+    star_weight: float = 0.65,
 ) -> pd.DataFrame:
     """Join reference tables and derive model features."""
     teams_ref = teams.drop_duplicates(subset=["team", "sport"])
@@ -44,7 +47,14 @@ def enrich_games(
     df["away_popularity"] = df["away_popularity"].fillna(DEFAULT_POPULARITY)
     df["home_market_size"] = df["home_market_size"].fillna(1.0)
     df["network_reach"] = df["network_reach"].fillna(DEFAULT_NETWORK_REACH)
-    df["combined_popularity"] = (df["home_popularity"] + df["away_popularity"]) / 2
+    df["combined_popularity"] = df.apply(
+        lambda row: combine_team_popularity(
+            float(row["home_popularity"]),
+            float(row["away_popularity"]),
+            star_weight,
+        ),
+        axis=1,
+    )
     df["neutral_site"] = (df["location_type"] == "neutral").astype(int)
     df["week_of_season"] = df["week"] if "week" in df.columns else 1
 
