@@ -44,6 +44,18 @@ paths:
       conference: CAA
       city: West Long Branch
       state: NJ
+    - home_team: Saint Bonaventure
+      format: espn_dtc
+      prefix: SB
+      conference: Atlantic 10
+      city: St. Bonaventure
+      state: NY
+      files:
+        - data/ESPN DTC Reporting - Atlantic 10 (Aug-Oct) - BONNIES.xlsx
+        - data/ESPN DTC Reporting - A10 (Nov-Dec) - BONNIES.xlsx
+        - data/ESPN DTC College Reporting - A10 JAN - BONNIES.xlsx
+        - data/ESPN DTC College Reporting - A-10 (February) - BONNIES.xlsx
+        - data/ESPN DTC College Reporting - A10 (March 2026) - BONNIES.xlsx
   games: data/games.csv
   teams: data/teams.csv
   networks: data/networks.csv

@@ -27,6 +27,7 @@ from viewership_model.data.key_tab_import import (
     canonicalize_network_name,
     merge_key_tabs,
 )
+from viewership_model.data.espn_dtc_import import import_espn_dtc_workbook
 from viewership_model.data.monmouth_import import import_monmouth_schedule_workbook
 from viewership_model.data.network_reach import compute_network_reach_scores
 
@@ -221,6 +222,7 @@ def _read_sheet(
 def import_valuation_workbook(
     workbook_path: Path | str,
     config: ValuationImportConfig,
+    sports: list[str] | None = None,
 ) -> pd.DataFrame:
     path = Path(workbook_path)
     if config.format == "monmouth_schedule":
@@ -232,6 +234,18 @@ def import_valuation_workbook(
             default_conference=config.default_conference,
             home_city=config.home_city,
             home_state=config.home_state,
+        )
+
+    if config.format == "espn_dtc":
+        return import_espn_dtc_workbook(
+            path,
+            home_team=config.home_team,
+            sheets=config.sheets or None,
+            game_id_prefix=config.game_id_prefix,
+            default_conference=config.default_conference,
+            home_city=config.home_city,
+            home_state=config.home_state,
+            sports=sports,
         )
 
     wb = openpyxl.load_workbook(path, data_only=False)
@@ -257,13 +271,14 @@ def import_valuation_workbook(
 
 def import_valuation_workbooks(
     workbook_entries: list[tuple[Path | str, ValuationImportConfig]],
+    sports: list[str] | None = None,
 ) -> pd.DataFrame:
     parts: list[pd.DataFrame] = []
     for path, config in workbook_entries:
         path = Path(path)
         if not path.exists():
             continue
-        parts.append(import_valuation_workbook(path, config))
+        parts.append(import_valuation_workbook(path, config, sports=sports))
 
     if not parts:
         return pd.DataFrame()
@@ -307,7 +322,7 @@ def save_merged_import(
     sports: list[str] | None = None,
     root: Path | str | None = None,
 ) -> pd.DataFrame:
-    games = import_valuation_workbooks(workbook_entries)
+    games = import_valuation_workbooks(workbook_entries, sports=sports)
     workbook_paths = [path for path, _ in workbook_entries]
     root_path = Path(root or Path(games_output).resolve().parents[1])
     teams, networks = build_reference_tables(games, workbook_paths, sports, root=root_path)
@@ -336,7 +351,15 @@ def load_workbook_entries_from_config(config: dict, root: Path | str) -> list[tu
 
     result: list[tuple[Path, ValuationImportConfig]] = []
     for entry in entries:
+        cfg = config_from_dict(entry)
+        file_paths = entry.get("files")
+        if file_paths:
+            for file_path in file_paths:
+                path = root / file_path
+                if path.exists():
+                    result.append((path, cfg))
+            continue
         path = root / entry["file"]
         if path.exists():
-            result.append((path, config_from_dict(entry)))
+            result.append((path, cfg))
     return result
