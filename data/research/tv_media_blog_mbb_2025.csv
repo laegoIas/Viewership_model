@@ -1,0 +1,630 @@
+sport,home_team,away_team,network,viewership_millions,season,is_estimate,source,notes,is_rivalry,is_ranked_matchup,is_prime_time,conference,game_type
+mens_basketball,Arkansas,Duke,CBS,6.813,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Thursday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,North Carolina,Michigan State,FOX,6.499,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Fort Myers; Thursday 4:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan,Purdue,CBS,4.716,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 Champ; Sunday 3:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Duke,Virginia,ESPN,3.597,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC Champ; Saturday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,North Carolina,Duke,ESPN,3.143,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan,Wisconsin,CBS,2.92,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Ten SF; Saturday 1PM ET,0,0,0,Unknown,postseason
+mens_basketball,UCLA,Maryland,FOX,2.856,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona,Houston,ESPN,2.799,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 Champ; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,Michigan,FOX,2.764,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Purdue,UCLA,CBS,2.73,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Ten SF; Saturday 3:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Arkansas,Vanderbilt,ESPN,2.309,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SEC Champ; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arkansas,Kentucky,ESPN,2.177,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Michigan,FOX,2.161,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arkansas,Ole Miss,ESPN,1.974,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SEC SF; Saturday 3:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Michigan State,Illinois,FOX,1.945,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan,Ohio State,FOX,1.902,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Duke,Kansas,ESPN,1.874,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Indiana,Michigan State,CBS,1.827,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 3:45PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,Duke,FOX,1.782,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint John's,UConn,FOX,1.77,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big East Champ; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Indiana,ESPN,1.715,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Purdue,Illinois,FOX,1.685,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas,BYU,ESPN,1.684,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 4:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,Arkansas,FOX,1.677,2025,0,TV Media Blog,TV Media Blog chart GuYep; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Kansas,Houston,ESPN,1.67,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Monday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida,Vanderbilt,ESPN,1.646,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SEC SF; Saturday 1PM ET,0,0,0,Unknown,postseason
+mens_basketball,Arizona,Iowa State,ESPN,1.628,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 SF; Friday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Duke,Florida State,ESPN,1.584,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC QF; Thursday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Vanderbilt,Tennessee,ESPN,1.584,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SEC QF; Friday 3:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Florida,Alabama,ABC,1.582,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Michigan State,ESPN,1.566,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas State,Kansas,FOX,1.505,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Duke,Florida,ESPN,1.5,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida,Kentucky,ESPN,1.485,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SEC QF; Friday 1PM ET,0,0,0,Unknown,postseason
+mens_basketball,Arizona,Kansas,ESPN,1.479,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Tennessee,ESPN,1.473,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,BYU,Arizona,ESPN,1.472,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Monday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ohio State,Purdue,CBS,1.459,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 1:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Texas Tech,Kansas,ESPN,1.423,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Monday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,North Carolina,Louisville,ESPN,1.409,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Tennessee,Alabama,ESPN,1.363,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Duke,Louisville,ESPN,1.36,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ohio State,Michigan,CBS,1.329,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Utah State,San Diego State,CBS,1.3,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; MW Champ; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UConn,Texas,FOX,1.298,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida,Arkansas,ESPN,1.295,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,NC State,Kansas,ESPN,1.289,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 5:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Louisville,Kentucky,ESPN,1.266,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Nebraska,Illinois,FS1,1.263,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,Maryland,CBS,1.26,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Florida,Auburn,ESPN,1.248,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,North Carolina,ESPN,1.244,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Alabama,Arizona,ESPN,1.236,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Maryland,Michigan,FOX,1.228,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Virginia Tech,Duke,ESPN,1.212,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,North Carolina,Clemson,ESPN,1.201,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC QF; Thursday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,North Carolina,Kansas,ESPN,1.196,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 7:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,VCU,Dayton,CBS,1.19,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 Champ; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wisconsin,Ohio State,FOX,1.186,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Ole Miss,ESPN,1.182,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 11AM ET,0,0,0,Unknown,regular_season
+mens_basketball,Tennessee,Auburn,ESPN,1.155,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Duke,SMU,ESPN,1.15,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Iowa State,Texas Tech,CBS,1.148,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Vanderbilt,ESPN,1.142,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UConn,Florida,ESPN,1.109,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Jimmy V; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UConn,Villanova,FOX,1.109,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 12:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Duke,Clemson,ESPN2,1.107,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC SF; Friday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,North Carolina,Syracuse,ESPN,1.097,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida,Tennessee,ESPN,1.092,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Wisconsin,BTN,1.091,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Ten QF; Friday 2:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,USF,Wichita State,ESPN,1.09,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American Champ; Sunday 3:15PM ET,0,0,0,Unknown,regular_season
+mens_basketball,BYU,Utah,FOX,1.087,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 5:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona State,West Virginia,CBS,1.065,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Gonzaga,Michigan,TNT,1.059,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Players Era; Wednesday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Maryland,Purdue,CBS,1.058,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Nebraska,Purdue,BTN,1.052,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 QF; Friday 6:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Kansas State,Iowa State,FOX,1.038,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Texas Tech,Houston,ESPN,1.028,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Creighton,UConn,FOX,1.012,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,West Virginia,Kansas,FOX,1.012,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,BYU,Houston,ESPN,0.977,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas,Utah,FOX,0.95,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint John's,Seton Hall,FOX,0.948,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big East SF; Friday 5:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Tennessee,Kansas,TNT,0.926,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Players Era; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Baylor,TCU,ESPN,0.918,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Purdue,Oregon,CBS,0.908,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Iowa,Illinois,FOX,0.895,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Notre Dame,Duke,ESPN,0.852,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Illinois,Alabama,FS1,0.837,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Wednesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Kansas,TCU,ESPN,0.821,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Oklahoma,Arkansas,ESPN,0.821,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Gonzaga,Santa Clara,ESPN,0.808,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WCC Champ; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan,Ohio State,BTN,0.787,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 QF; Friday 12PM ET,0,0,0,Unknown,postseason
+mens_basketball,Louisville,SMU,ESPN,0.774,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas,TCU,ESPN2,0.767,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 QF; Thursday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,UConn,Arizona,FS1,0.767,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Wednesday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Clemson,BYU,ESPN,0.759,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Jimmy V; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Alabama,Purdue,ESPN2,0.747,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Houston,BYU,ESPN2,0.735,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 QF; Thursday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Gonzaga,Saint Mary's,ESPN,0.725,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arkansas,Louisville,ESPN,0.721,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 7:15PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan State,UCLA,BTN,0.72,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Ten QF; Friday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,Duke,Texas,ESPN,0.714,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 8:45PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Gonzaga,UCLA,ESPN,0.711,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 11:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Virginia,Miami,ESPN2,0.683,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC SF; Friday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Kentucky,Gonzaga,ESPN2,0.673,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Friday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint John's,Villanova,FOX,0.672,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Auburn,Alabama,ESPN2,0.661,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas,UConn,ESPN2,0.649,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Kentucky,Missouri,ESPN2,0.638,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,West Virginia,BYU,ESPN2,0.624,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 2R; Wednesday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Auburn,NC State,ESPN,0.616,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 9:15PM ET,0,0,1,Unknown,regular_season
+mens_basketball,North Carolina,Virginia Tech,ESPN2,0.616,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Miami,Louisville,ESPN2,0.609,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC QF; Thursday 2:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Iowa State,Iowa,FS1,0.589,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Thursday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona,Florida,TNT,0.58,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 7:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Utah,BYU,ESPN,0.578,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kentucky,Oklahoma,ESPN2,0.575,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas,Florida,ESPN2,0.573,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Alabama,Texas,ESPN,0.566,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas Tech,Iowa State,ESPN,0.562,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 QF; Thursday 12:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Vanderbilt,Alabama,ESPN2,0.561,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ohio State,Nebraska,FS1,0.559,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Notre Dame,Virginia,ESPN2,0.551,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas Tech,Arkansas,ESPN2,0.55,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Gonzaga,Oregon State,ESPN,0.549,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WCC SF; Monday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,Syracuse,Tennessee,ESPN2,0.545,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Tennessee,Illinois,ESPN,0.54,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan,Wake Forest,FS1,0.532,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Illinois,Texas Tech,FS1,0.529,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wright State,Detroit Mercy,ESPN,0.524,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Horizon Champ; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,TCU,Arizona,ESPN,0.52,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Indiana,Northwestern,BTN,0.516,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 2R; Wednesday 6:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,ETSU,Furman,ESPN,0.514,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SoCon Champ; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Virginia,Syracuse,ESPN,0.508,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona,Oklahoma State,ESPN,0.497,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,North Carolina,Notre Dame,ESPN2,0.492,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Louisville,Notre Dame,ESPN2,0.48,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Louisville,Memphis,ESPN,0.478,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Baylor,Arizona,ESPN2,0.473,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan State,USC,FS1,0.472,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Monday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona,UCF,ESPN,0.471,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 QF; Thursday 3PM ET,0,0,0,Unknown,postseason
+mens_basketball,Kansas,Missouri,ESPN2,0.468,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Yale,Penn,ESPN2,0.465,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Ivy Champ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Iowa State,Baylor,ESPN,0.463,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rutgers,Michigan State,FS1,0.46,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Penn State,Michigan State,BTN,0.455,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCF,Texas Tech,ESPN2,0.455,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,West Virginia,Baylor,ESPN2,0.447,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Gonzaga,Alabama,TNT,0.445,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Players Era; Monday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Auburn,Arkansas,ESPN,0.433,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Washington,FS1,0.432,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Virginia,NC State,ESPN2,0.43,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC QF; Thursday 12PM ET,0,0,0,Unknown,postseason
+mens_basketball,Purdue,Northwestern,BTN,0.429,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 3R; Thursday 6:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Minnesota,Rutgers,BTN,0.427,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 2R; Wednesday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,Tennessee,Ole Miss,ESPN2,0.425,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Indiana,Nebraska,BTN,0.423,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Nebraska,Wisconsin,BTN,0.421,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida,LSU,ESPN2,0.414,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa State,Arizona State,ESPN,0.413,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 2R; Wednesday 12:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Wake Forest,Syracuse,CW,0.412,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 5:45PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,Iowa,FS1,0.406,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona State,Arizona,TNT,0.405,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Ohio State,Iowa,BTN,0.403,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 3R; Thursday 12PM ET,0,0,0,Unknown,postseason
+mens_basketball,Michigan,Villanova,FS1,0.402,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Minnesota,Michigan State,BTN,0.402,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Nebraska,Washington,BTN,0.399,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Purdue,Penn State,BTN,0.399,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oklahoma,Texas,ESPN2,0.391,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,North Carolina,Georgetown,ESPN,0.388,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 5PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCLA,Rutgers,BTN,0.384,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 3R; Thursday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,Wisconsin,Marquette,FS1,0.38,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arkansas,Texas A&M,ESPN2,0.377,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Clemson,Wake Forest,ESPN2,0.375,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC 2R; Wednesday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Clemson,Louisville,ESPN2,0.373,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Northwestern,BTN,0.373,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Minnesota,Iowa,BTN,0.371,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Marquette,Indiana,ESPN,0.37,2025,0,TV Media Blog,TV Media Blog chart GuYep; Sunday 1:00PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Notre Dame,NC State,CW,0.369,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Colorado,Kansas,ESPN,0.363,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Penn State,Michigan,FS1,0.361,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan,Rutgers,BTN,0.359,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wisconsin,Washington,BTN,0.354,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B10 3R; Thursday 2:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Minnesota,Indiana,BTN,0.35,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Oregon,Michigan State,FS1,0.348,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa,Maryland,FS1,0.34,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UConn,Georgetown,FS1,0.34,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big East SF; Friday 8PM ET,0,0,1,Unknown,postseason
+mens_basketball,Auburn,Texas,ESPN2,0.339,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Mississippi State,Arkansas,ESPN2,0.338,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Texas,Ole Miss,ESPN2,0.338,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona,Auburn,ESPN,0.327,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Nebraska,Maryland,BTN,0.326,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,TCU,Houston,ESPN2,0.324,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,SMU,NC State,ESPN2,0.319,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Michigan,Minnesota,BTN,0.316,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa,USC,BTN,0.315,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Purdue,Minnesota,BTN,0.315,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa State,Colorado,FS1,0.311,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas A&M,Texas,ESPN2,0.311,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Texas Tech,Cincinnati,ESPN2,0.309,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa,Rutgers,BTN,0.308,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa State,Oklahoma State,ESPN2,0.307,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,BYU,UCF,ESPN2,0.304,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Montana,Idaho,ESPN2,0.302,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Sky Champ; Wednesday 11:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UConn,Providence,TNT,0.297,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Houston,Texas Tech,FS1,0.296,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UConn,Xavier,FS1,0.296,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big East QF; Thursday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,USC,Nebraska,BTN,0.288,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wisconsin,Minnesota,BTN,0.288,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Villanova,BYU,TNT,0.287,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,NC State,Pittsburgh,ESPN2,0.286,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC 2R; Wednesday 12PM ET,0,0,0,Unknown,postseason
+mens_basketball,Utah,Oklahoma State,ESPN2,0.285,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Ohio State,Minnesota,BTN,0.282,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UConn,Seton Hall,FS1,0.282,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,NC State,Texas,ESPN2,0.278,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Maui; Wednesday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ohio State,Penn State,FS1,0.273,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Hawaii,Call State Fullerton,ESPN2,0.27,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big West SF; Friday 11:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Oklahoma State,BYU,FS1,0.27,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UConn,DePaul,TNT,0.27,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona,Cincinnati,FS1,0.261,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Maryland,Indiana,BTN,0.261,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,Northwestern,BTN,0.26,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Thursday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UMBC,Vermont,ESPN2,0.26,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; AE Champ; Saturday 11AM ET,0,0,0,Unknown,regular_season
+mens_basketball,Florida,George Washington,ESPN2,0.259,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Orange Bowl Classic; Saturday 2:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Indiana,Milwaukee,FS1,0.259,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Indiana,Alabama A&M,BTN,0.257,2025,0,TV Media Blog,TV Media Blog chart GuYep; Wednesday 8:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,West Virginia,Kansas State,FS1,0.257,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Hawaii,UC Irvine,ESPN2,0.256,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big West Champ; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Tennessee,Texas,ESPN2,0.256,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Gonzaga,Oklahoma,ESPN2,0.253,2025,0,TV Media Blog,TV Media Blog chart GuYep; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Maryland,Georgetown,FS1,0.253,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 6:00PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Penn State,Iowa,BTN,0.253,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Gonzaga,Santa Clara,ESPN2,0.252,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Thursday 11:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,SFA,McNeese,ESPN2,0.25,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Southland Champ; Wednesday 5PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Iowa,Robert Morris,BTN,0.243,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Maryland,Ohio State,FS1,0.243,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Minnesota,UCLA,FS1,0.242,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Iowa,Northwestern,FS1,0.24,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Indiana,Penn State,FS1,0.238,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Penn State,Wisconsin,FS1,0.238,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint John's,Alabama,FS1,0.238,2025,0,TV Media Blog,TV Media Blog chart GuYep; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint Mary's,Santa Clara,ESPN2,0.238,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WCC SF; Monday 11:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Michigan,Middle Tennessee,BTN,0.236,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Wednesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Utah Valley,Cal Baptist,ESPN2,0.235,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WAC Champ; Saturday 11:59PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Rutgers,Columbia,FS1,0.233,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan State,San Jose State,BTN,0.23,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Thursday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Washington,Wisconsin,FS1,0.23,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Akron,Toledo,ESPN2,0.228,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; MAC Champ; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Utah,Iowa State,FS1,0.226,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Rutgers,Nebraska,BTN,0.224,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,South Carolina,Georgia,ESPN2,0.224,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Maryland,BTN,0.223,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint Mary's,Wichita State,ESPN2,0.221,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Battle 4 Atlantis; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Georgetown,UConn,TNT,0.214,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Houston,Colorado,ESPN2,0.214,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Kansas State,TCU,ESPN2,0.214,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Villanova,Georgetown,FS1,0.213,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big East QF; Thursday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Auburn,Saint John's,TruTV,0.212,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Players Era; Wednesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Indiana,Northwestern,FS1,0.21,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,West Virginia,Pittsburgh,FS1,0.207,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Thursday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,USF,Charlotte,ESPN2,0.2,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American SF; Saturday 3PM ET,0,0,0,Unknown,postseason
+mens_basketball,Cincinnati,West Virginia,ESPN2,0.198,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,VCU,Dayton,ESPN2,0.198,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Friday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Butler,Providence,TNT,0.194,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rutgers,Purdue,FS1,0.193,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Wisconsin,Northwestern,BTN,0.193,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Purdue,Washington,BTN,0.191,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Illinois,Rutgers,BTN,0.188,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Thursday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Creighton,Providence,TNT,0.187,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 5:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Marquette,Villanova,TNT,0.187,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Purdue,Evansville,BTN,0.185,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,St.John's,Iona,TNT,0.185,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint John's,Seton Hall,FS1,0.183,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Northwestern,Ohio State,BTN,0.182,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wichita State,Tulsa,ESPN2,0.174,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American SF; Saturday 5:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,UCLA,Northwestern,FS1,0.173,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Auburn,Oregon,TruTV,0.169,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Playera Era; Monday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Tulsa,North Texas,ESPN2,0.167,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American QF; Friday 3:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Butler,Marquette,FS1,0.166,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Troy,Akron,ESPN2,0.166,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Merrimack,Siena,ESPN2,0.164,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; MAAC Champ; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Colorado State,Utah State,FS1,0.163,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Friday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Michigan,Oakland,FS1,0.161,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Xavier,Cincinnati,TNT,0.159,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Friday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ohio State,Western Michigan,BTN,0.158,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Thursday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,West Virginia,Wake Forest,ESPN2,0.156,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona,Kansas State,FS1,0.151,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UAB,Memphis,ESPN2,0.151,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Robert Morris,Detroit Mercy,ESPN2,0.15,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Horizon SF; Monday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Gonzaga,Oregon State,ESPN2,0.148,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WCC Champ; Tuesday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Northwestern,Oregon,BTN,0.146,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Dayton,Saint Bonaventure,USA,0.143,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 QF; Friday 2PM ET,0,0,0,Unknown,postseason
+mens_basketball,Memphis,FAU,ESPN2,0.143,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Creighton,Xavier,FS1,0.14,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,USF,FAU,ESPN2,0.139,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Butler,Georgetown,TNT,0.138,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Troy,Georgia Southern,ESPN2,0.138,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Sun Belt Champ; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas Tech,LSU,ESPN2,0.137,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Howard,NC Central,ESPN2,0.136,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; MEAC Champ; Saturday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Minnesota,Maryland,BTN,0.134,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Florida Atlantic,Temple,ESPN2,0.133,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,New Mexico,Utah State,FS1,0.133,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,George Washington,Dayton,ESPN2,0.132,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Friday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint Bonaventure,Saint Louis,ESPN2,0.131,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Friday 5:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,Wisconsin,BTN,0.13,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint John's,Quinnipiac,FS1,0.13,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Memphis,Tulane,ESPN2,0.128,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Notre Dame,Clemson,ESPN2,0.128,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Villanova,Temple,FS1,0.127,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Northwestern,Jackson State,BTN,0.126,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Villanova,Providence,FS1,0.125,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Friday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Virginia,Dayton,ESPN2,0.125,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Xavier,Georgetown,TNT,0.125,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 1:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,TCU,Oklahoma State,ESPNU,0.122,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 2R; Wednesday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Furman,Chattanooga,ESPN2,0.121,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Georgetown,Villanova,TNT,0.121,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Washington,Iowa,BTN,0.121,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Bradley,Murray State,ESPN2,0.12,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,UTRGV,BTN,0.12,2025,0,TV Media Blog,TV Media Blog chart T3RSy; Monday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Nebraska,Creighton,FS1,0.12,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 5PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UAB,USF,ESPN2,0.12,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Washington,UCLA,BTN,0.119,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wisconsin,Northern Illinois,BTN,0.119,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,VCU,Fordham,USA,0.118,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 12:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,New Mexico,Nevada,FS1,0.115,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,TCU,Kansas State,TNT,0.115,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Maryland,Rutgers,FS1,0.114,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Florida State,Cal,ESPNU,0.113,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ACC 2R; Wednesday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Ohio State,Purdue Fort Wayne,BTN,0.113,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,USC,FS1,0.113,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UAB,Charlotte,ESPN2,0.113,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American QF; Friday 1PM ET,0,0,0,Unknown,postseason
+mens_basketball,USC,Northwestern,BTN,0.112,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oklahoma State,Texas A&M,ESPN2,0.108,2025,0,TV Media Blog,TV Media Blog chart GuYep; Sunday 2:00PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Georgetown,Seton Hall,FS1,0.107,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCLA,USC,FS1,0.107,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rutgers,Maine,BTN,0.106,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Creighton,Saint John's,FS1,0.105,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois,Jackson State,BTN,0.105,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Marquette,Creighton,TNT,0.105,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint Louis,George Washington,USA,0.105,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 QF; Friday 11:30AM ET,0,0,0,Unknown,postseason
+mens_basketball,TCU,Saint Francis U,TNT,0.105,2025,0,TV Media Blog,TV Media Blog chart GuYep; Thursday 8:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona,Utah Tech,TNT,0.104,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 9:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Houston,UCF,FS1,0.104,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Marquette,Xavier,FS1,0.103,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Wisconsin,Ball State,BTN,0.103,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Tuesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Xavier,Santa Clara,FS1,0.103,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Monday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Arizona State,Utah,TNT,0.102,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Colorado,TCU,TNT,0.102,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Baylor,Washington,ESPN,0.101,2025,0,TV Media Blog,TV Media Blog chart GuYep; Sunday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Miami,Georgia Tech,ESPN2,0.099,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,USF,Tulane,ESPN2,0.099,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rutgers,Rider,BTN,0.098,2025,0,TV Media Blog,TV Media Blog chart GuYep; Wednesday 6:00PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Nevada,San Diego State,FS1,0.097,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Xavier,Providence,FS1,0.096,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,LIU,Mercyhurst,ESPN2,0.095,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; NEC Champ; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UCLA,Washington,FS1,0.095,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,USC,Washington,BTN,0.095,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Fresno State,UNLV,FS1,0.094,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Alabama,Mississippi State,ESPNU,0.093,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,La Salle,Saint Joseph's,USA,0.092,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,VCU,Duquesne,USA,0.092,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 QF; Friday 5PM ET,0,0,0,Unknown,postseason
+mens_basketball,Marquette,Providence,FS1,0.091,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Monday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,San Diego,USC,ESPN2,0.091,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Cincinnati,Baylor,FS1,0.089,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Duquesne,Rhode Island,USA,0.089,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 2R; Thursday 5PM ET,0,0,0,Unknown,postseason
+mens_basketball,Grand Canyon,San Diego State,FS1,0.089,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCF,Baylor,FS1,0.088,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Georgetown,DePaul,FS1,0.086,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Oklahoma,Auburn,ESPNU,0.086,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,SMU,Texas A&M,ESPN2,0.086,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 5PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Nevada,Grand Canyon,FS1,0.084,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Minnesota,USC,BTN,0.083,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Friday 8:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Oregon,UCLA,BTN,0.083,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Arizona State,Santa Clara,TNT,0.082,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Jack Jones Classic; Saturday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,NC State,Syracuse,ESPNU,0.082,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,San Diego State,Utah State,FS1,0.082,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Eastern Washington,Idaho,ESPN2,0.081,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Sky SF; Tuesday 11:30PM ET,0,0,0,Unknown,postseason
+mens_basketball,Villanova,Butler,FS1,0.08,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Yale,Cornell,ESPNU,0.08,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Ivy League SF; Saturday 11AM ET,0,0,0,Unknown,postseason
+mens_basketball,Maryland,Coppin State,BTN,0.078,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Penn State,Navy,BTN,0.078,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Colorado,Kansas State,FS1,0.077,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Temple,USF,ESPN2,0.076,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Texas,Virginia,ESPNU,0.076,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 9:15PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Iowa,Western Michigan,BTN,0.074,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,Hawai'i,BTN,0.073,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCF,Cincinnati,ESPNU,0.073,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; B12 2R; Wednesday 3PM ET,0,0,0,Unknown,postseason
+mens_basketball,Villanova,Pittsburgh,TruTV,0.072,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 4:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,George Mason,Saint Bonaventure,USA,0.069,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 2R; Thursday 2PM ET,0,0,0,Unknown,postseason
+mens_basketball,UIC,Belmont,ESPNU,0.069,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Friday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Xavier,Missouri State,TruTV,0.069,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Friday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Furman,UNCG,ESPN2,0.068,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,West Virginia,Ohio State,ESPNU,0.068,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Alabama,Clemson,ESPNU,0.067,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 7:15PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Boise State,Grand Canyon,FS1,0.067,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,Ohio State,BTN,0.067,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Thursday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rutgers,Washington,BTN,0.066,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Tuesday 6:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,George Mason,Old Dominion,USA,0.065,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 12:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,San Diego State,Colorado State,FS1,0.065,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Utah State,Grand Canyon,FS1,0.064,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wright State,Northern Kentucky,ESPNU,0.063,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Horizon SF; Monday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,UCF,Cincinnati,ESPN2,0.062,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 5PM ET,0,0,0,Unknown,regular_season
+mens_basketball,USC,Washington State,FS1,0.062,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Fordham,George Washington,USA,0.06,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 2R; Thursday 11:30AM ET,0,0,0,Unknown,postseason
+mens_basketball,Richmond,Davidson,USA,0.06,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 4:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Seton Hall,Rutgers,FS1,0.06,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UCLA,Pepperdine,BTN,0.06,2025,0,TV Media Blog,TV Media Blog chart GuYep; Friday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Marquette,Dayton,TruTV,0.059,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Providence,DePaul,FS1,0.059,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Colorado,Arizona State,ESPN2,0.058,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,DePaul,Georgetown,TruTV,0.058,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Ole Miss,Auburn,ESPNU,0.055,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Richmond,Old Dominion,USA,0.053,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 12:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Richmond,Loyola Chicago,USA,0.052,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 1R; Wednesday 2PM ET,0,0,0,Unknown,postseason
+mens_basketball,Penn State,Campbell,BTN,0.049,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Northwestern,Washington,BTN,0.048,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Notre Dame,Missouri,ESPNU,0.047,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,VCU,Loyola Chicago,ESPN2,0.047,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Friday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Florida Atlantic,Memphis,ESPN2,0.046,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Georgia,Cincinnati,ESPNU,0.046,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Holliday Hoopsgiving; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint Mary's,San Francisco,ESPN2,0.046,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 11:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Utah State,UNLV,FS1,0.046,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Davidson,Loyola Chicago,USA,0.045,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 2R; Thursday 7:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Penn State,USC,BTN,0.045,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Richmond,Saint Joseph's,USA,0.045,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Sam Houston,Louisiana Tech,ESPN2,0.045,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,La Salle,Saint Bonaventure,USA,0.043,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 1R; Wednesday 11:30AM ET,0,0,0,Unknown,postseason
+mens_basketball,Miami (OH),UMass,ESPNU,0.043,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Pittsburgh,Texas A&M,ESPNU,0.043,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Saint Bonaventure,Fordham,USA,0.042,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Xavier,Saint Francis U,TruTV,0.041,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Monday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Oakland,Wright State,ESPN2,0.04,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint Joseph's,Davidson,CNBC,0.039,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; A10 QF; Friday 7:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Butler,DePaul,TruTV,0.037,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Davidson,La Salle,USA,0.036,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Rhode Island,Princeton,USA,0.036,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 2:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UCLA,Eastern Washington,BTN,0.036,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 10:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Saint Peter's,Mount St. Mary's,ESPNU,0.035,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Tulsa,Wichita State,ESPNU,0.035,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Maryland,Wagner,BTN,0.033,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Northwestern,UCLA,BTN,0.033,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Providence,Xavier,TruTV,0.033,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Wake Forest,Miami,ESPNU,0.033,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Washington,Southern Utah,BTN,0.033,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Xavier,DePaul,FS1,0.033,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Air Force,San Diego State,FS1,0.032,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Butler,Boise State,TruTV,0.03,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,La Salle,Saint Louis,USA,0.03,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UMass,Boston College,ESPNU,0.03,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Hall of Fame Classic; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Wyoming,Colorado State,FS1,0.03,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 9:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Clemson,SMU,ESPNU,0.029,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Jacksonville State,Liberty,ESPNU,0.029,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Providence,Brown,TruTV,0.029,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Providence,Rhode Island,TruTV,0.028,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,George Mason,VCU,ESPNU,0.027,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Minnesota,Texas Southern,BTN,0.026,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,North Texas,UAB,ESPNU,0.026,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Washington,Denver,BTN,0.026,2025,0,TV Media Blog,TV Media Blog chart GuYep; Thursday 9:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Kansas State,Seton Hall,ESPNU,0.025,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Ualbany,Yale,ESPNU,0.025,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Hall of Fame Classic; Wednesday 4:30PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Utah,Mississppi State,ESPNU,0.025,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Siena,Iowa,ESPNU,0.024,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Loyola Marymount,Washington State,ESPNU,0.022,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Wednesday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Oregon,UC Davis,BTN,0.022,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Miami,Florida State,ESPNU,0.02,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Wichita State,DePaul,ESPNU,0.019,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Creighton,Nicholls,TruTV,0.018,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Davidson,Rhode Island,USA,0.018,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,East Carolina,Rice,ESPNU,0.018,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,NM State,Middle Tennessee,ESPNU,0.017,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Portland State,Montana,ESPNU,0.017,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Sky SF; Tuesday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,UAB,Troy,ESPN2,0.016,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Illinois State,UNI,ESPNU,0.015,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,LSU,South Carolina,ESPNU,0.015,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Charlotte,Tulane,ESPNU,0.014,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American 2R; Thursday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Florida Atlantic,Boston College,ESPNU,0.014,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 7:00PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UC Irvine,Hawaii,ESPNU,0.014,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 11PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Georgetown,UMBC,TruTV,0.013,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,SFA,A&M CC,ESPNU,0.013,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Southland SF; Tuesday 7PM ET,0,0,1,Unknown,postseason
+mens_basketball,Kent State,Akron,ESPNU,0.012,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,USF,Tulsa,ESPNU,0.012,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Wichita State,North Texas,ESPNU,0.012,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 3PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Ohio,Akron,ESPNU,0.011,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Friday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Southern,Prairie View A&M,ESPNU,0.011,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SWAC Champ; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UAlbany,Vermont,ESPNU,0.011,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Monday 1PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UT Martin,Morehead State,ESPNU,0.011,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,North Texas,FAU,ESPNU,0.01,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American 2R; Thursday 9:30PM ET,0,0,1,Unknown,postseason
+mens_basketball,Providence,Villanova,TruTV,0.01,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,SIUE,Tennessee State,ESPNU,0.01,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UC Irvine,Call State Northridge,ESPNU,0.01,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big West SF; Friday 9PM ET,0,0,1,Unknown,postseason
+mens_basketball,Penn,Princeton,ESPNU,0.009,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Presbyterian,High Point,ESPNU,0.009,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Butler,Eastern Michigan,TruTV,0.008,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Fayetteville State,Bluefield State,ESPNU,0.008,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; CIAA Championship; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Central Connecticut,LIU,ESPNU,0.007,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Howard,Norfolk State,ESPNU,0.007,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Marist,Saint Peter's,ESPNU,0.007,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Bradley,UNI,ESPNU,0.006,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 6PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Stanford,Georgia Tech,ESPNU,0.006,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 8PM ET,0,0,1,Unknown,regular_season
+mens_basketball,Tulane,USF,ESPNU,0.006,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,UT Martin,Tennessee,ESPNU,0.006,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Chattanooga,ETSU,ESPNU,0.005,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+mens_basketball,South Alabama,Georgia Southern,ESPNU,0.005,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 2PM ET,0,0,0,Unknown,regular_season
+mens_basketball,UC Santa Barbara,UC Irvine,ESPNU,0.005,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 10PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Alabama State,Jackson State,ESPNU,0.004,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Saturday 4PM ET,0,0,0,Unknown,regular_season
+mens_basketball,DePaul,UAPB,TruTV,0.004,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 9PM ET,0,0,1,Unknown,regular_season
+mens_basketball,East Carolina,Temple,ESPNU,0.003,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+mens_basketball,Robert Morris,Wright State,ESPNU,0.002,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,South Carolian,Tennessee,ABC,1.464,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UConn,Tennessee,FOX,1.213,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Texas,Oklahoma,ABC,1.102,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UCLA,Iowa,FOX,0.927,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Iowa State,Iowa,ESPN,0.854,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Jimmy V; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Texas,LSU,ESPN,0.681,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Oklahoma,South Carolina,ESPN,0.658,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+womens_basketball,LSU,Tennessee,ESPN,0.514,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Louisville,South Carolina,ESPN,0.509,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,North Carolina,Duke,ESPN,0.465,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,South Carolina,Vanderbilt,ESPN,0.461,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UConn,Louisville,ESPN,0.448,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 5:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Louisville,Duke,ESPN,0.441,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Duke,LSU,ESPN,0.436,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Tennessee,Vanderbilt,ESPN,0.416,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Notre Dame,North Carolina,ESPN,0.371,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Texas A&M,South Carolina,ESPN2,0.369,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Monday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Saint John's,UConn,TNT,0.361,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 7:30PM ET,0,0,1,Unknown,regular_season
+womens_basketball,West Virginia,Baylor,ESPN,0.357,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UCLA,North Carolina,ESPN2,0.333,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,TCU,Baylor,ESPN,0.315,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Iowa,Illinois,BTN,0.313,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Stanford,Louisville,ESPN,0.304,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,TCU,Kansas,ESPN,0.302,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Rutgers,Iowa,FS1,0.3,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Memphis,Wichita State,ESPN2,0.282,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Baylor,Iowa,ESPN2,0.274,2025,0,TV Media Blog,TV Media Blog chart hLqu7; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,NC State,North Carolina,ESPN2,0.255,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Monday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Washington,Illinois,FS1,0.255,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,USF,UConn,ESPN2,0.239,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Tuesday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Iowa,Minnesota,BTN,0.235,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,UConn,Georgetown,TNT,0.23,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Ohio State,Nebraska,BTN,0.225,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Baylor,Duke,ESPN,0.213,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UConn,Butler,FS1,0.21,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Louisville,Notre Dame,ESPN2,0.204,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Nebraska,Creighton,FS1,0.204,2025,0,TV Media Blog,TV Media Blog chart 1HL27; Wednesday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Texas,North Carolina,ESPN2,0.204,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,USC,UCLA,FS1,0.203,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Texas Tech,TCU,FS1,0.202,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Northwestern,Iowa,BTN,0.195,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Monday 8:30PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Stanford,Tennessee,ESPN2,0.194,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 9:15PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Oklahoma,NC State,ESPN2,0.193,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 7:15PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Murray State,Evansville,ESPN2,0.191,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; MVC Champ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UConn,Saint John's,TruTV,0.178,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Ole Miss,Notre Dame,ESPN2,0.167,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Uconn,Florida State,FS1,0.166,2025,0,TV Media Blog,TV Media Blog chart GuYep; Sunday 4:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,NC State,Tennessee,ESPN2,0.161,2025,0,TV Media Blog,TV Media Blog chart GuYep; Tuesday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,South Carolina,Penn State,ESPN,0.158,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 3:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Stanford,Duke,ESPN,0.158,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Indiana,Iowa,BTN,0.153,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Baylor,Kansas State,ESPN2,0.143,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Monday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Nebraska,Maryland,BTN,0.14,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Kansas State,Iowa State,FS1,0.139,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,DePaul,UConn,TruTV,0.137,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Wednesday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Virginia Tech,Florida,ESPN2,0.132,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan State,Michigan,FS1,0.127,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Oklahoma State,Kansas,FS1,0.119,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Nebraska,UCLA,BTN,0.116,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,UConn,DePaul,FS1,0.115,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Creighton,UConn,TruTV,0.113,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Stanford,Clemson,CW,0.112,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Green Bay,Youngstown State,ESPN2,0.1,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Horizon Champ; Tuesday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,USC,Washington,BTN,0.099,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Oklahoma State,Oklahoma,ESPNU,0.091,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Saturday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Baylor,Arizona State,FS1,0.086,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Saturday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan,Minnesota,BTN,0.083,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Monday 6:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Miami,Kentucky,ESPN2,0.08,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan State,USC,BTN,0.078,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Minnesota,Maryland,BTN,0.078,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Illinois,Minnesota,BTN,0.077,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UCLA,Oregon,FS1,0.076,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Marquette,DePaul,FS1,0.074,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Wisconsin,Michigan State,BTN,0.068,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Marshall,Georgia Southern,ESPN2,0.066,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Friday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Maryland,Oregon,BTN,0.058,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan State,Ohio State,BTN,0.058,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Creighton,Providence,TNT,0.056,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Purdue,Indiana,BTN,0.056,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Kansas,Kansas State,FS1,0.053,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Jacksonville,Austin Peay,ESPNU,0.051,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; ASun Champ; Monday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Ohio State,Wisconsin,BTN,0.05,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,USC,Oregon,BTN,0.05,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Tuesday 10PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan,USC,BTN,0.048,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Princeton,Columbia,ESPNU,0.044,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Friday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Creighton,Marquette,FS1,0.04,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Northwestern,USC,BTN,0.04,2025,0,TV Media Blog,TV Media Blog chart dc0Rr; Thursday 9PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Dayton,George Washington,USA,0.039,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,LSU,Louisiana Tech,ESPNU,0.039,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Compete 4 Cause Classic; Saturday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,McNeese,SFA,ESPNU,0.039,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Southland Champ; Thursday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Southern,Alabama State,ESPNU,0.037,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; SWAC Champ; Saturday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,FDU,LIU,ESPNU,0.035,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; NEC Champ; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,UNLV,Colorado State,FS1,0.035,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Saturday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Troy,James Madison,ESPNU,0.033,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Sun Belt Champ; Monday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Idaho,Montana State,ESPNU,0.032,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Big Sky Champ; Wednesday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Seton Hall,Creighton,TruTV,0.031,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Portland,Gonzaga,ESPNU,0.03,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Saturday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Illinois,Indiana,BTN,0.028,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Saturday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Penn State,Ilinois,BTN,0.027,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 3PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Vanderbilt,Cal,ESPNU,0.027,2025,0,TV Media Blog,TV Media Blog chart GuYep; Monday 2:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Penn State,Arizona State,BTN,0.026,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,DePaul,Michigan State,FS1,0.025,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 5:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Rice,UTSA,ESPNU,0.022,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; American Champ; Saturday 9:30PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Princeton,Harvard,ESPNU,0.021,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; Ivy Champ; Saturday 5:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Rutgers,Michigan,BTN,0.021,2025,0,TV Media Blog,TV Media Blog chart T1eZV; Thursday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Cal Baptist,Abilene Christian,ESPNU,0.02,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; WAC Champ; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Michigan,Purdue,BTN,0.02,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Northwestern,Ohio State,BTN,0.02,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Purdue,Michigan State,BTN,0.019,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 6PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Liberty,Louisiana Tech,ESPNU,0.015,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 1PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Creighton,Kansas State,FS1,0.014,2025,0,TV Media Blog,TV Media Blog chart TJpTn; Sunday 3:30PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Vermont,Maine,ESPNU,0.014,2025,0,TV Media Blog,TV Media Blog chart r4ZMn; AE Champ; Friday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Fairfield,Qunnipiac,ESPNU,0.013,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Georgetown,Marquette,TruTV,0.013,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Loyola Chicago,Saint Louis,USA,0.012,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Sunday 2PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Marquette,Creighton,TruTV,0.012,2025,0,TV Media Blog,TV Media Blog chart vH4Dz; Thursday 8PM ET,0,0,1,Unknown,regular_season
+womens_basketball,UTSA,Memphis,ESPNU,0.008,2025,0,TV Media Blog,TV Media Blog chart jiFIZ; Sunday 4PM ET,0,0,0,Unknown,regular_season
+womens_basketball,VCU,Richmond,ESPNU,0.008,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Sunday 12PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Florida State,Georgia,ESPNU,0.007,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Wednesday 5PM ET,0,0,0,Unknown,regular_season
+womens_basketball,Alabama,Clemson,ESPNU,0.005,2025,0,TV Media Blog,TV Media Blog chart 9fQOR; Thursday 7PM ET,0,0,1,Unknown,regular_season
+womens_basketball,Farleigh Dickinson,Stonehill,ESPNU,0.003,2025,0,TV Media Blog,TV Media Blog chart U0Ovo; Thursday 5PM ET,0,0,0,Unknown,regular_season

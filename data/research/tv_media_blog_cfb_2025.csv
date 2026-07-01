@@ -1,0 +1,185 @@
+sport,home_team,away_team,network,viewership_millions,season,is_estimate,source,notes,is_rivalry,is_ranked_matchup,is_prime_time,conference,game_type
+football,Indiana,Alabama,ESPN,23.9,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Rose Bowl; Thursday 4PM ET,0,0,0,Unknown,postseason
+football,Ohio State,Miami,ESPN,19.018,2025,0,TV Media Blog,TV Media Blog chart bi3yR; CFP Quarterfinal; Wednesday 7:30PM ET,0,0,1,Unknown,postseason
+football,Georgia,Ole Miss,ESPN,18.664,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Sugar Bowl; Thursday 8PM ET,0,0,1,Unknown,postseason
+football,Ohio State,Indiana,FOX,18.332,2025,0,TV Media Blog,TV Media Blog chart eTC9L; B1G Championship; Saturday 8PM ET,0,0,1,Unknown,postseason
+football,Texas Tech,Oregon,ESPN,15.9,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Orange Bowl; Thursday 12PM ET,0,0,0,Unknown,postseason
+football,Oklahoma,Alabama,ABC,14.941,2025,0,TV Media Blog,TV Media Blog chart bi3yR; CFP First Round; Friday 8PM ET,0,0,1,Unknown,postseason
+football,Texas A&M,Miami,ABC,14.717,2025,0,TV Media Blog,TV Media Blog chart bi3yR; CFP First Round; Saturday 12PM ET,0,0,0,Unknown,postseason
+football,Georgia,Ole Miss,ABC,9.8,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Oklahoma,Michigan,ABC,9.092,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Texas,Michigan,ABC,9.051,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Citrus Bowl; Wednesday 3PM ET,0,0,0,Unknown,postseason
+football,Texas,Oklahoma,ABC,8.7,2025,0,TV Media Blog,TV Media Blog chart 5FsRY; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,BYU,Georgia Tech,ABC,8.696,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Pop-Tarts Bowl; Saturday 3:30PM ET,0,0,0,Unknown,postseason
+football,Alabama,Tennessee,ABC,8.251,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Navy,Army,CBS,7.837,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Saturday 3PM ET,0,0,0,Unknown,regular_season
+football,South Carolina,Alabama,ABC,7.8,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Clemson,Penn State,ABC,7.604,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Pinstripe Bowl; Saturday 12PM ET,0,0,0,Unknown,postseason
+football,Missouri,Alabama,ABC,7.0,2025,0,TV Media Blog,TV Media Blog chart 5FsRY; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,LSU,Texas A&M,ABC,6.8,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Auburn,Georgia,ABC,6.7,2025,0,TV Media Blog,TV Media Blog chart 5FsRY; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Oklahoma,Ole Miss,ABC,6.6,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,Ole Miss,Tulane,TNT,6.2,2025,0,TV Media Blog,TV Media Blog chart bi3yR; CFP First Round; Saturday 3:30PM ET,0,0,0,Unknown,postseason
+football,Penn State,Indiana,FOX,6.025,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Missouri,Virginia,ABC,5.966,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Gator Bowl; Saturday 7:30PM ET,0,0,1,Unknown,postseason
+football,Vanderbilt,LSU,ABC,5.9,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Oregon,Indiana,CBS,5.59,2025,0,TV Media Blog,TV Media Blog chart 5FsRY; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Illinois,Tennessee,ESPN,5.384,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Music City Bowl; Tuesday 5:30PM ET,0,0,0,Unknown,postseason
+football,Iowa,Oregon,CBS,5.37,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Illinois,Ohio State,FOX,5.276,2025,0,TV Media Blog,TV Media Blog chart 5FsRY; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,TCU,USC,ESPN,4.92,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Alamo Bowl; Tuesday 9PM ET,0,0,1,Unknown,postseason
+football,Kentucky,Ole Miss,ABC,4.8,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Notre Dame,USC,NBC,4.751,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Vanderbilt,Iowa,ESPN,4.595,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Reliaquest Bowl; Wednesday 12PM ET,0,0,0,Unknown,postseason
+football,Minnesota,New Mexico,ESPN,4.429,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Rate Bowl; Friday 4:30PM ET,0,0,0,Unknown,postseason
+football,Oregon,James Madison,TNT,4.358,2025,0,TV Media Blog,TV Media Blog chart bi3yR; CFP First Round; Saturday 7:30PM ET,0,0,1,Unknown,postseason
+football,Michigan,Washington,FOX,4.321,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Iowa State,Iowa,FOX,4.278,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Wisconsin,Ohio State,CBS,4.0,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Washington,Boise State,ABC,3.786,2025,0,TV Media Blog,TV Media Blog chart bi3yR; LA Bowl; Saturday 8PM ET,0,0,1,Unknown,postseason
+football,Tennessee,Vanderbilt,ESPN,3.755,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Texas,San Jose State,ABC,3.7,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Cincinnati,Navy,ESPN,3.435,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Liberty Bowl; Friday 4:30PM ET,0,0,0,Unknown,postseason
+football,Miami,Louisville,ESPN,3.284,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Friday 7:00PM ET,0,0,1,Unknown,regular_season
+football,UTSA,FIU,ESPN,3.132,2025,0,TV Media Blog,TV Media Blog chart bi3yR; First Responder Bowl; Friday 8PM ET,0,0,1,Unknown,postseason
+football,Vanderbilt,Missouri,ESPN,3.1,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Utah,Nebraska,ESPN,3.022,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Las Vegas Bowl; Wednesday 3:30PM ET,0,0,0,Unknown,postseason
+football,Houston,LSU,ESPN,2.924,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Texas Bowl; Saturday 9:15PM ET,0,0,1,Unknown,postseason
+football,Montana State,Montana,ABC,2.838,2025,0,TV Media Blog,TV Media Blog chart bi3yR; FCS Semifinal; Saturday 4PM ET,0,0,0,Unknown,postseason
+football,Hawaii,Cal,ESPN,2.701,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Hawaii Bowl; Wednesday 8PM ET,0,0,1,Unknown,postseason
+football,Colorado,Delaware,FOX,2.685,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Minnesota,Nebraska,FOX,2.661,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Friday 8:00PM ET,0,0,1,Unknown,regular_season
+football,Kentucky,Texas,ESPN,2.628,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Mississippi State,Wake Forest,ESPN,2.614,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Duke's Mayo Bowl; Friday 8PM ET,0,0,1,Unknown,postseason
+football,Arizona State,Texas Tech,FOX,2.558,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 4:00PM ET,0,0,0,Unknown,regular_season
+football,East Carolina,Pittsburgh,ESPN,2.514,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Military Bowl; Saturday 11AM ET,0,0,0,Unknown,postseason
+football,Northwestern,Central Michigan,ESPN,2.393,2025,0,TV Media Blog,TV Media Blog chart bi3yR; GameAbove Bowl; Friday 1PM ET,0,0,0,Unknown,postseason
+football,SMU,Arizona,FOX,2.338,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Holiday Bowl; Friday 8PM ET,0,0,1,Unknown,postseason
+football,Oregon,Oklahoma State,CBS,2.32,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Prairie View A&M,South Carolina State,ABC,2.315,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Celebration Bowl; Saturday 12PM ET,0,0,0,Unknown,postseason
+football,Duke,Arizona State,CBS,2.168,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Sun Bowl; Wednesday 2PM ET,0,0,0,Unknown,postseason
+football,Mississippi State,Georgia,ESPN,2.13,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Southern Miss,WKU,ESPN,2.045,2025,0,TV Media Blog,TV Media Blog chart bi3yR; New Orleans Bowl; Tuesday 5:30PM ET,0,0,0,Unknown,postseason
+football,Duke,Illinois,ESPN,2.007,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,USC,Northwestern,FOX,1.91,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Friday 9:00PM ET,0,0,1,Unknown,regular_season
+football,Montana,South Dakota,ABC,1.902,2025,0,TV Media Blog,TV Media Blog chart bi3yR; FCS QF; Saturday 3:30PM ET,0,0,0,Unknown,postseason
+football,Ohio State,Grambling State,BTN,1.831,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Purdue,Ohio State,BTN,1.831,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 1:00PM ET,0,0,0,Unknown,regular_season
+football,BYU,Utah,FOX,1.826,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 8:00PM ET,0,0,1,Unknown,regular_season
+football,Missouri,Kansas,ESPN2,1.812,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Army,UConn,ESPN,1.81,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Fenway Bowl; Saturday 2:15PM ET,0,0,0,Unknown,postseason
+football,Texas State,Rice,ESPN,1.801,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Armed Forces Bowl; Friday 1PM ET,0,0,0,Unknown,postseason
+football,Louisiana Tech,Coastal Carolina,ESPN,1.754,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Independence Bowl; Tuesday 2PM ET,0,0,0,Unknown,postseason
+football,Florida,Florida State,ESPN2,1.727,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 4:30PM ET,0,0,0,Unknown,regular_season
+football,Ohio,UNLV,ESPN,1.701,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Frisco Bowl; Tuesday 9PM ET,0,0,1,Unknown,postseason
+football,Michigan State,Boston College,NBC,1.643,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Louisville,Toledo,ESPN,1.636,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Boca Raton Bowl; Tuesday 2PM ET,0,0,0,Unknown,postseason
+football,Duke,Georgia Tech,ESPN,1.563,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Arkansas,Texas A&M,ESPN,1.516,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 5:30PM ET,0,0,0,Unknown,regular_season
+football,NC State,Memphis,ESPN,1.507,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Gasparilla Bowl; Friday 2:30PM ET,0,0,0,Unknown,postseason
+football,California,North Carolina,ESPN,1.5,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Friday 10:30PM ET,0,0,0,Unknown,regular_season
+football,San Diego State,North Texas,ESPN,1.39,2025,0,TV Media Blog,TV Media Blog chart bi3yR; New Mexico Bowl; Saturday 5:45PM ET,0,0,0,Unknown,postseason
+football,Stanford,Notre Dame,ESPN,1.384,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+football,Stanford,Florida State,ESPN,1.38,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+football,Minnesota,Wisconsin,FS1,1.374,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Tarleton,Villanova,ESPN,1.27,2025,0,TV Media Blog,TV Media Blog chart bi3yR; FCS QF; Saturday 12PM ET,0,0,0,Unknown,postseason
+football,Utah State,Washington State,ESPN,1.249,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Potato Bowl; Monday 2PM ET,0,0,0,Unknown,postseason
+football,Virginia,Virginia Tech,ESPN,1.247,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 7PM ET,0,0,1,Unknown,regular_season
+football,App State,Georgia Southern,ESPN,1.2,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Birmingham Bowl; Monday 2PM ET,0,0,0,Unknown,postseason
+football,Delaware,Louisiana,ESPN,1.185,2025,0,TV Media Blog,TV Media Blog chart bi3yR; 68 Ventures Bowl; Wednesday 8:30PM ET,0,0,1,Unknown,postseason
+football,USF,Old Dominion,ESPN,1.183,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Cure Bowl; Wednesday 5PM ET,0,0,0,Unknown,postseason
+football,Miami,Syracuse,ESPN,1.159,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,BYU,Stanford,ESPN,1.09,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 10:15PM ET,0,0,0,Unknown,regular_season
+football,Wisconsin,Washington,BTN,1.08,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 4:30PM ET,0,0,0,Unknown,regular_season
+football,Rutgers,Penn State,BTN,1.029,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,SMU,Baylor,CW,1.003,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Kansas,Utah,ESPN,0.998,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Friday 12PM ET,0,0,0,Unknown,regular_season
+football,Mississippi State,Arizona State,ESPN2,0.977,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Jacksonville State,Troy,ESPN,0.959,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Salute to Veterans Bowl; Tuesday 9PM ET,0,0,1,Unknown,postseason
+football,Minnesota or FIU/Penn State,Northwestern State,BTN,0.954,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Purdue OR Akron/Nebraska,Southern Illinois,BTN,0.949,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,West Virginia,Texas Tech,ESPN,0.827,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,Louisville,James Madison,ESPN2,0.818,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Friday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Western Michigan,Kennesaw State,ESPN,0.808,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Myrtle Beach Bowl; Friday 11AM ET,0,0,0,Unknown,postseason
+football,Kansas State,Army West Point,ESPN,0.791,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Memphis,Navy,ESPN,0.718,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Montana State,SFA,ESPN,0.701,2025,0,TV Media Blog,TV Media Blog chart bi3yR; FCS QF; Friday 9PM ET,0,0,1,Unknown,postseason
+football,Arkansas State,Louisiana,ESPN,0.695,2025,0,TV Media Blog,TV Media Blog chart nLX1x; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Memphis,Tulane,ESPN,0.695,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Friday 9:00PM ET,0,0,1,Unknown,regular_season
+football,Virginia,Wake Forest,ESPN,0.674,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+football,UCF,Houston,FS1,0.66,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Friday 8:30PM ET,0,0,1,Unknown,regular_season
+football,NC State,Virginia,ESPN2,0.651,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,BYU,UCF,ESPN2,0.648,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 1PM ET,0,0,0,Unknown,regular_season
+football,Fresno State,Miami (OH),CW,0.639,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Arizona Bowl; Saturday 4:30PM ET,0,0,0,Unknown,postseason
+football,West Virginia,Colorado,TNT,0.605,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Virginia,Washington State,CW,0.589,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+football,Michigan State,Maryland,FS1,0.576,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 7PM ET,0,0,1,Unknown,regular_season
+football,Wisconsin,Middle Tennessee,FS1,0.568,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 4:00PM ET,0,0,0,Unknown,regular_season
+football,Oregon State,Fresno State,CW,0.565,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Washington State,San Diego State,CW,0.54,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 10:15PM ET,0,0,0,Unknown,regular_season
+football,South Florida,UTSA,ESPN,0.517,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Old Dominion,Troy,ESPN,0.508,2025,0,TV Media Blog,TV Media Blog chart 5Yp3Z; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Arizona,Kansas,ESPN2,0.487,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Cal,SMU,ESPN2,0.487,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 8PM ET,0,0,1,Unknown,regular_season
+football,East Carolina,Tulsa,ESPN,0.48,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Jacksonville State,Delaware,ESPN,0.472,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Wednesday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Arkanasas State,Missouri State,ESPN2,0.457,2025,0,TV Media Blog,TV Media Blog chart bi3yR; Xbox Bowl; Thursday 9PM ET,0,0,1,Unknown,postseason
+football,Rutgers,Oregon,BTN,0.457,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 6:30PM ET,0,0,0,Unknown,regular_season
+football,Ohio,Miami (OH),ESPN2,0.43,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Tuesday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Kansas State,Colorado,FS1,0.423,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,Delaware,Middle Tennessee,ESPN2,0.417,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Louisville,California,ESPN2,0.41,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+football,TCU,Baylor,ESPN2,0.403,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Georgia State,South Alabama,ESPN2,0.4,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Villanova,Illinois State,ESPN2,0.4,2025,0,TV Media Blog,TV Media Blog chart bi3yR; FCS Semifinal; Saturday 7:30PM ET,0,0,1,Unknown,postseason
+football,UCLA,Maryland,FS1,0.394,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 7:00PM ET,0,0,1,Unknown,regular_season
+football,North Texas,Temple,ESPN,0.37,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Friday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Eastern Michigan,Western Michigan,ESPN2,0.36,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Miami (OH),Toledo,ESPN2,0.349,2025,0,TV Media Blog,TV Media Blog chart 5Yp3Z; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+football,USC,Georgia Southern,FS1,0.348,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Buffalo,Miami (OH),ESPN2,0.327,2025,0,TV Media Blog,TV Media Blog chart nLX1x; Wednesday 7PM ET,0,0,1,Unknown,regular_season
+football,Oregon State,Lafayette,CW,0.326,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 10:00PM ET,0,0,0,Unknown,regular_season
+football,Western Michigan,Ohio,ESPN2,0.312,2025,0,TV Media Blog,TV Media Blog chart 5Yp3Z; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+football,Middle Tennessee,Jacksonville State,ESPN2,0.302,2025,0,TV Media Blog,TV Media Blog chart ECMW6; Wednesday 7:30PM ET,0,0,1,Unknown,regular_season
+football,South Alabama,Arkansas State,ESPN2,0.291,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Houston,Arizona,FS1,0.289,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Toledo,Northern Illinois,ESPN2,0.287,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Wednesday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Oklahoma State,Cincinnati,ESPN2,0.283,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 8:00PM ET,0,0,1,Unknown,regular_season
+football,FIU,Kennesaw State,ESPN2,0.282,2025,0,TV Media Blog,TV Media Blog chart 8bjm9; Tuesday 7PM ET,0,0,1,Unknown,regular_season
+football,Northern Illinois,Western Michigan,ESPN2,0.279,2025,0,TV Media Blog,TV Media Blog chart nLX1x; Tuesday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Boise State,UNLV,FS1,0.263,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,Rutgers,Maryland,FS1,0.261,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 2:30PM ET,0,0,0,Unknown,regular_season
+football,UAB,Memphis,ESPN2,0.259,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 4:00PM ET,0,0,0,Unknown,regular_season
+football,UCF,West Virginia,TNT,0.259,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 1:00PM ET,0,0,0,Unknown,regular_season
+football,Washington,UC Davis,BTN,0.246,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 11:00PM ET,0,0,0,Unknown,regular_season
+football,Texas State,James Madison,ESPN2,0.245,2025,0,TV Media Blog,TV Media Blog chart ECMW6; Tuesday 8PM ET,0,0,1,Unknown,regular_season
+football,Boise State,Eastern Washington,FS1,0.206,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Friday 9:00PM ET,0,0,1,Unknown,regular_season
+football,Ohio,West Virginia,ESPNU,0.199,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 4:00PM ET,0,0,0,Unknown,regular_season
+football,San Jose State,Fresno State,FS1,0.196,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 10:30PM ET,0,0,0,Unknown,regular_season
+football,Texas Tech,Kent State,TNT/TruTV,0.196,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Baylor,Houston,TNT,0.195,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,App State,Georgia Southern,ESPN2,0.188,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Thursday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Northwestern,Purdue,BTN,0.181,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 3:00PM ET,0,0,0,Unknown,regular_season
+football,Maryland or Western Illinois/Northwestern,Northern Illinois,BTN,0.179,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Friday 7:30PM ET,0,0,1,Unknown,regular_season
+football,New Mexico,Nevada,FS1,0.171,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 9:45PM ET,0,0,1,Unknown,regular_season
+football,San Jose State,Air Force,FS1,0.167,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 6:00PM ET,0,0,0,Unknown,regular_season
+football,Indiana,Kennesaw State,FS1,0.165,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Colorado State,UNLV,FS1,0.152,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 9:30PM ET,0,0,1,Unknown,regular_season
+football,Columbia,Harvard,ESPN2,0.141,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Friday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Oklahoma State,Iowa State,ESPNU,0.13,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 12PM ET,0,0,0,Unknown,regular_season
+football,Colorado State,Air Force,FS1,0.124,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Friday 3PM ET,0,0,0,Unknown,regular_season
+football,Auburn,Ball State,ESPNU,0.111,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Pittsburgh,Central Michigan,ESPNU,0.11,2025,0,TV Media Blog,TV Media Blog chart Ftn3z; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Marshall,James Madison,ESPN2,0.089,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Ball State,Kent State,ESPNU,0.077,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Wednesday 7:00PM ET,0,0,1,Unknown,regular_season
+football,Buffalo,Ohio,ESPNU,0.07,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Friday 12PM ET,0,0,0,Unknown,regular_season
+football,Tulane,Army West Point,ESPNU,0.055,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 12:00PM ET,0,0,0,Unknown,regular_season
+football,Morgan State,Delaware State,ESPNU,0.054,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Friday 7:00PM ET,0,0,1,Unknown,regular_season
+football,South Dakota,South Dakota State,ESPNU,0.049,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 4:00PM ET,0,0,0,Unknown,regular_season
+football,Coastal Carolina,James Madison,ESPNU,0.039,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 3:45PM ET,0,0,0,Unknown,regular_season
+football,James Madison,Old Dominion,ESPNU,0.038,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 3:30PM ET,0,0,0,Unknown,regular_season
+football,UMass,Bowling Green,ESPNU,0.037,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Tuesday 4:30PM ET,0,0,0,Unknown,regular_season
+football,WKU,FIU,ESPNU,0.036,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Tuesday 8:00PM ET,0,0,1,Unknown,regular_season
+football,South Florida,Florida Atlantic,ESPNU,0.035,2025,0,TV Media Blog,TV Media Blog chart r6lXb; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Tulane,Charlotte,ESPNU,0.033,2025,0,TV Media Blog,TV Media Blog chart yV7zt; Saturday 7:30PM ET,0,0,1,Unknown,regular_season
+football,Arkansas State,Southern Miss,ESPNU,0.014,2025,0,TV Media Blog,TV Media Blog chart Qr3h7; Saturday 12:00PM ET,0,0,0,Unknown,regular_season

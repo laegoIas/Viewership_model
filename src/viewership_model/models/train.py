@@ -61,6 +61,8 @@ def train(config_path: Path | str = "config.yaml") -> TrainResult:
         paths["games"],
         paths.get("research_games"),
         paths.get("research_benchmarks"),
+        paths.get("research_tv_media_blog_mbb", paths.get("research_tv_media_blog")),
+        paths.get("research_tv_media_blog_football"),
         game_types=config.get("training", {}).get("game_types"),
     )
     if games.empty:

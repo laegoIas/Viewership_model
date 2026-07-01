@@ -264,6 +264,8 @@ def load_all_games(
     games_path: Path | str,
     research_games_path: Path | str | None = None,
     benchmarks_path: Path | str | None = None,
+    tv_media_blog_mbb_path: Path | str | None = None,
+    tv_media_blog_football_path: Path | str | None = None,
     game_types: list[str] | tuple[str, ...] | None = DEFAULT_GAME_TYPES,
 ) -> tuple[pd.DataFrame, dict[str, int]]:
     """Load Arizona games plus supplemental research and benchmark game rows."""
@@ -274,6 +276,10 @@ def load_all_games(
     supplemental_parts: list[pd.DataFrame] = []
     if research_games_path and Path(research_games_path).exists():
         supplemental_parts.append(load_research_games(research_games_path, game_types))
+    if tv_media_blog_mbb_path and Path(tv_media_blog_mbb_path).exists():
+        supplemental_parts.append(load_research_games(tv_media_blog_mbb_path, game_types))
+    if tv_media_blog_football_path and Path(tv_media_blog_football_path).exists():
+        supplemental_parts.append(load_research_games(tv_media_blog_football_path, game_types))
     if benchmarks_path and Path(benchmarks_path).exists():
         supplemental_parts.append(games_from_benchmarks(benchmarks_path, game_types))
 

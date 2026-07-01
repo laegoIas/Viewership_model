@@ -64,6 +64,8 @@ paths:
   school_enrollment: data/school_enrollment.csv
   network_overrides: data/network_overrides.csv
   research_games: data/research/games.csv
+  research_tv_media_blog_mbb: data/research/tv_media_blog_mbb_2025.csv
+  research_tv_media_blog_football: data/research/tv_media_blog_cfb_2025.csv
   research_marquee_games: data/research/marquee_games.csv
   research_benchmarks: data/research/viewership_benchmarks.csv
   research_sources: data/research/sources.md
